@@ -20,6 +20,8 @@ hiring:
 sources:
   - {url: "https://livekit.com/", kind: "сайт компании (livekit.io перенаправляет сюда)", accessed: "2026-11-10"}
   - {url: "https://news.ycombinator.com/item?id=50433727", kind: "пост компании на HN", accessed: "2026-11-10"}
+  - {url: "https://livekit.com/customers", kind: "страница клиентов на сайте компании", accessed: "2026-11-10"}
+  - {url: "https://livekit.com/about", kind: "страница «О компании» на сайте компании", accessed: "2026-11-10"}
 verification: сайт
 unverified_claims: ["более 300 000 разработчиков и более 3 млрд звонков в год (со слов сайта)", "голосовой режим ChatGPT работает на LiveKit Cloud (со слов сайта)", "список клиентов без подтверждения от самих клиентов"]
 last_verified: "2026-11-10"
@@ -72,3 +74,5 @@ last_verified: "2026-11-10"
 
 1. https://livekit.com/ — сайт компании (проверено 10.11.2026; livekit.io перенаправляет сюда).
 2. https://news.ycombinator.com/item?id=50433727 — пост компании (проверено 10.11.2026).
+3. https://livekit.com/customers — страница клиентов на сайте компании (проверено 10.11.2026; адрес по канонической ссылке в HTML страницы).
+4. https://livekit.com/about — страница «О компании» (проверено 10.11.2026; адрес по канонической ссылке в HTML страницы).

@@ -1,0 +1,3581 @@
+{
+ "description": "Эталонные метки для точности признаков: по три ответа оценщиков на пост. Тексты постов не хранятся; см. docs/tochnost-priznakov.md.",
+ "fields": [
+  "remote",
+  "onsite",
+  "hybrid",
+  "salary_stated",
+  "ai_mentioned",
+  "yc_mentioned",
+  "contact_email_present",
+  "location_present",
+  "self_promo",
+  "tech",
+  "roles"
+ ],
+ "baseline": {
+  "50353980": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "Node.js",
+     "React Native",
+     "PostgreSQL",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Full-stack",
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "Node.js",
+     "React Native",
+     "PostgreSQL",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   }
+  ],
+  "50339641": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "C++",
+     "PyTorch",
+     "TensorFlow"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "C++",
+     "Python",
+     "PyTorch",
+     "TensorFlow"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "C++",
+     "Python",
+     "PyTorch",
+     "TensorFlow"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50338822": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Azure",
+     "LLM/GPT/Claude",
+     "RAG",
+     "Linux"
+    ],
+    "roles": [
+     "Full-stack",
+     "DevOps/SRE/Platform",
+     "Data/Analytics",
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Azure",
+     "LLM/GPT/Claude",
+     "RAG",
+     "Linux"
+    ],
+    "roles": [
+     "Full-stack",
+     "Data/Analytics",
+     "DevOps/SRE/Platform",
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Azure",
+     "LLM/GPT/Claude",
+     "RAG",
+     "Linux"
+    ],
+    "roles": [
+     "Full-stack",
+     "Data/Analytics",
+     "DevOps/SRE/Platform",
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50382129": [
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": false,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": false,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": false,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   }
+  ],
+  "50341895": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "JavaScript"
+    ],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "JavaScript"
+    ],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "JavaScript"
+    ],
+    "roles": []
+   }
+  ],
+  "50341447": [
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Security"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Security"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Security"
+    ]
+   }
+  ],
+  "50341026": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "Rust",
+     "Linux"
+    ],
+    "roles": [
+     "Embedded/Hardware"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "TypeScript",
+     "Linux"
+    ],
+    "roles": [
+     "Embedded/Hardware"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "TypeScript",
+     "Linux"
+    ],
+    "roles": [
+     "Embedded/Hardware"
+    ]
+   }
+  ],
+  "50340101": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "React",
+     "Golang",
+     "Elixir",
+     "PyTorch",
+     "LLM/GPT/Claude",
+     "GraphQL",
+     "React Native",
+     "Solidity/crypto"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Elixir",
+     "Python",
+     "PyTorch",
+     "LLM/GPT/Claude",
+     "React",
+     "React Native",
+     "GraphQL",
+     "Solidity/crypto",
+     "Golang"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Elixir",
+     "GraphQL",
+     "Python",
+     "PyTorch",
+     "LLM/GPT/Claude",
+     "React",
+     "React Native",
+     "Golang",
+     "Solidity/crypto"
+    ],
+    "roles": []
+   }
+  ],
+  "50380439": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Solidity/crypto",
+     "Linux"
+    ],
+    "roles": [
+     "Security"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Solidity/crypto",
+     "Linux"
+    ],
+    "roles": [
+     "Security"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Solidity/crypto",
+     "Linux"
+    ],
+    "roles": [
+     "Security"
+    ]
+   }
+  ],
+  "50339514": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript"
+    ],
+    "roles": [
+     "Sales/GTM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript"
+    ],
+    "roles": [
+     "Sales/GTM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript"
+    ],
+    "roles": [
+     "Sales/GTM"
+    ]
+   }
+  ],
+  "50360244": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Backend",
+     "ML/AI engineer",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Support/CS",
+     "Backend"
+    ]
+   }
+  ],
+  "50430411": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "TypeScript",
+     "Node.js",
+     "Golang",
+     "Python",
+     "React",
+     "PostgreSQL",
+     "MongoDB",
+     "Redis",
+     "AWS",
+     "Docker",
+     "GraphQL",
+     "LLM/GPT/Claude",
+     "RAG",
+     "Vector DB"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "TypeScript",
+     "Node.js",
+     "Golang",
+     "Python",
+     "React",
+     "PostgreSQL",
+     "MongoDB",
+     "Redis",
+     "AWS",
+     "Docker",
+     "GraphQL",
+     "LLM/GPT/Claude",
+     "RAG",
+     "Vector DB"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "TypeScript",
+     "Node.js",
+     "Golang",
+     "Python",
+     "React",
+     "PostgreSQL",
+     "MongoDB",
+     "Redis",
+     "AWS",
+     "Docker",
+     "GraphQL",
+     "LLM/GPT/Claude",
+     "RAG",
+     "Vector DB"
+    ],
+    "roles": []
+   }
+  ],
+  "50349751": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "AWS",
+     "PyTorch"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "PyTorch",
+     "AWS",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "ML/AI engineer",
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "PyTorch",
+     "AWS"
+    ],
+    "roles": [
+     "ML/AI engineer",
+     "DevOps/SRE/Platform"
+    ]
+   }
+  ],
+  "50339441": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer",
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack",
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer",
+     "Full-stack"
+    ]
+   }
+  ],
+  "50351794": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   }
+  ],
+  "50345770": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Swift",
+     "iOS"
+    ],
+    "roles": [
+     "Mobile"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Swift",
+     "iOS"
+    ],
+    "roles": [
+     "Mobile"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Swift",
+     "iOS"
+    ],
+    "roles": [
+     "Mobile"
+    ]
+   }
+  ],
+  "50338907": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "ML/AI engineer",
+     "Product/PM",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Product/PM",
+     "ML/AI engineer",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Support/CS",
+     "DevOps/SRE/Platform",
+     "Product/PM",
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50338830": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Design"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Design"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Design"
+    ]
+   }
+  ],
+  "50339454": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security",
+     "Design",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security",
+     "Data/Analytics",
+     "Design"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security",
+     "Data/Analytics",
+     "Design",
+     "Product/PM"
+    ]
+   }
+  ],
+  "50340983": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "AWS",
+     "React Native"
+    ],
+    "roles": [
+     "Frontend",
+     "Mobile"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "React Native",
+     "AWS"
+    ],
+    "roles": [
+     "Frontend",
+     "Mobile"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "AWS",
+     "React",
+     "React Native"
+    ],
+    "roles": [
+     "Frontend",
+     "Mobile"
+    ]
+   }
+  ],
+  "50341328": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Sales/GTM",
+     "Data/Analytics"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Data/Analytics",
+     "Sales/GTM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Sales/GTM",
+     "Data/Analytics"
+    ]
+   }
+  ],
+  "50349000": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "Rust",
+     "Solidity/crypto"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "Next.js",
+     "React",
+     "TypeScript",
+     "Solidity/crypto"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "Next.js",
+     "React",
+     "TypeScript",
+     "Solidity/crypto"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   }
+  ],
+  "50352150": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "PyTorch",
+     "CUDA"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "PyTorch",
+     "CUDA",
+     "Python"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "PyTorch",
+     "CUDA",
+     "Python"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50432950": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "TypeScript",
+     "React",
+     "Kubernetes",
+     "AWS",
+     "GCP",
+     "Terraform"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Python",
+     "AWS",
+     "GCP",
+     "Terraform",
+     "Kubernetes",
+     "LLM/GPT/Claude",
+     "C++",
+     "C#/.NET"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Python",
+     "AWS",
+     "GCP",
+     "Terraform",
+     "Kubernetes",
+     "LLM/GPT/Claude",
+     "C#/.NET",
+     "C++"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   }
+  ],
+  "50350397": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Marketing",
+     "Sales/GTM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Marketing",
+     "Sales/GTM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Marketing",
+     "Sales/GTM"
+    ]
+   }
+  ],
+  "50340820": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   }
+  ],
+  "50373706": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "React",
+     "PostgreSQL",
+     "LLM/GPT/Claude",
+     "React Native"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "LLM/GPT/Claude",
+     "PostgreSQL",
+     "React",
+     "React Native"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "LLM/GPT/Claude",
+     "PostgreSQL",
+     "React",
+     "React Native"
+    ],
+    "roles": []
+   }
+  ],
+  "50356058": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust"
+    ],
+    "roles": [
+     "Backend",
+     "Product/PM",
+     "Marketing",
+     "Sales/GTM",
+     "Support/CS",
+     "Security"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust"
+    ],
+    "roles": [
+     "Backend",
+     "Product/PM",
+     "Marketing",
+     "Sales/GTM",
+     "Support/CS",
+     "Security"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust"
+    ],
+    "roles": [
+     "Backend",
+     "Product/PM",
+     "Marketing",
+     "Sales/GTM",
+     "Support/CS",
+     "Security"
+    ]
+   }
+  ],
+  "50369728": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack",
+     "Backend",
+     "Marketing"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Full-stack",
+     "Backend",
+     "ML/AI engineer",
+     "Marketing"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack",
+     "Backend",
+     "Marketing"
+    ]
+   }
+  ],
+  "50420399": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Java",
+     "Node.js",
+     "Golang",
+     "Rust",
+     "TypeScript",
+     "C++"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Java",
+     "Node.js",
+     "Golang",
+     "Rust",
+     "TypeScript",
+     "C++"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Java",
+     "Node.js",
+     "Golang",
+     "Rust",
+     "TypeScript",
+     "C++"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   }
+  ]
+ },
+ "holdout": {
+  "50339042": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Kubernetes",
+     "Golang",
+     "Rust"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Kubernetes",
+     "Golang",
+     "Rust"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Kubernetes",
+     "Golang",
+     "Rust"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security"
+    ]
+   }
+  ],
+  "50343258": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Ruby/Rails",
+     "TypeScript",
+     "Golang",
+     "React",
+     "GraphQL"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Ruby/Rails",
+     "TypeScript",
+     "Golang",
+     "React",
+     "GraphQL"
+    ],
+    "roles": []
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Ruby/Rails",
+     "TypeScript",
+     "Golang",
+     "React",
+     "GraphQL"
+    ],
+    "roles": []
+   }
+  ],
+  "50403646": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "React",
+     "Next.js",
+     "TypeScript"
+    ],
+    "roles": [
+     "Frontend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "React",
+     "Next.js",
+     "TypeScript"
+    ],
+    "roles": [
+     "Frontend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": true,
+    "tech": [
+     "React",
+     "Next.js",
+     "TypeScript"
+    ],
+    "roles": [
+     "Frontend"
+    ]
+   }
+  ],
+  "50340480": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "AWS",
+     "Kubernetes",
+     "React",
+     "Rust",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Backend",
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "AWS",
+     "Kubernetes",
+     "React",
+     "Rust",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Full-stack",
+     "Backend"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "AWS",
+     "Kubernetes",
+     "React",
+     "Rust",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Backend",
+     "Full-stack"
+    ]
+   }
+  ],
+  "50349294": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Next.js"
+    ],
+    "roles": [
+     "Full-stack",
+     "Data/Analytics",
+     "Product/PM",
+     "Marketing"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Next.js"
+    ],
+    "roles": [
+     "Full-stack",
+     "Data/Analytics",
+     "Product/PM",
+     "Sales/GTM",
+     "Marketing"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Next.js"
+    ],
+    "roles": [
+     "Full-stack",
+     "Data/Analytics",
+     "Product/PM",
+     "Sales/GTM",
+     "Marketing"
+    ]
+   }
+  ],
+  "50345953": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   }
+  ],
+  "50392398": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Golang",
+     "Linux",
+     "Kubernetes"
+    ],
+    "roles": [
+     "Backend",
+     "Product/PM",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Golang",
+     "Linux",
+     "Kubernetes"
+    ],
+    "roles": [
+     "Backend",
+     "Product/PM",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Golang",
+     "Linux",
+     "Kubernetes"
+    ],
+    "roles": [
+     "Backend",
+     "Product/PM",
+     "Support/CS"
+    ]
+   }
+  ],
+  "50429861": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "Next.js",
+     "AWS",
+     "PostgreSQL"
+    ],
+    "roles": [
+     "Backend",
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "Next.js",
+     "AWS",
+     "PostgreSQL"
+    ],
+    "roles": [
+     "Backend",
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "Next.js",
+     "AWS",
+     "PostgreSQL"
+    ],
+    "roles": [
+     "Backend",
+     "DevOps/SRE/Platform"
+    ]
+   }
+  ],
+  "50339853": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack"
+    ]
+   }
+  ],
+  "50349129": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "AWS",
+     "GCP",
+     "LangChain/LlamaIndex",
+     "LLM/GPT/Claude",
+     "RAG"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "AWS",
+     "GCP",
+     "LLM/GPT/Claude",
+     "RAG",
+     "LangChain/LlamaIndex"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "AWS",
+     "GCP",
+     "LLM/GPT/Claude",
+     "RAG",
+     "LangChain/LlamaIndex"
+    ],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50363693": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   }
+  ],
+  "50350810": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "Golang",
+     "PostgreSQL",
+     "React",
+     "TypeScript",
+     "Terraform",
+     "AWS",
+     "GCP"
+    ],
+    "roles": [
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "Golang",
+     "PostgreSQL",
+     "React",
+     "TypeScript",
+     "Terraform",
+     "AWS",
+     "GCP",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "Golang",
+     "PostgreSQL",
+     "React",
+     "TypeScript",
+     "Terraform",
+     "AWS",
+     "GCP"
+    ],
+    "roles": []
+   }
+  ],
+  "50369581": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Java"
+    ],
+    "roles": [
+     "Frontend",
+     "Backend",
+     "Full-stack",
+     "Data/Analytics",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Java"
+    ],
+    "roles": [
+     "Backend",
+     "Frontend",
+     "Data/Analytics",
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Java"
+    ],
+    "roles": [
+     "Backend",
+     "Data/Analytics",
+     "Frontend",
+     "Product/PM"
+    ]
+   }
+  ],
+  "50338792": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "GraphQL",
+     "Node.js",
+     "PostgreSQL",
+     "Redis"
+    ],
+    "roles": [
+     "Full-stack",
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "GraphQL",
+     "Node.js",
+     "PostgreSQL",
+     "Redis",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Full-stack",
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "GraphQL",
+     "Node.js",
+     "PostgreSQL",
+     "Redis"
+    ],
+    "roles": [
+     "Full-stack",
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   }
+  ],
+  "50351346": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Backend",
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Backend",
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Backend",
+     "DevOps/SRE/Platform"
+    ]
+   }
+  ],
+  "50348423": [
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack",
+     "DevOps/SRE/Platform",
+     "Data/Analytics",
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Data/Analytics",
+     "ML/AI engineer",
+     "Product/PM",
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Data/Analytics",
+     "Product/PM",
+     "ML/AI engineer",
+     "Full-stack"
+    ]
+   }
+  ],
+  "50357486": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "TypeScript",
+     "Python",
+     "Scala",
+     "Terraform",
+     "AWS",
+     "Kubernetes"
+    ],
+    "roles": [
+     "Backend",
+     "Full-stack",
+     "DevOps/SRE/Platform",
+     "ML/AI engineer",
+     "Mobile",
+     "Security",
+     "QA"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "TypeScript",
+     "Python",
+     "Scala",
+     "Terraform",
+     "AWS",
+     "Kubernetes",
+     "LLM/GPT/Claude",
+     "iOS",
+     "Android"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "ML/AI engineer",
+     "Backend",
+     "Full-stack",
+     "Mobile",
+     "Security",
+     "QA"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Rust",
+     "TypeScript",
+     "Python",
+     "Scala",
+     "Terraform",
+     "AWS",
+     "Kubernetes"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "ML/AI engineer",
+     "Backend",
+     "Full-stack",
+     "Mobile",
+     "Security",
+     "QA"
+    ]
+   }
+  ],
+  "50346184": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Java",
+     "MySQL",
+     "Docker",
+     "AWS",
+     "Elasticsearch/OpenSearch"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Java",
+     "Python",
+     "AWS",
+     "MySQL",
+     "Docker"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Java",
+     "Python",
+     "AWS",
+     "MySQL",
+     "Docker",
+     "Elasticsearch/OpenSearch"
+    ],
+    "roles": [
+     "Backend"
+    ]
+   }
+  ],
+  "50376253": [
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "Golang",
+     "Kubernetes",
+     "Terraform"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Golang",
+     "Python",
+     "Kubernetes",
+     "Terraform"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Golang",
+     "Python",
+     "Kubernetes",
+     "Terraform"
+    ],
+    "roles": [
+     "DevOps/SRE/Platform"
+    ]
+   }
+  ],
+  "50353464": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": false,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Product/PM"
+    ]
+   }
+  ],
+  "50348566": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50346890": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "ML/AI engineer",
+     "Data/Analytics",
+     "Product/PM",
+     "Marketing",
+     "Sales/GTM",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security",
+     "Data/Analytics",
+     "ML/AI engineer",
+     "Product/PM",
+     "Marketing",
+     "Sales/GTM",
+     "Support/CS"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": true,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "DevOps/SRE/Platform",
+     "Security",
+     "ML/AI engineer",
+     "Data/Analytics",
+     "Product/PM",
+     "Marketing",
+     "Sales/GTM",
+     "Support/CS"
+    ]
+   }
+  ],
+  "50340958": [
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "ML/AI engineer"
+    ]
+   }
+  ],
+  "50339282": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "TypeScript"
+    ],
+    "roles": [
+     "Frontend"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "TypeScript"
+    ],
+    "roles": [
+     "Frontend"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "TypeScript"
+    ],
+    "roles": [
+     "Frontend"
+    ]
+   }
+  ],
+  "50339975": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Full-stack"
+    ]
+   }
+  ],
+  "50340287": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "React",
+     "Java",
+     "Snowflake"
+    ],
+    "roles": [
+     "Frontend",
+     "Backend",
+     "Full-stack"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "Java",
+     "Python",
+     "Snowflake"
+    ],
+    "roles": [
+     "Full-stack",
+     "Frontend",
+     "Backend"
+    ]
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": false,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "Java",
+     "Python",
+     "Snowflake"
+    ],
+    "roles": [
+     "Full-stack",
+     "Frontend",
+     "Backend"
+    ]
+   }
+  ],
+  "50346358": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "PostgreSQL",
+     "Docker",
+     "AWS",
+     "GCP",
+     "Azure",
+     "Snowflake"
+    ],
+    "roles": [
+     "Security",
+     "Data/Analytics"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "PostgreSQL",
+     "Docker",
+     "Snowflake",
+     "AWS",
+     "Azure",
+     "GCP"
+    ],
+    "roles": [
+     "Security",
+     "Data/Analytics"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "PostgreSQL",
+     "Docker",
+     "Snowflake",
+     "AWS",
+     "Azure",
+     "GCP"
+    ],
+    "roles": [
+     "Security",
+     "Data/Analytics"
+    ]
+   }
+  ],
+  "50340568": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": true,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": [
+     "Product/PM"
+    ]
+   }
+  ],
+  "50424162": [
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   },
+   {
+    "remote": false,
+    "onsite": true,
+    "hybrid": false,
+    "salary_stated": true,
+    "ai_mentioned": true,
+    "yc_mentioned": true,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [],
+    "roles": []
+   }
+  ],
+  "50340600": [
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "Python",
+     "TypeScript",
+     "React",
+     "React Native",
+     "Elixir",
+     "GraphQL",
+     "PostgreSQL",
+     "LangChain/LlamaIndex",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "TypeScript",
+     "Elixir",
+     "GraphQL",
+     "PostgreSQL",
+     "React Native",
+     "LangChain/LlamaIndex",
+     "Python",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "Product/PM"
+    ]
+   },
+   {
+    "remote": true,
+    "onsite": false,
+    "hybrid": false,
+    "salary_stated": false,
+    "ai_mentioned": true,
+    "yc_mentioned": false,
+    "contact_email_present": false,
+    "location_present": true,
+    "self_promo": false,
+    "tech": [
+     "React",
+     "TypeScript",
+     "Elixir",
+     "GraphQL",
+     "PostgreSQL",
+     "React Native",
+     "Python",
+     "LangChain/LlamaIndex",
+     "LLM/GPT/Claude"
+    ],
+    "roles": [
+     "ML/AI engineer",
+     "Product/PM"
+    ]
+   }
+  ]
+ }
+}

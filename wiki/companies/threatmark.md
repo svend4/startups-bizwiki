@@ -1,0 +1,74 @@
+---
+id: threatmark
+name: ThreatMark
+website: https://www.threatmark.com/
+sector: ["кибербезопасность: защита банков от финансового мошенничества (по сайту)", "машинное обучение (в посте: тег Machine Learning)"]
+organization_type: "коммерческая компания; основание — юридические названия ThreatMark s.r.o. и ThreatMark, Inc. на странице контактов и описание продукта для банков на сайте"
+founded: "2015 (по сайту)"
+headquarters: "не указано; офис в США на сайте помечен «USA HQ» (ThreatMark, Inc.); есть также офис ThreatMark s.r.o. в Брно"
+technologies: ["Python", "TypeScript", "Rust", "Redis", "PostgreSQL", "AWS", "Terraform"]
+open_source:
+  license: не указано
+  repository: не указано
+hiring:
+  - thread: "Ask HN: Who is hiring? (November 2026)"
+    hn_item_id: 50353951
+    roles: ["Backend Engineer [rust, python]", "DevOps Engineer (IaaC in AWS)", "DevSecOps Engineer", "AI Tech Lead (loops & graphs guru, real ML background)", "Security Researcher/Engineer", "Product Manager [USA]", "Fraud Detection Specialist", "Partner Manager"]
+    location: "удалённо (весь мир) / Брно, Чехия (по посту)"
+    employment: "не указано"
+    salary_in_post: "не указано"
+sources:
+  - {url: "https://www.threatmark.com/", kind: "сайт компании", accessed: "2026-11-10"}
+  - {url: "https://www.threatmark.com/about-us", kind: "сайт компании", accessed: "2026-11-10"}
+  - {url: "https://www.threatmark.com/behavioral-intelligence-platform", kind: "сайт компании", accessed: "2026-11-10"}
+  - {url: "https://www.threatmark.com/scamflag", kind: "сайт компании", accessed: "2026-11-10"}
+  - {url: "https://www.threatmark.com/careers", kind: "сайт компании", accessed: "2026-11-10"}
+  - {url: "https://www.threatmark.com/contact-us", kind: "сайт компании", accessed: "2026-11-10"}
+  - {url: "https://news.ycombinator.com/item?id=50353951", kind: "пост компании на HN", accessed: "2026-11-10"}
+verification: частично
+unverified_claims: ["более 60 млн пользователей и 1,2 млн долларов потерь в день (в посте; по сайту 40+ или 50+ млн пользователей)", "сбор сигналов мыши, интервалов нажатий, акселерометра и гироскопа (в посте; на сайте названы динамика нажатий и навигация)", "масштаб порядка петабайта и скоринг за миллисекунды (в посте)", "стек из поста (Python, TypeScript, Rust, Redis, PostgreSQL, AWS, Terraform; на собранных страницах сайта не упомянут)", "сертификаты ISO/IEC 27001 и SOC 2 (по сайту, со слов компании; не проверены)", "точность ScamFlag около 99% (по сайту, со слов компании)"]
+last_verified: "2026-11-10"
+---
+
+# ThreatMark
+
+> **Почему в выборке:** сфера безопасности: защита банков от мошенничества; в посте упомянуто машинное обучение.
+
+**ThreatMark** — коммерческая компания, по сайту защищающая банки от мошенничества в цифровом банкинге; основана в 2015 году. В посте (ноябрь 2026) открыто восемь ролей, удалённо или в Брно.
+
+## Кто они
+
+Сооснователи по сайту: Michal Tresner (CEO) и Kryštof Hilar (CTO); в посте — Krystof Hilar, Co-Founder & CTO. На сайте команда — «почти 100» (карьера) и «100+» (о компании): расхождение. На сайте защищено «40+ млн» пользователей (главная и контакты) или «50+ млн» (о компании и карьера). В контактах — ThreatMark s.r.o. (Брно) и ThreatMark, Inc. (США); общая штаб-квартира не указана, офис в США помечен как «USA HQ».
+
+## Чем занимаются
+
+По сайту, основная платформа — «Behavioral Intelligence Platform»: она строит профиль поведения каждого пользователя (частота входов, транзакции, навигация, динамика нажатий) и ищет отклонения. Риск оценивается по уровням: от дополнительной аутентификации до блокировки аккаунта. «ScamFlag» проверяет скриншоты и фото из SMS, WhatsApp и почты на признаки мошенничества; по сайту, встраивается в банковское приложение.
+
+## Технологии и открытый код
+
+В посте указан стек: Python, TypeScript, Rust, Redis, PostgreSQL, AWS, Terraform; список обрывается многоточием. На собранных страницах сайта эти технологии не упомянуты. Лицензия и репозиторий открытого кода не указаны.
+
+## Кого ищут
+
+В посте восемь ролей: Backend Engineer [rust, python], DevOps Engineer, DevSecOps Engineer, AI Tech Lead, Security Researcher/Engineer, Product Manager [USA], Fraud Detection Specialist, Partner Manager. Место: удалённо (весь мир) или Брно, Чехия. Тип занятости и зарплата не указаны; «Equity» в шапке относится к компенсации. На сайте роли не перечислены.
+
+## Что заявлено, но не проверено
+
+- Более 60 млн пользователей и более 1,2 млн долларов потерь в день (в посте).
+- Сигналы: движения мыши, тайминги нажатий, акселерометр и гироскоп (в посте). На сайте названы динамика нажатий и навигация: расхождение.
+- Масштаб порядка петабайта, скоринг за миллисекунды и роль «второго фактора» аутентификации (в посте). На сайте защита описана как «невидимая» поверх аутентификации, без неудобств двухфакторной аутентификации: расхождение.
+- Сертификаты ISO/IEC 27001 и SOC 2; точность ScamFlag около 99% (по сайту, со слов компании; не проверены).
+
+## Пробелы
+
+Личность сопоставлена по ссылке на карьеру в посте, офису ThreatMark s.r.o. в Брно и имени сооснователя; реестр и второй независимый источник не проверялись, поэтому «частично». Файл robots.txt сайта частично запрещает обход: карточка опирается только на страницы из «Источников». Не указаны штаб-квартира, тип занятости, зарплата и открытый код.
+
+## Источники
+
+1. https://www.threatmark.com/ — сайт компании (проверено 10.11.2026).
+2. https://www.threatmark.com/about-us — сайт компании (проверено 10.11.2026).
+3. https://www.threatmark.com/behavioral-intelligence-platform — сайт компании (проверено 10.11.2026).
+4. https://www.threatmark.com/scamflag — сайт компании (проверено 10.11.2026).
+5. https://www.threatmark.com/careers — сайт компании (проверено 10.11.2026).
+6. https://www.threatmark.com/contact-us — сайт компании (проверено 10.11.2026).
+7. https://news.ycombinator.com/item?id=50353951 — пост компании на HN (проверено 10.11.2026).

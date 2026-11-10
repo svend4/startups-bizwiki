@@ -4,7 +4,7 @@ name: PostHog
 website: "https://posthog.com"
 sector: ["продуктовая аналитика и связанные инструменты (Product Analytics, Session Replay, Error Tracking, Feature Flags, Experiments)"]
 organization_type: не указано
-founded: "2020 (запуск MVP на Hacker News; по странице About — программа Y Combinator W20)"
+founded: "2020 (по странице About: набор Y Combinator W20 и запуск MVP на Hacker News в 2020 году; по странице карьеры: два сооснователя)"
 headquarters: "не указано (в посте: полностью удалённая команда)"
 technologies: []
 open_source:
@@ -13,7 +13,7 @@ open_source:
 hiring:
   - thread: "Ask HN: Who is hiring? (November 2026)"
     hn_item_id: 50338907
-    roles: ["AI Research Engineer", "Technical Customer Success Manager (Americas и EMEA)", "Finance Manager", "Site Reliability Engineer"]
+    roles: ["AI Research Engineer", "Technical Customer Success Manager (Americas и EMEA)", "Finance Manager", "Site Reliability Engineer", "Product Manager"]
     location: "полностью удалённо, часовые пояса от GMT-8 до GMT+2"
     employment: "Full-time"
     salary_in_post: "есть публичный калькулятор компенсации; сумм в посте нет"
@@ -37,7 +37,7 @@ last_verified: "2026-11-10"
 
 По странице About, PostHog прошла программу Y Combinator (набор W20) и в 2020 году запустила MVP на Hacker News. Со-CEO, по странице About: James Hawkins (там же назван сооснователем) и Tim Glaser; на странице карьеры James Hawkins называет себя одним из двух сооснователей.
 
-По сайту, более 500 000 команд используют продукт; по странице карьеры, в компании более 230 человек. Инвесторы и штаб-квартира на сайте не указаны. Страница About собрана полностью; публичный handbook собран не полностью.
+По сайту, более 500 000 команд используют продукт; по странице карьеры, в компании более 230 человек. Инвесторы и штаб-квартира на сайте не указаны. Публичный handbook упоминается в посте и на сайте; его содержимое в эту карточку не включено.
 
 ## Прозрачность (по посту)
 
@@ -51,7 +51,7 @@ last_verified: "2026-11-10"
 
 ## Кого ищут
 
-**Пост от ноября 2026 года:** полностью удалённая работа, часовые пояса от GMT-8 до GMT+2. Роли: AI Research Engineer, Technical Customer Success Manager (Америка и EMEA), Finance Manager, Site Reliability Engineer и «другие». В посте также сказано, что компания планирует выпустить около 20 новых продуктов в ближайшие пару лет.
+**Пост от ноября 2026 года:** полностью удалённая работа, часовые пояса от GMT-8 до GMT+2. Роли: AI Research Engineer, Technical Customer Success Manager (Америка и EMEA), Finance Manager, Site Reliability Engineer, Product Manager (указан в первой строке поста; на странице карьеры — Product Manager, Observability) и «другие». В посте также сказано, что компания создаёт ещё 20 продуктов в ближайшие пару лет («20 more products over the next couple of years»).
 
 ## Пробелы
 
