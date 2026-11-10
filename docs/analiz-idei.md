@@ -121,32 +121,13 @@
 - **Реестры компаний** (торговые реестры стран, OpenCorporates) — юридическая основа для ответа «кто и где».
 - **Публичные API вакансий сервисов подбора.** Возможный источник вместо разбора HTML, с оговорками по условиям использования.
 
-## 7. Кандидаты для второй волны
+## 7. Вторая волна: 18 компаний
 
-Эти компании есть в выпуске ноября. В карточки они пока не попали, потому что сайты не проверялись. Данные — из первой строки поста.
+Из 18 кандидатов, отобранных в ноябрьском выпуске, созданы все 18 карточек. Личность каждой компании подтверждена по сайту и посту до записи карточки. Для Exponent, Special и Opsfleet домен в посте не был указан: личность там подтверждена по совпадению продукта, локации и роли, поэтому эти три карточки стоит проверить вручную в первую очередь.
 
-| Компания (из поста) | id поста | Локация (из поста) | Роль (из поста) |
-|---|---|---|---|
-| Piramidal (YC W24) | 50384764 | Нью-Йорк | Senior Backend Engineer, $200–300 тыс. + equity |
-| Juro | 50339551 | Лондон, удалённо (UK) | AI Engineer (Agentic team), £115 тыс. + equity |
-| Antithesis | 50351981 | Вашингтон, Лондон | Design Engineer |
-| ICEYE | 50376253 | Эспоо (FI), Берлин (DE), гибрид | Platform Software Engineers (Senior/Staff) |
-| Radar Labs | 50357486 | США (удалённо), Нью-Йорк | SRE, ML, backend, full-stack, mobile, security, QA |
-| Sunsave | 50427924 | Лондон, гибрид | Product Engineer (Mid/Senior) |
-| Special | 50353641 | Нью-Йорк | Forward Deployed Engineer, $200–300 тыс. + equity |
-| Lumen Labs | 50361229 | Сан-Франциско, очно | Robotics/Hardware Engineer, Simulation Engineer |
-| Nirvana Robotics | 50383984 | Нью-Йорк | Mechanical, Electrical, Robotic Controls Engineer |
-| Oscilar | 50369581 | Удалённо (США, Канада, Бразилия, Польша, UK и др.) | Sr/Staff SWE, Data Scientist, FDE, PM |
-| ThreatMark | 50353951 | Удалённо (весь мир), Брно | Security, Machine Learning, equity |
-| Exponent | 50354142 | Нью-Йорк, гибрид | Lead Engineer, AI Accounting, $160–200 тыс. + equity |
-| Odette Technologies | 50385049 | Северная Каролина (гибрид), удалённо | Senior Integration Engineer, Data/ML Engineer, Product Lead |
-| Sortrace | 50384008 | Европа (удалённо), Норрчёпинг или Стокгольм | Computer Vision Engineer, Junior Frontend |
-| Thankly | 50357360 | Удалённо (США) | Founding Engineer (RL Environments), Founding Product Designer |
-| Opsfleet | 50349129 | Удалённо (ЕЭЗ) | AI Engineer (Agentic / GenAI) |
-| Telli | 50349443 | Берлин | Инженеры, GTM, дизайн; customer-facing agents |
-| SerpApi | 50342697 | см. пост | Fullstack Engineer (несколько позиций), Customer Success |
+Карточки: Antithesis, ICEYE, Juro, Lumen Labs, Nirvana Robotics, Oscilar, Piramidal, Radar Labs, Sunsave, Special, ThreatMark, Exponent, Odette Technologies, Sortrace, Thankly, Opsfleet, Telli, SerpApi. Метод проверки и результаты — в `docs/proverka-kartochek.md`.
 
-Крупные компании из выпуска (Meta, JPMorganChase, Datadog, Reddit, Mozilla, CoreWeave, Tether, N26, UNICEF) — в вики не входят, но их стоит учитывать как пример того, что в тредах смешаны типы организаций.
+Крупные компании из выпуска (Meta, JPMorganChase, Datadog, Reddit, Mozilla, CoreWeave, Tether, N26, UNICEF) в вики не входят, но показывают, что в тредах смешаны типы организаций.
 
 ## 8. Моё мнение: пошагово
 
