@@ -1,0 +1,254 @@
+hn_item_id,posted_utc,first_segment,link_domain,ats_link,remote,onsite_mentioned,hybrid,salary_mentioned,ai_mentioned,yc_mentioned,location_present,self_promo_guess,contact_email_present,tech,roles,locations
+49926618,2026-10-01,FUTO,futo.tech,False,True,True,False,False,False,False,True,False,False,,Mobile,Austin
+49922584,2026-10-01,PrairieLearn (Remote US) — Full-Stack Software Engineer — TypeScript / Postgres ,prairielearn.com,False,True,False,False,True,True,False,True,False,False,TypeScript;React;Node.js;PostgreSQL;AWS;LLM/GPT/Claude,Backend,US
+49925643,2026-10-01,It's my duty again to point out the popular request of including a 4DWW tag in t,,False,False,False,False,False,False,False,False,False,False,,,
+49929056,2026-10-02,GiveDirectly,perfectwiki.page,False,True,False,False,True,False,False,True,False,False,,,
+49924974,2026-10-01,Curai,curaihealth.com,False,True,False,False,False,True,False,True,False,False,Python;React;PostgreSQL;Docker;AWS;Terraform;React Native,Marketing,US
+49926244,2026-10-01,Charge Robotics,youtu.be,False,False,True,False,False,False,False,True,False,True,,Mobile;Embedded/Hardware,SF
+49924889,2026-10-01,Trustworthy Technology,trustworthy.technology,False,True,False,False,False,False,False,True,False,False,,Design;Support/CS,EU
+49925063,2026-10-01,Discord,discord.com,False,True,True,False,True,False,False,True,False,False,Python;TypeScript;JavaScript;React;Rust;GCP,Mobile;Security,San Francisco;SF;US
+49924972,2026-10-01,QUOBYTE,quobyte.com,False,True,True,False,False,True,False,True,False,False,,Backend;Full-stack;DevOps/SRE/Platform;QA;Support/CS,Berlin;EU;Germany
+49923784,2026-10-01,Namespace,namespace.so,False,True,False,True,False,False,False,True,False,True,,Security,San Francisco;New York;Zurich
+49927692,2026-10-01,RINSE,rinse.com,False,True,False,False,True,True,False,True,False,False,Python;React;PostgreSQL;React Native,Full-stack;Mobile,San Francisco;New York;Seattle;Boston;Austin;Los Angeles;Chicago;Toronto;Canada;US
+49924016,2026-10-01,City Detect,gem.com,False,True,False,False,True,True,False,True,False,False,Python;TypeScript;React;AWS,Frontend;Full-stack,US
+49930681,2026-10-02,Modash.io,modash.io,False,True,False,False,True,False,False,True,False,False,,Marketing,Europe
+49926050,2026-10-01,"Audio/Video Collaboration company, worldwide",,False,True,False,False,False,False,False,True,False,True,,Support/CS,
+49924509,2026-10-01,Yardstik,trinethire.com,False,False,False,True,True,False,False,True,False,False,,,
+49923320,2026-10-01,Spade,spade.com,False,True,True,True,True,True,False,True,False,False,,Backend;Full-stack;ML/AI engineer;Security;Sales/GTM;Marketing,NYC;US
+49925526,2026-10-01,Octane,octane.co,False,True,False,False,True,False,False,True,False,False,Python,Backend,NYC;US
+49926811,2026-10-01,KSC Trading,,False,True,False,False,True,False,False,True,False,True,Java;PostgreSQL;GCP,Backend,US
+49923010,2026-10-01,River,ashbyhq.com,True,True,False,False,True,True,False,True,False,False,Python;React;Elixir;PyTorch;LLM/GPT/Claude;GraphQL;React Native;Solidity/crypto,ML/AI engineer,NYC;Europe;US
+49931362,2026-10-02,EggAI,grnh.se,True,True,False,False,False,True,False,True,False,False,,DevOps/SRE/Platform,EU
+49923640,2026-10-01,Beacon AI,beaconai.co,False,False,False,True,False,True,False,True,False,False,Python;React;C++;Swift;AWS;iOS,Backend;Mobile;Embedded/Hardware;Security,
+49929563,2026-10-02,Stoke Space,stokespace.com,False,False,True,False,True,False,False,True,False,False,Rust,Frontend;Support/CS,Seattle
+49928396,2026-10-01,ARTIFICIAL ANALYSIS,artificialanalysis.ai,False,False,True,False,False,True,False,True,False,False,LLM/GPT/Claude,Full-stack;ML/AI engineer;Embedded/Hardware,San Francisco;Australia
+49924165,2026-10-01,SwingVision,deel.com,False,False,False,False,False,True,False,False,False,False,,ML/AI engineer,
+49923870,2026-10-01,Brilliant.org,brilliant.org,False,True,False,False,True,True,False,True,False,False,,Design,SF;NYC
+49925644,2026-10-01,MeritFirst,meritfirst.us,False,False,True,False,False,True,False,True,False,False,TypeScript;React;Next.js;PostgreSQL,,Austin
+49928755,2026-10-02,FusionAuth,fusionauth.io,False,True,True,False,True,False,False,True,False,False,Java;MySQL;Kubernetes;Docker,Mobile;Sales/GTM;Support/CS,Europe;USA
+49926872,2026-10-01,Cardog,cardog.app,False,True,True,True,False,False,False,True,False,True,TypeScript;React;Next.js;Rust;PostgreSQL,DevOps/SRE/Platform;Embedded/Hardware;Sales/GTM,Toronto
+49930066,2026-10-02,Runway,runway.com,False,True,False,False,False,False,False,True,False,False,,Backend;Embedded/Hardware,SF;NYC;Seattle;US
+49924674,2026-10-01,DuckDuckGo - we are looking for candidates that are excited to join us on a miss,ashbyhq.com,True,True,False,False,True,False,False,True,False,False,,Backend;Security;Marketing,Canada;USA
+49925545,2026-10-01,Hestus,hestus.co,False,False,True,False,True,True,False,True,False,False,Python,ML/AI engineer;Embedded/Hardware,
+49926228,2026-10-01,Trackerbot,,False,True,False,False,True,False,False,True,False,True,JavaScript;Node.js;AWS,,
+49931033,2026-10-02,PlantingSpace,planting.space,False,True,False,False,False,False,False,True,False,False,,Backend;Product/PM;Sales/GTM,EU
+49933969,2026-10-02,HIFI Labs ( [ссылка] ),hifilabs.co,False,True,False,False,True,True,False,True,False,False,TypeScript;React;Next.js;GCP,Full-stack;DevOps/SRE/Platform,San Francisco
+49924556,2026-10-01,Sudowrite,sudowrite.com,False,True,False,False,True,True,False,True,False,False,React,Backend;Mobile,US
+49925469,2026-10-01,Descartes - Finale Inventory,,False,True,False,False,False,False,False,True,False,True,JavaScript;React;Node.js;C++,,Europe
+49930470,2026-10-02,Metcor,metcor.co.uk,False,False,False,True,True,True,False,True,False,False,,ML/AI engineer,London;UK
+49926771,2026-10-01,Innolitics,innolitics.com,False,True,False,False,True,True,False,True,False,False,,Security,US
+49923964,2026-10-01,Relevant Healthcare,relevant.healthcare,False,True,False,False,False,False,False,True,False,False,React;Ruby/Rails;GraphQL,,Canada;US
+49925300,2026-10-01,applyapply,applyapply.xyz,False,True,False,False,False,True,False,True,False,False,LLM/GPT/Claude,Full-stack,Austin;US
+49924869,2026-10-01,NeverBlink,dover.com,False,True,False,False,False,True,False,True,False,False,,,EU
+49925489,2026-10-01,"Enveritas (YC S18, non-profit)",enveritas.org,False,True,False,False,True,False,True,True,False,False,Python;Docker;AWS;Terraform,Backend,
+49922850,2026-10-01,Thunder Compute (YC S24),thundercompute.com,False,False,True,False,True,True,True,True,False,False,C++;Kubernetes;AWS;CUDA,,San Francisco
+49926232,2026-10-01,Toolhouse AI,toolhouse.ai,False,True,False,False,True,True,False,True,False,True,,Sales/GTM;Support/CS,SF;US
+49926195,2026-10-01,Rootly,rootly.com,False,True,False,False,False,True,False,True,False,False,,DevOps/SRE/Platform;Sales/GTM;Marketing,SF;Toronto
+49935587,2026-10-02,Wipro.com,wipro.com,False,True,True,False,False,True,False,True,False,False,,,India;EU;US
+49924087,2026-10-01,Baton,grnh.se,True,False,False,True,True,False,False,True,False,False,,ML/AI engineer;Product/PM,San Francisco
+49956481,2026-10-04,Footprint,ashbyhq.com,True,False,True,False,True,False,False,True,False,False,Rust;PostgreSQL;AWS;Terraform;Solidity/crypto,Backend;Security,San Francisco;New York
+49939371,2026-10-02,New Lantern,newlantern.ai,False,False,True,False,False,True,False,True,False,False,LLM/GPT/Claude,Backend,San Francisco
+49995549,2026-10-07,Mastra,github.com,False,True,False,False,False,True,False,True,False,False,TypeScript,ML/AI engineer,
+49932264,2026-10-02,Flok Health,flok.health,False,False,True,False,False,True,False,True,False,False,Python;Rust,Design,UK
+49922899,2026-10-01,Mainmatter ( [ссылка] ),mainmatter.com,False,True,False,False,False,False,False,True,False,False,Rust;Redis,Support/CS,EU
+50020012,2026-10-09,Propel Labs,propellabs.ai,False,True,False,False,False,True,False,True,False,True,Python;TypeScript;React;Terraform,Design,
+49925329,2026-10-01,Google,google.com,False,False,True,False,False,True,False,True,False,False,,Full-stack,Munich;Germany
+49967489,2026-10-05,Close,close.com,False,True,False,False,False,True,False,True,False,False,Python;MongoDB;Elasticsearch/OpenSearch;LLM/GPT/Claude,Backend;Sales/GTM;Marketing,US
+49933483,2026-10-02,Estee Lauder Companies,elcompanies.com,False,False,False,True,False,True,False,True,False,False,,DevOps/SRE/Platform;ML/AI engineer;Product/PM,
+49932525,2026-10-02,Proxima Fusion,ashbyhq.com,True,False,True,False,False,True,False,True,False,False,Python;Kubernetes;Linux,DevOps/SRE/Platform,Munich;Zurich;Europe;Germany
+49929283,2026-10-02,Anthropic,anthropic.com,False,True,False,False,False,False,False,True,False,False,LLM/GPT/Claude,,Canada;UK;US
+49924327,2026-10-01,Solace Health,ashbyhq.com,True,True,False,False,True,False,False,True,False,False,Kubernetes;GCP,Backend;Full-stack;DevOps/SRE/Platform;Design,US
+49935210,2026-10-02,ML6,ml6.eu,False,False,True,True,False,True,False,True,False,False,Python;AWS;GCP;Azure;PyTorch;TensorFlow;LLM/GPT/Claude,ML/AI engineer;Support/CS,Berlin;Munich;Amsterdam;Europe;EU
+49922929,2026-10-01,Fastly,fastly.com,False,True,True,False,False,False,False,True,False,False,Python;Rust;C++;Ruby/Rails;Linux,DevOps/SRE/Platform;Security,EU;UK;US
+49928066,2026-10-01,All Gravy,nordictechjobs.com,False,True,True,False,False,True,False,True,False,False,TypeScript;React;Node.js;MongoDB;React Native,Backend;Full-stack,London
+49922881,2026-10-01,Smarkets ( [ссылка] ),smarkets.com,False,False,True,True,False,False,False,True,False,False,Python;Rust,Backend;Design,London;UK
+49925116,2026-10-01,Cisco ThousandEyes,thousandeyes.com,False,False,True,True,False,False,False,True,False,False,,,San Francisco
+49926213,2026-10-01,Tandem Health,tandemhealth.ai,False,False,True,False,False,True,False,True,False,False,,Design;Support/CS,Stockholm;EU
+49927464,2026-10-01,VLM Run ( [ссылка] ),vlm.run,False,True,False,False,False,True,False,True,False,True,LLM/GPT/Claude,DevOps/SRE/Platform;ML/AI engineer,
+49928430,2026-10-02,CABLE,cable.energy,False,False,True,False,False,True,False,True,False,True,TypeScript;React;PostgreSQL,,Paris;Australia;Sydney
+49927132,2026-10-01,Komodo Health,,False,True,True,False,True,True,False,True,False,True,,Product/PM,SF;NYC;US
+49929264,2026-10-02,CVector,,False,False,True,False,False,True,False,True,False,True,Python;React;AWS,Backend;ML/AI engineer,New York
+49925071,2026-10-01,Plutus,runplutus.com,False,False,False,False,False,True,False,True,False,False,,,Seattle
+49934114,2026-10-02,Founding Engineer (Security / AI / Distributed Systems) — Stealth Project,,False,True,False,False,True,True,False,True,False,True,Solidity/crypto,Security,Europe
+49927984,2026-10-01,Sourcegraph,sourcegraph.com,False,True,False,False,False,True,False,True,False,False,,ML/AI engineer;Product/PM;Marketing,
+49928334,2026-10-01,Kaavio,kaavio.ai,False,True,False,False,True,True,False,True,False,False,RAG,Backend;ML/AI engineer,Canada;US
+49951635,2026-10-04,Pond AI,joinpond.ai,False,False,True,False,False,True,False,True,False,True,Python;TypeScript;LLM/GPT/Claude,Full-stack;Security,San Francisco
+49937058,2026-10-02,Vola Dynamics,voladynamics.com,False,False,True,True,False,False,False,True,False,False,Python;Java;C++;C#/.NET,,NYC
+49923756,2026-10-01,Starbridge,starbridge.ai,False,True,False,False,False,True,False,True,False,True,React,Frontend;Sales/GTM,NYC
+50095921,2026-10-14,NeuralFrame,wellfound.com,False,True,False,False,True,False,False,True,False,False,Python;Rust;MongoDB;AWS;Terraform,Backend,US
+50104234,2026-10-15,Treat Health,treat.health,False,False,True,False,True,True,False,True,False,False,TypeScript;React;Rust;Kotlin;Elixir;Swift;GCP;LLM/GPT/Claude,Frontend;Full-stack;Mobile;Support/CS,EU
+50090302,2026-10-14,GovStar,govstar.us,False,True,False,False,True,True,False,True,False,True,Python;TypeScript;React;Kubernetes;Docker;AWS;Azure;LLM/GPT/Claude;RAG,Security;Support/CS,
+50061040,2026-10-12,HiO (hio.ai),linkedin.com,False,True,False,False,True,True,False,True,False,False,LLM/GPT/Claude,Marketing,US
+50063001,2026-10-12,Typify.dev ( [ссылка] ),typify.dev,False,True,False,True,False,True,False,True,False,True,PostgreSQL;LLM/GPT/Claude;RAG,Design,San Francisco
+49922693,2026-10-01,Planlab.ai,planlab.ai,False,False,True,False,True,True,False,True,False,False,,DevOps/SRE/Platform;Support/CS,London;UK
+49937789,2026-10-02,Tivly,,False,True,False,False,True,False,False,True,False,False,Java;Kafka;AWS,,US
+50068986,2026-10-13,Irash Tech,irashtech.com,False,True,False,False,True,True,False,True,False,True,Python;React;Next.js;Node.js;LLM/GPT/Claude;RAG;React Native,Full-stack;Mobile;Sales/GTM,India
+49925202,2026-10-01,VOYGR (YC W26),workatastartup.com,False,False,True,False,True,True,True,True,False,True,Python;PostgreSQL;Redis;AWS;LLM/GPT/Claude,ML/AI engineer,San Francisco
+50033036,2026-10-10,Chronograph (chronograph.pe),grnh.se,True,True,False,False,True,False,False,True,False,False,Node.js;Ruby/Rails;Kubernetes;Docker;AWS;Terraform,DevOps/SRE/Platform,US
+49935697,2026-10-02,Charly,hallocharly.de,False,False,True,False,False,True,False,True,False,False,,Sales/GTM,Berlin
+50055019,2026-10-12,General Intelligence Holdings,generalintelligenceholdings.com,False,True,False,False,True,True,False,True,False,True,LLM/GPT/Claude,Security,UK
+49991656,2026-10-07,"Flowstate (London, UK) — Founding Engineer — TypeScript / React / Postgres / AI",flowstate.inc,False,False,False,True,True,True,False,True,False,False,TypeScript;React;PostgreSQL;LLM/GPT/Claude,,London;UK
+49926793,2026-10-01,Factory,factory.com,False,False,True,False,False,False,False,True,False,False,,Security,San Francisco
+50012248,2026-10-08,OneChronos,,False,False,False,True,True,False,False,True,False,False,Python;TypeScript;Rust;Airflow,Data/Analytics,NYC
+49963906,2026-10-05,InfoHawk,infohawk.com,False,False,True,True,False,True,False,True,False,True,TypeScript;Node.js;PostgreSQL,Security,NYC;London;UK;US
+49996333,2026-10-07,Coast,coastpay.com,False,False,False,True,False,False,False,True,False,False,,Full-stack;Product/PM;Design,New York
+49979600,2026-10-06,Quantum Minds,,False,True,False,False,False,True,False,True,False,True,Python;C++;LLM/GPT/Claude,Embedded/Hardware;Security;Support/CS,US
+49993917,2026-10-07,"I'm applying for the Growth Lead / Expansion & Lifecycle role, specifically the ",,False,False,False,False,False,False,False,False,True,False,,,
+49945810,2026-10-03,Overjoyed to partner with Menlo Research's brilliant founders to recruit foundin,menlo.ai,False,False,False,True,False,True,False,True,False,True,,ML/AI engineer;Embedded/Hardware;Sales/GTM,Singapore
+50059584,2026-10-12,StartupHakk,startuphakk.com,False,True,False,False,True,True,False,True,False,False,React;C#/.NET;LLM/GPT/Claude,Full-stack;DevOps/SRE/Platform;ML/AI engineer,
+49963937,2026-10-05,Rentman,rentman.io,False,False,False,True,False,False,False,True,False,False,Kubernetes;AWS;Terraform,Frontend;DevOps/SRE/Platform;Security,Toronto
+49945738,2026-10-03,Kraken Tech,kraken.tech,False,True,False,False,False,True,False,True,False,False,,DevOps/SRE/Platform;ML/AI engineer,New York;London;Berlin;Paris;Tokyo
+49924581,2026-10-01,Tether,tether.io,False,True,False,False,False,True,False,True,False,False,TypeScript;JavaScript;LLM/GPT/Claude,,
+49974107,2026-10-06,"ParadeDB (YC S23,  [ссылка] )",paradedb.com,False,True,False,True,False,False,True,True,False,False,Rust;PostgreSQL;Elasticsearch/OpenSearch;Vector DB,DevOps/SRE/Platform,San Francisco;SF
+49926504,2026-10-01,Tolmo,tolmo.com,False,False,True,False,False,True,False,True,False,False,,Full-stack;Security,San Francisco;SF;USA
+49933507,2026-10-02,AREO,goareo.com,False,False,True,False,False,False,False,True,False,False,,Backend;Embedded/Hardware,EU;Germany
+49927917,2026-10-01,Workday,,False,False,True,False,False,True,False,True,False,True,LLM/GPT/Claude,Security;Design;Support/CS,
+49929655,2026-10-02,Wake Up Call Service,realwakeupcalls.com,False,True,False,False,False,False,False,True,False,False,iOS;Android,Mobile,
+49936182,2026-10-02,Oklo,oklo.com,False,True,False,False,False,True,False,True,False,False,,ML/AI engineer,US
+49975827,2026-10-06,Pairio ( [ссылка] ) “Position filled”,pairio.app,False,True,False,False,True,False,False,True,False,False,Ruby/Rails;Swift;iOS,Backend;Mobile;Design,Amsterdam;Europe
+49966033,2026-10-05,Better Stack,betterstack.com,False,True,False,False,False,False,False,True,False,False,,Full-stack;Design,Europe
+49927896,2026-10-01,Column ( [ссылка] ),column.com,False,False,True,False,False,False,False,True,False,False,,Backend;Full-stack;Security;Support/CS,San Francisco;US
+49939260,2026-10-02,Privy.pro,notion.site,False,True,False,False,True,True,False,True,False,True,LLM/GPT/Claude,Marketing,US
+49976516,2026-10-06,Rivian Automotive,rivian.com,False,False,False,True,False,True,False,True,False,False,,ML/AI engineer;Embedded/Hardware,London;US
+50002587,2026-10-08,ICEYE,ashbyhq.com,True,False,True,True,False,False,False,True,False,True,Python;Kubernetes;Terraform,DevOps/SRE/Platform;Support/CS,Berlin;Germany
+49939804,2026-10-02,Hover,hover.to,False,False,True,False,False,False,False,True,False,False,,,San Francisco;New York
+49927158,2026-10-01,Veo Technologies,nordictechjobs.com,False,False,True,False,False,True,False,True,False,False,Python;Rust;AWS;Linux,Mobile;Embedded/Hardware,
+49961551,2026-10-05,AssumeAI,assume-ai.com,False,True,False,False,True,True,False,True,False,True,Python;Vector DB;LLM/GPT/Claude,ML/AI engineer,UK
+49927351,2026-10-01,Tangram Vision,tangramvision.com,False,True,False,False,True,False,False,True,False,True,,Embedded/Hardware,US
+49930919,2026-10-02,eventfirst,personio.com,True,True,False,False,False,True,False,True,False,False,React;Next.js,Backend;Full-stack;Design;Support/CS,Berlin;US;Germany
+49972736,2026-10-06,CoreWeave,grnh.se,True,False,False,True,False,True,False,True,False,True,Kubernetes,Security,SF
+50056667,2026-10-12,Matcha.fm,matcha.fm,False,True,False,False,True,False,False,True,False,False,,Marketing,Canada;Europe;EU;UK;US
+49927319,2026-10-01,Sumble,workable.com,True,True,False,False,False,True,False,True,False,False,Snowflake,Full-stack;Sales/GTM;Marketing;Support/CS,US
+49934638,2026-10-02,Fredrin,fredrin.com,False,True,False,False,True,True,False,True,False,False,TypeScript,,Los Angeles
+49971729,2026-10-05,Early-stage Startup,,False,True,False,False,True,False,False,True,False,True,Python,,Canada;US
+49996914,2026-10-07,Buoyant,,False,True,False,False,False,False,False,True,False,True,Rust;Kubernetes,Security,Canada;Brazil;Europe;US
+49963332,2026-10-05,Axmed,teamtailor.com,False,True,False,False,False,True,False,True,False,False,Python;LLM/GPT/Claude;LangChain/LlamaIndex,ML/AI engineer,UK;Poland
+49927265,2026-10-01,Portswigger,portswigger.net,False,False,True,False,True,True,False,True,False,False,,Sales/GTM;Marketing,UK
+49976350,2026-10-06,Comograph,,False,True,False,False,False,False,False,True,False,True,,Sales/GTM,EU;US
+49929352,2026-10-02,Stellar Science,stellarscience.com,False,False,False,True,False,True,False,True,False,False,Python;React;Java;C++;CUDA;Linux,ML/AI engineer,USA
+49935001,2026-10-02,Somana,ashbyhq.com,True,False,False,True,False,True,False,True,False,False,React,Design,SF;NYC
+49937104,2026-10-02,Paradromics,archive.ph,False,False,True,False,False,True,False,True,False,True,Rust;Linux,ML/AI engineer;Embedded/Hardware;Design,Austin
+49961408,2026-10-05,Opaxa,,False,True,False,False,True,True,False,True,False,True,Python;TypeScript;React;PostgreSQL;AWS,Full-stack;Sales/GTM,San Francisco;US
+49982648,2026-10-06,"Empower Pharmacy is hiring engineers to work on event-driven, distributed system",lnkd.in,False,True,False,False,False,True,False,True,False,False,React;Next.js;Java;Kubernetes;Azure;LLM/GPT/Claude,,US
+49936893,2026-10-02,ClickHouse,clickhouse.com,False,True,False,False,False,True,False,True,False,False,,ML/AI engineer,
+49962303,2026-10-05,Elman (Deep Science Ventures),elman.ai,False,True,False,False,False,True,False,True,False,False,LLM/GPT/Claude,,London;UK
+49922769,2026-10-01,Checkly,checklyhq.com,False,True,False,False,True,True,False,True,False,False,,Product/PM;Sales/GTM,Europe;US
+50000038,2026-10-07,Superset (YC P26),superset.sh,False,False,True,False,True,False,True,True,False,True,TypeScript,Design,San Francisco;SF
+49932275,2026-10-02,Sundream Studio,sundream.studio,False,True,False,False,False,True,False,True,False,True,,Design,NYC
+49929200,2026-10-02,SerpApi,serpapi.com,False,True,True,False,True,False,False,True,False,False,Python;React;Rust;Kotlin;C#/.NET;Ruby/Rails;PHP;Elixir;MongoDB,Full-stack;Support/CS,Austin;US
+50075162,2026-10-13,Baserow ( [ссылка] ),baserow.io,False,True,False,False,True,False,False,True,False,False,,,Europe
+50063248,2026-10-12,Company: esumry.com,wellfound.com,False,False,True,False,False,True,False,True,False,False,AWS,,Austin
+49966427,2026-10-05,G-Research,gresearch.com,False,False,True,False,False,True,False,True,False,False,,ML/AI engineer,London;UK
+49925904,2026-10-01,Uncountable,uncountable.com,False,False,False,False,True,True,False,True,False,True,,,SF;London;Toronto
+49987144,2026-10-07,Manifest,manifestcyber.com,False,True,False,False,True,True,False,True,False,False,Python;TypeScript;Node.js;MongoDB;Kubernetes;Terraform,Backend;DevOps/SRE/Platform;Security,US
+49962002,2026-10-05,SingleStore,grnh.se,True,True,False,False,False,True,False,True,False,False,Python;Kubernetes;Vector DB;RAG,ML/AI engineer,India
+49922621,2026-10-01,Snout  [ссылка],snout.com,False,True,False,False,False,True,False,True,False,False,Python;TypeScript;JavaScript;React;Node.js;PostgreSQL;AWS;dbt;LLM/GPT/Claude,,Canada;US
+49929553,2026-10-02,Hiya,ashbyhq.com,True,False,True,True,True,True,False,True,False,False,Python;TypeScript;Node.js;Kubernetes;Docker;AWS;Terraform,Backend,Seattle
+49922695,2026-10-01,OpenRent,openrent.co.uk,False,True,True,False,False,False,False,True,False,False,,,London;UK
+49943713,2026-10-03,GC AI,,False,True,True,True,True,True,False,True,False,True,TypeScript;JavaScript;React;LLM/GPT/Claude;RAG,Full-stack;Data/Analytics;ML/AI engineer;Support/CS,Canada;US
+49980976,2026-10-06,Oscilar.com,ashbyhq.com,True,True,False,False,False,True,False,True,False,False,Java,Backend;ML/AI engineer;Product/PM,India;Canada;Brazil;UK;US;Poland
+50095249,2026-10-14,3Gimbals,linkedin.com,False,True,False,False,True,True,False,True,False,False,Python;TypeScript;React;AWS;LLM/GPT/Claude;RAG,Full-stack,US
+49925098,2026-10-01,Strategy & Transformation Consulting (s&t),,False,True,False,False,False,True,False,True,False,True,C#/.NET;Azure;Vector DB;LLM/GPT/Claude;RAG,DevOps/SRE/Platform;Security,Germany
+49929664,2026-10-02,AI x Healthcare Startup,typeform.com,False,False,True,False,False,True,False,True,False,False,React;Rust;Kubernetes;AWS;LLM/GPT/Claude,Backend;Full-stack,Boston;US
+49929235,2026-10-02,Radar Labs,radar.com,False,True,False,False,False,True,False,True,False,True,Python;TypeScript;Rust;Scala;Kubernetes;AWS;Terraform;iOS;Android,Backend;Full-stack;DevOps/SRE/Platform;ML/AI engineer;Mobile;Security;QA,NYC;US
+49964254,2026-10-05,Greenzie,applytojob.com,False,False,True,True,False,False,False,True,False,True,Python;C++,Embedded/Hardware,
+49925468,2026-10-01,etc. (Exploration Technology Corp.),rippling.com,True,False,True,False,True,False,False,True,False,False,,Embedded/Hardware;Security;Support/CS,San Francisco;US
+49966852,2026-10-05,MaFi Games,captain-of-industry.com,False,True,False,False,False,False,False,True,False,False,C#/.NET,,
+49998400,2026-10-07,Cleverbase,cleverbase.com,False,False,True,True,False,False,False,True,False,True,TypeScript;React;Scala;PostgreSQL;Solidity/crypto,,EU
+49978570,2026-10-06,PostHog,posthog.com,False,True,False,False,True,True,False,True,False,False,,ML/AI engineer;Security;Product/PM;Support/CS,
+49986633,2026-10-07,Flow Traders,flowtraders.com,False,False,False,False,False,True,False,False,False,False,Python;C++;PyTorch,ML/AI engineer,
+50001801,2026-10-08,NetBird,netbird.io,False,True,False,False,False,False,False,True,False,False,iOS;Android;Linux,Backend;Mobile;Security;Sales/GTM,Berlin;Europe;Germany
+50021883,2026-10-09,I lead the A3 Lab at Aarhus University and are hiring a Three-year PhD in Physic,au.dk,False,False,True,False,False,True,False,True,False,True,Python;PyTorch,Embedded/Hardware,
+49940381,2026-10-03,Prophet Town LLC,forms.gle,False,True,True,True,True,True,False,True,False,False,Python;React;Ruby/Rails;LLM/GPT/Claude,Frontend;Backend;DevOps/SRE/Platform,US
+49929547,2026-10-02,Relativity Space,relativityspace.com,False,False,True,False,False,False,False,True,False,False,,,
+50004401,2026-10-08,Ojin,ojin.ai,False,True,False,True,False,True,False,True,False,False,TypeScript;Docker;AWS;Terraform,DevOps/SRE/Platform;Sales/GTM;Marketing,Berlin
+49924239,2026-10-01,Hedge (YC),hedgespecialty.com,False,False,True,False,True,True,False,True,False,False,Python;TypeScript;React;PostgreSQL,,San Francisco;SF
+49931051,2026-10-02,JUPUS,jupus.de,False,True,False,False,True,True,False,True,False,False,,,
+49980680,2026-10-06,Coder,coder.com,False,True,False,False,False,True,False,True,False,False,,Backend;Security;Support/CS,Canada;Europe;Poland
+49927073,2026-10-01,MONUMENTAL,monumental.co,False,False,True,False,False,False,False,True,False,False,React,Full-stack;Embedded/Hardware;Design,Amsterdam;UK
+49922970,2026-10-01,Arrangr,arrangr.com,False,True,False,False,True,False,False,True,False,True,,Security;Support/CS,
+49962075,2026-10-05,Revieve Oy,factorialhr.com,False,True,False,False,False,True,False,True,False,False,TypeScript;React;LLM/GPT/Claude,Backend;Product/PM;Design,Europe;US
+49939047,2026-10-02,Perry Street Software,perrystreet.com,False,True,False,False,False,False,False,True,False,False,Kotlin;Swift;iOS;Android,Backend;Mobile;Security,
+49929510,2026-10-02,Fig,growfig.ai,False,False,True,True,True,True,False,True,False,False,,,San Francisco
+49922803,2026-10-01,Flexibits,flexibits.com,False,True,False,False,False,False,False,True,False,False,Kotlin;C++;C#/.NET;Swift;iOS;Android,Mobile,Europe;US
+49966712,2026-10-05,"Backed by Sequoia Capital, Peregrine is the operational AI platform powering dec",grnh.se,True,False,True,False,True,True,False,True,False,False,,Security,SF;NYC
+49929522,2026-10-02,Seeq,seeq.com,False,True,False,False,True,True,False,True,False,False,Python;React;Java;PostgreSQL;LLM/GPT/Claude;RAG,Backend;Data/Analytics;ML/AI engineer,US
+49969213,2026-10-05,FunnelStory,funnelstory.ai,False,True,False,False,False,True,False,True,False,False,,ML/AI engineer;Sales/GTM,India
+49933183,2026-10-02,GROWTH HACKER - GLOBAL - $50/HR,techjobfinder.com,False,False,False,False,True,False,False,False,False,True,,Marketing,
+49930568,2026-10-02,Enclave,enclave.io,False,True,False,False,True,True,False,True,False,False,,Sales/GTM,UK
+49923426,2026-10-01,PDT Partners,grnh.se,True,False,True,True,False,False,False,True,False,False,,,NYC
+49926511,2026-10-01,Mozilla / Thunderbird / Thunderbolt,grnh.se,True,True,False,False,True,True,False,True,False,False,LLM/GPT/Claude;RAG,Full-stack,Canada;EU;US
+49930260,2026-10-02,lovable,lovable.dev,False,False,False,False,False,True,False,False,False,False,,Frontend;Backend;Full-stack,
+49943992,2026-10-03,GetYourGuide,getyourguide.com,False,False,False,True,False,False,False,True,False,False,,Sales/GTM;Marketing,Berlin;Zurich;Germany
+49994263,2026-10-07,BREAKFAST Studio (kinetic art),theartistbreakfast.com,False,False,True,False,True,False,False,True,False,False,Linux,Embedded/Hardware,New York;NYC
+49931740,2026-10-02,Lokker.com,lokker.com,False,True,False,False,False,True,False,True,False,False,Python;LLM/GPT/Claude,Data/Analytics;ML/AI engineer;Security,Europe
+49926951,2026-10-01,Postscript,workatastartup.com,False,True,False,False,True,True,False,True,False,False,,Marketing,Canada;US
+49937835,2026-10-02,Middesk,ashbyhq.com,True,False,True,True,True,True,False,True,False,False,,,SF;NYC
+49930428,2026-10-02,Longshot Systems,workable.com,True,False,False,True,False,False,False,True,False,False,,,London;UK
+49933080,2026-10-02,TELEKIN,telekin.tech,False,False,True,False,False,False,False,True,False,False,,Embedded/Hardware,
+49931382,2026-10-02,Applandeo,applandeo.com,False,True,False,False,False,True,False,True,False,False,Python;GCP,ML/AI engineer,Poland
+50066205,2026-10-13,I am iOS developer with 13 years of experience with iOS working on mostly stream,web.app,False,False,False,False,False,False,False,False,True,False,iOS,Mobile,
+49927389,2026-10-01,Brain Corp,braincorp.com,False,False,True,False,False,False,False,True,False,False,,,
+49935692,2026-10-02,Small prop-trading firm,kairos-research.ai,False,False,True,False,False,False,False,True,False,False,,,Paris
+49923454,2026-10-01,Shield AI,lever.co,True,False,True,False,False,True,False,True,False,False,,,
+49928826,2026-10-02,CoVar,covar.com,False,False,True,True,False,True,False,True,False,False,Python,ML/AI engineer,
+49933038,2026-10-02,Avision GmbH,,False,True,False,False,False,False,False,True,False,False,React;Java;Kafka;Kubernetes;Docker;Linux,,Germany
+50025234,2026-10-09,"Location: Bangalore, India (IST, UTC+5:30)",google.com,False,True,False,False,False,True,False,True,False,True,TypeScript;JavaScript;React;Next.js;Node.js;MongoDB;AWS;Azure;LLM/GPT/Claude;React Native,Frontend;Mobile,India;Bangalore;US
+49968228,2026-10-05,Mechanize,mechanize.work,False,False,True,False,True,True,False,True,False,False,,ML/AI engineer,San Francisco
+49972097,2026-10-05,SentiLink,sentilink.com,False,True,True,True,False,True,False,True,False,False,Python;Rust;Scala;Redis;Kafka;Kubernetes;Terraform;PyTorch;Snowflake,Backend;ML/AI engineer;Support/CS,San Francisco;New York;Seattle;Austin;Los Angeles;Chicago;India
+49922910,2026-10-01,OpenSanctions,,False,True,False,False,False,True,False,True,False,False,Python;React;Next.js,Support/CS,Berlin;Germany
+49923163,2026-10-01,JustPark,workable.com,True,False,False,True,True,True,False,True,False,False,LLM/GPT/Claude;GraphQL,Backend;QA,UK
+49930478,2026-10-02,neoshare,neoshare.com,False,False,True,True,False,True,False,True,False,True,LLM/GPT/Claude,Backend;Full-stack;DevOps/SRE/Platform,Berlin;Munich;Germany
+49945147,2026-10-03,Ripple,ripple.com,False,False,False,True,False,False,False,True,False,False,React;Ruby/Rails;PostgreSQL;AWS,Full-stack,London;Dublin;UK
+49925283,2026-10-01,ko-br,ko-br.com,False,False,False,False,False,False,False,True,False,False,,Sales/GTM,San Francisco;London;UK
+49968954,2026-10-05,Okta (Auth0),okta.com,False,False,False,True,False,True,False,True,False,False,,Product/PM,Toronto;Canada
+49945634,2026-10-03,"Location: Dubrovnik, Croatia (CET)",vercel.app,False,True,False,False,False,True,False,True,False,True,TypeScript;React;Next.js;Node.js;Docker;LLM/GPT/Claude;RAG,Full-stack;Support/CS,EU;UK;US
+49964448,2026-10-05,ALBERT,,False,True,False,False,True,False,False,True,False,True,,,
+49929657,2026-10-02,typesafe ai,,False,False,True,False,False,False,False,True,False,False,,Frontend;Backend,SF
+49935441,2026-10-02,meetyogi.com,,False,False,True,True,False,True,False,True,False,False,,Backend;Data/Analytics,NYC
+49925497,2026-10-01,Paramark,mercurynews.com,False,True,True,True,True,True,False,True,False,False,Python;TypeScript;React;PostgreSQL;Kubernetes;GCP,Full-stack;ML/AI engineer;Marketing,San Francisco;SF;US
+49935083,2026-10-02,Tempus AI,tempus.com,False,True,False,False,False,True,False,True,False,False,,,US
+49922615,2026-10-01,Open Education Applications / Neon,openeducation.foundation,False,False,False,True,False,False,False,True,False,False,Python;TypeScript;React;Kubernetes;Terraform,Frontend;Backend;DevOps/SRE/Platform,
+49923847,2026-10-01,Skydio,skydio.com,False,False,False,True,False,True,True,True,False,False,,ML/AI engineer;Embedded/Hardware,Zurich
+50003866,2026-10-08,ChainSecurity,chainsecurity.com,False,True,False,True,False,False,False,True,False,True,Solidity/crypto;Linux,Security,Zurich
+49929798,2026-10-02,Tahoma AI,tahoma.io,False,True,True,False,False,True,False,True,False,True,TypeScript;Node.js;PostgreSQL;Kubernetes;AWS;Azure;LLM/GPT/Claude,,Seattle;Austin;US
+49940125,2026-10-03,"Role: UX/UI Designer (BAY AREA, CA - HYBRID) 1099 CONTRACT",vuetech.sh,False,False,False,True,True,False,False,True,False,False,Android,Frontend;Mobile;Design,SF
+49982803,2026-10-06,depproof,depproof.com,False,True,False,False,False,False,False,True,False,False,,Security;Sales/GTM,US
+50016229,2026-10-09,experienceflyover.com,rippling.com,True,False,False,False,False,False,False,True,False,False,,,Chicago
+49922593,2026-10-01,Shepherd (Series B),shepherdinsurance.com,False,False,True,False,False,True,False,True,False,False,React;Next.js;Node.js;PostgreSQL;Redis;GraphQL,Full-stack;ML/AI engineer;Product/PM,San Francisco;SF;New York;NYC
+49936718,2026-10-02,K2 Space,greenhouse.io,True,False,True,False,False,False,False,True,False,False,Rust,DevOps/SRE/Platform,Seattle
+49929588,2026-10-02,Looking for a commercial co-founder,,False,True,False,False,False,True,False,True,False,True,,Sales/GTM,Europe;US
+49927291,2026-10-01,"Hiring for several roles at StudyTurtle, an edutainment brand building learning ",youtube.com,False,True,False,True,False,True,False,True,False,False,,,US
+49937360,2026-10-02,Software Engineer — Remote — US Only,,False,True,False,False,True,False,False,True,False,True,Python;TypeScript;React;Node.js;Java;C#/.NET,,US
+50006929,2026-10-08,[ссылка],grnh.se,True,False,False,False,False,False,False,False,False,False,,,
+50091446,2026-10-14,exLabora AI (General Purpose Robot Workforce),exlabora.com,False,False,False,False,False,True,False,False,False,False,,Embedded/Hardware,
+49980867,2026-10-06,Purchasely,purchasely.com,False,True,False,False,True,False,False,True,False,False,React;Swift;Flutter;React Native;iOS;Android,Mobile;Embedded/Hardware;Support/CS,Paris
+49928677,2026-10-02,Datamint,datamint.xyz,False,True,False,False,True,True,False,True,False,True,Python;TypeScript;React;Next.js;Rust;PostgreSQL;LLM/GPT/Claude;Linux,Security;Support/CS,
+49965012,2026-10-05,Tenki Cloud by Luxor Tech,tenki.cloud,False,False,False,False,False,True,False,True,False,False,,Sales/GTM,San Francisco;SF
+49997244,2026-10-07,LiveKit,livekit.io,False,True,False,True,False,False,False,True,False,False,,,SF
+49922609,2026-10-01,Sidekick Labs,linkedin.com,False,True,False,False,True,True,False,True,False,True,Python,Backend;Security,US
+49935698,2026-10-02,"We're hiring software engineers, product designers, and design engineers at the ",usajobs.gov,False,False,False,False,False,False,False,False,False,False,,Design,
+49968179,2026-10-05,"telli hiring in Eng, GTM, Design [Berlin] -  [ссылка]",telli.com,False,False,False,False,False,False,False,True,False,False,,Sales/GTM,Berlin
+49930868,2026-10-02,Hospitable,hospitable.com,False,True,False,False,True,True,False,True,False,False,PHP;MySQL,Backend;Support/CS,EU;US
+49931475,2026-10-02,"Jobstash.xyz is a job aggregator with 17000+ open vacancies across AI, Robotics,",,False,True,False,False,False,True,False,True,False,False,,Embedded/Hardware,
+49926031,2026-10-01,"whitecircle.com/careers, we're building the most advanced AI safety infra, raise",,False,False,False,False,False,True,False,False,False,False,,,
+49946276,2026-10-03,Mattermost,mattermost.com,False,True,False,False,True,False,True,True,False,False,TypeScript;React;Redis;LLM/GPT/Claude,Frontend;Backend;Full-stack;Security,Canada;US
+49934993,2026-10-02,At Tether ( [ссылка] ) we're hiring! We envision a world where technology enable,tether.io,False,True,False,False,False,True,False,True,False,False,,Backend;DevOps/SRE/Platform;ML/AI engineer;Design,
+49986260,2026-10-07,Freeform ( [ссылка] ),freeform.co,False,False,True,False,False,True,False,True,False,False,,Embedded/Hardware,Los Angeles
+49967017,2026-10-05,Sphinx Defense,sphinxdefense.com,False,True,False,False,False,False,False,True,False,False,,Backend;Security,US
+49928452,2026-10-02,exe.dev,,False,False,True,False,False,False,False,True,False,False,,Design,SF
+49935497,2026-10-02,Prior Labs,github.com,False,False,True,False,True,True,False,True,False,False,Python;TypeScript;React;PostgreSQL;Kubernetes;GCP;Terraform;LLM/GPT/Claude,Backend;ML/AI engineer;Product/PM;Sales/GTM,NYC;Berlin
+49934530,2026-10-02,Rebar,ashbyhq.com,True,False,True,False,True,True,False,True,False,True,Python;TypeScript;React;Next.js;PostgreSQL;Kubernetes;AWS;PyTorch,ML/AI engineer;Sales/GTM;Marketing,New York
+50013152,2026-10-08,vvd,,False,True,False,False,False,True,False,True,False,False,,,EU
+49931746,2026-10-02,Search Atlas,searchatlas.com,False,True,False,False,False,True,False,True,False,True,Python;React;PostgreSQL;LLM/GPT/Claude,Full-stack;QA;Product/PM;Marketing,
+49930656,2026-10-02,Vistulo,vistulo.com,False,True,False,False,True,False,False,True,False,True,TypeScript;React;Java;C#/.NET,Frontend;Backend;Support/CS,Europe;US;Poland
+49923384,2026-10-01,Fazeshift,,False,False,True,False,True,True,False,True,False,True,TypeScript;Next.js;MySQL;AWS,Full-stack,San Francisco
+50071142,2026-10-13,Estuary,estuary.dev,False,True,False,False,False,False,False,True,False,True,,Data/Analytics;Product/PM;Design;Marketing;Support/CS,US
+49925544,2026-10-01,This role always shows up here. There's no way you're not finding anyone to fill,,False,False,False,False,False,False,False,False,False,False,,,
+49924849,2026-10-01,there used to be 800+ posts here :(,,False,False,False,False,False,False,False,False,False,False,,,
+49928997,2026-10-02,BCC,nih.gov,False,False,False,False,True,False,False,False,False,False,Python;C++;Kafka;Linux,,
+49925928,2026-10-01,Sheer Health ( [ссылка] ),sheerhealth.com,False,False,True,False,False,False,False,True,False,False,,Data/Analytics,New York
+49925260,2026-10-01,Diffusion,,False,False,False,False,False,True,False,True,False,True,,,SF
+49928358,2026-10-01,Qualcomm,github.com,False,True,False,False,False,False,False,True,False,False,Rust;C++;Android;Linux,Mobile;Support/CS,Canada;EU;US
+49927083,2026-10-01,America First Policy Institute - Office for Fiscal and Regulatory Analysis,americafirstpolicy.com,False,False,True,False,False,False,False,True,False,False,,ML/AI engineer,US
+49933369,2026-10-02,So people are basically only interested in hiring seniors? Jesus. We really are ,,False,False,False,False,False,False,False,False,False,False,,,
