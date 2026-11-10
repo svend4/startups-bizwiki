@@ -19,10 +19,10 @@ hiring:
     salary_in_post: не указано
 sources:
   - {url: "https://victoriametrics.com/", kind: "сайт компании", accessed: "2026-11-10"}
-  - {url: "https://careers.victoriametrics.com/", kind: "страница карьеры (ссылка с сайта)", accessed: "2026-11-10"}
+  - {url: "https://careers.victoriametrics.com/", kind: "страница карьеры (ссылка из поста и с сайта; содержимое не проверялось)", accessed: "2026-11-10"}
   - {url: "https://news.ycombinator.com/item?id=50380208", kind: "пост компании на HN", accessed: "2026-11-10"}
 verification: сайт
-unverified_claims: ["Более 1 млрд загрузок open-source продуктов (пост)", "Цифры экономии памяти и места (сайт, со слов компании)", "Компания — частная: на сайте в собранных данных не найдено"]
+unverified_claims: ["Более 1 млрд загрузок open-source продуктов (пост)", "Цифры экономии памяти и места (сайт, со слов компании)"]
 last_verified: "2026-11-10"
 ---
 
@@ -40,13 +40,13 @@ last_verified: "2026-11-10"
 
 ## Клиенты и доказательства
 
-На сайте логотипы: Adidas, Brandwatch, CERN, DFKI, DSV, DreamHost, Grammarly, GROOVE X, MHI Vestas, MongoDB, Sensedia, Spotify R&D, Synthesio. В отзывах упомянуты Cornell University, Grammarly, IHI Terrasun, Max Planck Institute for Gravitational Physics и Granulate. Логотип на сайте — это упоминание, а не подтверждённый контракт.
+Логотипы клиентов на сайте (по подписям в HTML страницы): Adidas, Brandwatch, CERN, DFKI, DSV, DreamHost, Grammarly, GROOVE X, MHI Vestas, MongoDB, Sensedia, Spotify R&D, Synthesio. Четыре из них отдельно упоминаются в тексте сайта: CERN — в подписи к отзыву Cornell University (участник коллаборации CMS в CERN), Grammarly — в отзыве Grammarly Engineering, Spotify и MongoDB — в заголовке записи блога о расширении в Северной Америке. В посте на HN компания называет среди пользователей Spotify, Wix, Grammarly и CERN. В отзывах упомянуты Cornell University, Grammarly, IHI Terrasun, Max Planck Institute for Gravitational Physics и Granulate. Логотип на сайте — это упоминание, а не подтверждённый контракт.
 
 ## Чем занимаются, технологии
 
 - Совместимость: замена Prometheus (в отзывах — drop-in), поддержка OpenTelemetry, InfluxDB, Graphite, Datadog; Kubernetes; для трейсов — Jaeger.
 - Интеграции: Grafana (VictoriaLogs подключается как источник данных), MCP и «agent skills» для ИИ-ассистентов (по сайту).
-- Открытый код: организация на GitHub github.com/VictoriaMetrics, основной репозиторий — github.com/VictoriaMetrics/VictoriaMetrics. Вклад через pull request приветствуется. Язык реализации и лицензия в собранных источниках не указаны.
+- Открытый код: ссылки «GitHub» на сайте ведут на организацию github.com/VictoriaMetrics и основной репозиторий github.com/VictoriaMetrics/VictoriaMetrics. Вклад через pull request приветствуется. Язык реализации и лицензия в собранных источниках не указаны.
 - Заявления о ресурсах (со слов компании, базы сравнения не уточнены): VictoriaMetrics — до 80% меньше памяти и до 2,5 раза меньше места; VictoriaLogs — до 93% меньше памяти и до 90% меньше места.
 
 ## Кого ищут
@@ -65,14 +65,13 @@ last_verified: "2026-11-10"
 
 - Более 1 млрд загрузок open-source продуктов (пост).
 - Цифры экономии памяти и места (сайт, со слов компании).
-- Компания — частная: на сайте в собранных данных не найдено.
 
 ## Пробелы
 
-Год основания, штаб-квартира, основатели, инвесторы, язык реализации, лицензия.
+Год основания, штаб-квартира, основатели, инвесторы, форма собственности, язык реализации, лицензия.
 
 ## Источники
 
 1. https://victoriametrics.com/ — сайт компании (проверено 10.11.2026).
-2. https://careers.victoriametrics.com/ — страница карьеры (проверено 10.11.2026).
+2. https://careers.victoriametrics.com/ — страница карьеры (ссылка из поста и с сайта; содержимое не проверялось).
 3. https://news.ycombinator.com/item?id=50380208 — пост компании (проверено 10.11.2026).

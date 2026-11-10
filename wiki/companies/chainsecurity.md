@@ -4,7 +4,7 @@ name: ChainSecurity
 website: https://chainsecurity.com
 sector: ["безопасность блокчейнов", "аудит смарт-контрактов"]
 organization_type: "тип не подтверждён (по сайту юридическое название — Decentralized Security AG)"
-founded: "с 2017 года (сайт: «Since 2017»)"
+founded: "работает с 2017 года (сайт: «Since 2017»); дата основания не указана"
 headquarters: "Цюрих, Швейцария"
 technologies: ["Solana"]
 open_source:
@@ -33,7 +33,7 @@ last_verified: "2026-11-10"
 
 ## Кто они
 
-По сайту, юридическое название компании — Decentralized Security AG, офис — в Цюрихе (адрес указан в выходных данных сайта; в карточке указан только город). Сайт пишет «Since 2017»: компания работает с 2017 года.
+По сайту, юридическое название компании — Decentralized Security AG, офис — в Цюрихе (адрес указан в выходных данных сайта; в карточке указан только город). Сайт пишет «Since 2017»: компания работает с 2017 года. Дата основания на сайте не указана.
 
 Основатели и инвесторы на сайте не указаны. Пост утверждает, что эксперты компании — из университетов ETH Zurich, EPFL Lausanne и других.
 
@@ -42,7 +42,7 @@ last_verified: "2026-11-10"
 - Аудит смарт-контрактов с публичными отчётами. Примеры на сайте: Aave V4, Circle Gateway, Pendle Boros, Sky Governance OApp и WBTC Solana Bridge.
 - Тематики аудитов по тегам сайта: кредитование и левередж, стейблкоины, мосты, опционы и деривативы, управление протоколами.
 - Блог с исследованиями команды.
-- Логотипы клиентов на сайте: Sky, Spark, Makina, Compound, Curve, Gearbox, Velodrome, Steakhouse, M0, Symbiotic, Ethereal, Mellow, Liquity, Polygon, Polymarket, Vyper, Euler, Frax.
+- Логотипы клиентов на сайте в блоке «Trusted by» (по подписям логотипов в HTML страницы): Sky, Spark, Makina, Compound, Curve, Gearbox, Velodrome, Steakhouse, M0, Symbiotic, Ethereal, Mellow, Liquity, Polygon, Polymarket, Vyper, Euler, Frax.
 - Отзывы на сайте — от MakerDAO, Aave и Enzyme.
 
 Логотипы и отзывы — это заявления компании. Их стоит проверять по опубликованным отчётам.
