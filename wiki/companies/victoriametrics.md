@@ -3,7 +3,7 @@ id: victoriametrics
 name: VictoriaMetrics
 website: https://victoriametrics.com
 sector: ["мониторинг и наблюдаемость (метрики, логи, трейсы)", "база данных временных рядов"]
-organization_type: "частная компания (open source, Enterprise и Cloud; структура владения не указана)"
+organization_type: "компания (open source, Enterprise и Cloud; структура владения не указана)"
 founded: "не указано (в подвале сайта период авторских прав 2019–2026, это не дата основания)"
 headquarters: "не указано (вакансии в EMEA и Северной Америке)"
 technologies: ["Prometheus-совместимость", "OpenTelemetry", "Grafana", "Kubernetes", "LogsQL", "Jaeger"]
@@ -12,7 +12,6 @@ open_source:
   repository: "https://github.com/VictoriaMetrics/VictoriaMetrics"
 hiring:
   - thread: "Ask HN: Who is hiring? (November 2026)"
-    hn_item_id: 50380208
     roles: ["Senior Solution Engineer", "Marketing Manager", "Product Marketing Manager (Cloud)", "Enterprise Account Executive", "Technical Expert Engineer"]
     location: "удалённо (EMEA, Северная Америка)"
     employment: не указано
@@ -22,7 +21,7 @@ sources:
   - {url: "https://careers.victoriametrics.com/", kind: "страница карьеры (ссылка с сайта)", accessed: "2026-11-10"}
   - {url: "https://news.ycombinator.com/item?id=50380208", kind: "пост компании на HN", accessed: "2026-11-10"}
 verification: сайт
-unverified_claims: ["более 1 млрд загрузок open-source продуктов (пост)", "«до 80% меньше памяти» и подобные цифры: заявления компании, база сравнения на сайте не уточнена"]
+unverified_claims: ["Более 1 млрд загрузок open-source продуктов (пост)", "Цифры экономии памяти и места (сайт, со слов компании)", "Компания — частная: на сайте в собранных данных не найдено"]
 last_verified: "2026-11-10"
 ---
 
@@ -65,6 +64,7 @@ last_verified: "2026-11-10"
 
 - Более 1 млрд загрузок open-source продуктов (пост).
 - Цифры экономии памяти и места (сайт, со слов компании).
+- Компания — частная: на сайте в собранных данных не найдено.
 
 ## Пробелы
 
