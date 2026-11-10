@@ -45,7 +45,7 @@ last_verified: "2026-11-10"
 
 ## Технологии (по посту)
 
-Python, React, React Native / Expo, AWS, PostgreSQL, DynamoDB, Docker, Terraform. В списке технологий поста также указаны Agents SDK и Braintrust. Сайт упоминает сертификаты SOC 2 и HIPAA (бейджи на странице).
+Python, React, React Native / Expo, AWS, PostgreSQL, DynamoDB, Docker, Terraform. В списке технологий поста также указаны Agents SDK и Braintrust; пост говорит о работе над агентными сценариями и оценками качества (evals), но не уточняет, какой инструмент для чего используется. Сайт упоминает сертификаты SOC 2 и HIPAA (бейджи на странице).
 
 ## Кого ищут
 

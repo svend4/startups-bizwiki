@@ -12,6 +12,7 @@ open_source:
   repository: "https://github.com/VictoriaMetrics/VictoriaMetrics"
 hiring:
   - thread: "Ask HN: Who is hiring? (November 2026)"
+    hn_item_id: 50380208
     roles: ["Senior Solution Engineer", "Marketing Manager", "Product Marketing Manager (Cloud)", "Enterprise Account Executive", "Technical Expert Engineer"]
     location: "удалённо (EMEA, Северная Америка)"
     employment: не указано
