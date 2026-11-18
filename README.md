@@ -1,30 +1,39 @@
 # startups-bizwiki
 
-Вики-карточки компаний-стартапов, которые публикуют вакансии в ежемесячном треде Hacker News «Ask HN: Who is hiring?», а также анализ идеи базы с поиском по этим компаниям.
+Репозиторий проекта по созданию структурированной бизнес-вики (карточек компаний) на основе ежемесячных тредов Hacker News «Ask HN: Who is hiring?».
 
-## Что внутри
+## Состояние веток
 
-- `wiki/` — карточки компаний (30 на версии 0.2) и правила вики. Начните с `wiki/README.md`.
-- `docs/analiz-idei.md` — анализ идеи: что в тредах, плюсы и минусы, моё мнение по шагам, вопросы к вам.
-- `docs/plan.md` — поэтапный план: от решений и сбора до поиска с RAG и поддержки.
-- `docs/paralleli.md` — пересечения с другими базами и стандартами; поиск не только людей, но и сервисов, моделей и агентов.
-- `docs/tochnost-priznakov.md` — точность признаков выгрузки: метод, таблицы для двух выборок, ограничения.
-- `docs/proverka-kartochek.md` — как проверяются карточки: сырые страницы, два проверяющих, сверка цитат, аудит; результаты и ограничения.
-- `data/` — выгрузки двух выпусков: `hn-hiring-2026-10.csv` и `hn-hiring-2026-11.csv`. В них только производные признаки: без текста комментариев и без контактов.
-- `tools/hn_hiring_export.py` — выгрузка темы Hacker News в CSV (правила версии 2). Версия 1 сохранена как `tools/hn_hiring_export_v1.py`.
-- `tools/eval/` — воспроизводимая проверка точности: ID выборок (`manifest.json`), эталон без пояснений (`gold.json`), скрипт `score.py`.
-- `tools/verify/` — вспомогательные скрипты проверки карточек: текст из HTML, текст поста, сверка цитат.
+- В ветке по умолчанию `main` на данный момент находятся только файл лицензии `LICENSE` и заглушка `README.md`.
+- Основная рабочая версия проекта (документация, 30 карточек компаний, CSV-выгрузки и Python-инструменты) размещена в неслитой ветке `claude/startup-wiki-hacker-news-qa7p7s`.
 
-## Выгрузка темы Hacker News
+## Структура проекта (ветка `claude/startup-wiki-hacker-news-qa7p7s`)
+
+- `README.md` — исходное описание проекта (3 097 байт).
+- `wiki/README.md` — индекс карточек (версия 0.2 от 10.11.2026), YAML-схема карточки и 8 принципов ведения базы.
+- `wiki/companies/` — 30 Markdown-карточек компаний (12 карточек первой волны и 18 карточек второй волны): `antithesis.md`, `chainsecurity.md`, `curai-health.md`, `exponent.md`, `iceye.md`, `juro.md`, `livekit.md`, `lumen-labs.md`, `mastra.md`, `nirvana-robotics.md`, `odette-technologies.md`, `opsfleet.md`, `oscilar.md`, `paradromics.md`, `piramidal.md`, `posthog.md`, `prior-labs.md`, `proxima-fusion.md`, `radar-labs.md`, `reducto.md`, `serpapi.md`, `sortrace.md`, `special.md`, `sumble.md`, `sunsave.md`, `telli.md`, `thankly.md`, `threatmark.md`, `victoriametrics.md`, `zed-industries.md`.
+- `docs/` — методические и проектные документы: `analiz-idei.md`, `plan.md`, `paralleli.md`, `tochnost-priznakov.md`, `proverka-kartochek.md`.
+- `data/` — табличные выгрузки `hn-hiring-2026-10.csv` и `hn-hiring-2026-11.csv` (содержат только производные атрибуты, без текстов комментариев и контактов).
+- `tools/` — скрипты экспорта, оценки и проверки:
+  - `hn_hiring_export.py` (v2) и `hn_hiring_export_v1.py`;
+  - `eval/` (`manifest.json`, `gold.json`, `score.py`);
+  - `verify/` (`hn_item_text.py`, `html2txt.py`, `quote_check.py`).
+
+## Стек и команды запуска
+
+Для работы скриптов экспорта в ветке `claude/startup-wiki-hacker-news-qa7p7s` требуется Python 3.9+ и доступ к API Hacker News (`hacker-news.firebaseio.com`).
+
+Пример запуска экспортера из документации ветки:
 
 ```bash
 python3 tools/hn_hiring_export.py --story 50338728 --out data/hn-hiring-2026-11.csv --prev data/hn-hiring-2026-10.csv
 ```
 
-Нужен Python 3.9 или новее и доступ к `hacker-news.firebaseio.com`. Идентификатор темы — это число из ссылки на саму тему, например `https://news.ycombinator.com/item?id=50338728`.
+## Ветки репозитория
 
-Признаки определяются регулярными выражениями, поэтому это оценка, а не точная разметка. Погрешность описана в `docs/analiz-idei.md`.
+- `main` — защищённая ветка по умолчанию (содержит `LICENSE` и исходную заглушку `README.md`).
+- `claude/startup-wiki-hacker-news-qa7p7s` — ветка без открытого Pull Request; содержит `wiki/companies/` (30 карточек), `docs/`, `data/`, `tools/` и расширенный `README.md`.
 
 ## Лицензия
 
-Файл `LICENSE` (AGPL-3.0) относится к коду. Лицензия для текста карточек и данных ещё не выбрана; вопрос вынесен в `docs/analiz-idei.md`, раздел 9.
+В корне репозитория размещён файл `LICENSE` — **GNU Affero General Public License v3 (AGPL-3.0)**. Согласно `README.md` в ветке `claude/startup-wiki-hacker-news-qa7p7s`, лицензия AGPL-3.0 относится к коду, а вопросы лицензирования текстов карточек и данных рассмотрены отдельно в `docs/analiz-idei.md` (раздел 9).
