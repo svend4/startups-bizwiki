@@ -1,0 +1,1423 @@
+[
+  {
+    "id": "antithesis",
+    "name": "Antithesis",
+    "website": "https://antithesis.com/",
+    "sector": [
+      "тестирование и верификация ПО: детерминированная симуляция (по сайту)",
+      "агентные процессы разработки (по посту)"
+    ],
+    "organization_type": "юридическое лицо «Antithesis Operations LLC» (в подвале сайта; LLC — с ограниченной ответственностью); тип «частная компания» выведен из формы LLC и раундов финансирования на сайте, листинг не упомянут",
+    "founded": "2018 (по сайту: январь 2018 года, основатели начали Antithesis)",
+    "headquarters": "не указано; по сайту офисы в DC, Лондоне и Сан-Франциско (страница карьеры)",
+    "technologies": [
+      "собственный детерминированный гипервизор (по сайту)",
+      "Docker Compose",
+      "Kubernetes",
+      "x86",
+      "SDK: C, C++, Go, Java, JavaScript, .NET, Python, Rust",
+      "AWS"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано; на сайте есть ссылка на организацию GitHub: https://github.com/antithesishq",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50351981
+    ],
+    "hiring_roles": [
+      "Design Engineer"
+    ],
+    "hiring_locations": [
+      "Вашингтон (DC), Лондон; удалённо или в офисе (США, Великобритания)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 9,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/antithesis.md"
+  },
+  {
+    "id": "chainsecurity",
+    "name": "ChainSecurity",
+    "website": "https://chainsecurity.com",
+    "sector": [
+      "безопасность блокчейнов",
+      "аудит смарт-контрактов"
+    ],
+    "organization_type": "юридическое название — Decentralized Security AG (по сайту); форма собственности не указана",
+    "founded": "работает с 2017 года (сайт: «Since 2017»); дата основания не указана",
+    "headquarters": "Цюрих, Швейцария",
+    "technologies": [
+      "Solana"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50380439
+    ],
+    "hiring_roles": [
+      "Blockchain Security Engineer",
+      "стажировки (interns)"
+    ],
+    "hiring_locations": [
+      "Цюрих, Швейцария (гибрид или удалённо)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "гибрид"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/chainsecurity.md"
+  },
+  {
+    "id": "curai-health",
+    "name": "Curai Health",
+    "website": "https://curaihealth.com",
+    "sector": [
+      "здравоохранение: виртуальная медицинская помощь",
+      "ИИ-агенты для медицины (по посту)"
+    ],
+    "organization_type": "не указано в собранных источниках",
+    "founded": "не указано (в подвале сайта годы авторских прав 2021 и 2026)",
+    "headquarters": "не указано (вакансии — удалённо в США)",
+    "technologies": [
+      "Python",
+      "React",
+      "React Native / Expo",
+      "AWS",
+      "PostgreSQL",
+      "DynamoDB",
+      "Docker",
+      "Terraform",
+      "Agents SDK",
+      "Braintrust"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50342579
+    ],
+    "hiring_roles": [
+      "Sr Software Engineer, Full-Stack",
+      "Sr Software Engineer, Agentic AI",
+      "Sr Software Engineer, Marketing Platform"
+    ],
+    "hiring_locations": [
+      "удалённо (США)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "$175–210 тыс. (Full-Stack и Agentic AI); $150–180 тыс. (Marketing Platform)"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/curai-health.md"
+  },
+  {
+    "id": "exponent",
+    "name": "Exponent",
+    "website": "https://exponentfi.com/",
+    "sector": [
+      "финтех: финансирование, корпоративные карты и бухгалтерия для франчайзи и мультиюнит-операторов (по сайту)",
+      "ИИ-бухгалтерия (по посту; пресс-релиз описывает интегрированную платформу капитала, управления расходами и ИИ-бухгалтерии)"
+    ],
+    "organization_type": "финтех-компания (по сайту и пресс-релизу); основание: раунд Series A по пресс-релизу (со слов компании); юридическая форма не указана",
+    "founded": "не указано (пресс-релиз от 14.05.2026 год основания не называет)",
+    "headquarters": "Нью-Йорк (по пресс-странице сайта: штаб-квартира в Нью-Йорке; пресс-релиз датирован «New York, NY»; уличный адрес не указан); офис во Flatiron, Нью-Йорк, по разметке вакансий карьерной страницы и посту",
+    "technologies": [
+      "Rails",
+      "Postgres",
+      "Sidekiq"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50354142
+    ],
+    "hiring_roles": [
+      "Lead Engineer, AI Accounting"
+    ],
+    "hiring_locations": [
+      "Нью-Йорк (Flatiron), гибрид, 2+ дня в офисе"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "$160k–$200k + equity"
+    ],
+    "work_format": [
+      "гибрид",
+      "офис"
+    ],
+    "verification": "частично",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/exponent.md"
+  },
+  {
+    "id": "iceye",
+    "name": "ICEYE",
+    "website": "https://www.iceye.com/",
+    "sector": [
+      "спутниковые SAR-данные: наблюдение Земли (по сайту)",
+      "оборона и разведка, страхование, банки, энергетика, госорганы (по сайту)"
+    ],
+    "organization_type": "коммерческая компания (вывод из описания на сайте: коммерческий парк SAR-спутников); статус владения не указан",
+    "founded": "не указано (на сайте: основана в Финляндии, год не назван)",
+    "headquarters": "Эспоо, Финляндия (по сайту, раздел «Контакты»)",
+    "technologies": [
+      "Go",
+      "Python",
+      "Kubernetes (K8s)",
+      "Terraform/OpenTofu",
+      "Istio",
+      "Vault",
+      "LGTM",
+      "OpenTelemetry"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50376253
+    ],
+    "hiring_roles": [
+      "Staff/Senior Platform and DevOps Engineer",
+      "Senior/Staff Platform Observability Engineer",
+      "Senior Software Engineer (Developer Enablement/Experience)"
+    ],
+    "hiring_locations": [
+      "Эспоо, Финляндия / Берлин, Германия (гибрид)"
+    ],
+    "hiring_employment": [
+      "Full-time (relocation support)"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "гибрид"
+    ],
+    "verification": "частично",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/iceye.md"
+  },
+  {
+    "id": "juro",
+    "name": "Juro",
+    "website": "https://juro.com/",
+    "sector": [
+      "юридические технологии: автоматизация договоров (по сайту и посту)",
+      "ИИ-агенты: «Operator» (по сайту и посту)"
+    ],
+    "organization_type": "частная компания — вывод из венчурного финансирования, описанного на сайте; юрлицо «Juro Online Limited» в политике конфиденциальности",
+    "founded": "2016 (по сайту)",
+    "headquarters": "Великобритания, офис в Лондоне (по сайту); офис в Бостоне, США (по футеру сайта)",
+    "technologies": [
+      "TypeScript/Node.js (в посте)",
+      "MongoDB (в посте; на сайте — «MonggoDB» как инфраструктура)",
+      "pgvector (в посте)",
+      "AWS Bedrock (в посте; AWS как инфраструктура — по сайту)",
+      "LiteLLM (в посте)",
+      "Mastra (в посте)",
+      "React (в посте)",
+      "Algolia (по сайту)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50339551
+    ],
+    "hiring_roles": [
+      "AI Engineer (Agentic team)"
+    ],
+    "hiring_locations": [
+      "Лондон, Великобритания; удалённо (Великобритания)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "£115k + equity"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 5,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/juro.md"
+  },
+  {
+    "id": "livekit",
+    "name": "LiveKit",
+    "website": "https://livekit.com",
+    "sector": [
+      "инфраструктура для голосовых и видеоагентов (WebRTC)"
+    ],
+    "organization_type": "не указано",
+    "founded": "не указано",
+    "headquarters": "Сан-Франциско (адрес на сайте: 369 Sutter St, San Francisco, CA)",
+    "technologies": [
+      "WebRTC",
+      "Python",
+      "Node.js",
+      "SIP",
+      "TTS, STT и LLM через шлюз вывода"
+    ],
+    "open_source_license": "не указано в собранных источниках (фреймворк открытый)",
+    "open_source_repository": "livekit/agents (GitHub; ссылка и виджет на сайте)",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50433727
+    ],
+    "hiring_roles": [
+      "Solutions Architect (UK, remote)",
+      "Solutions Architect (Germany, remote)",
+      "Staff Product Manager, Telephony"
+    ],
+    "hiring_locations": [
+      "UK и Германия (удалённо); Северная Америка (удалённо) или Сан-Франциско (гибрид)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "гибрид"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/livekit.md"
+  },
+  {
+    "id": "lumen-labs",
+    "name": "Lumen Labs",
+    "website": "https://lumenresearch.co/",
+    "sector": [
+      "ИИ для физического мира: модели, вдохновлённые природой (по сайту и посту)",
+      "робототехника и симуляция (по посту)"
+    ],
+    "organization_type": "не указано (в собранных источниках не найдено; в посте — «pre-seed» и поддержка венчурными фондами)",
+    "founded": "не указано (в подвале сайта — © 2026, это год авторских прав)",
+    "headquarters": "не указано (в посте — локация вакансий: Сан-Франциско, Калифорния, очно)",
+    "technologies": [
+      "ROS2 (Humble)",
+      "Python",
+      "MuJoCo",
+      "Gazebo",
+      "Isaac Sim",
+      "Gymnasium-style interface",
+      "MJX",
+      "Isaac Lab",
+      "JAX"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50361229
+    ],
+    "hiring_roles": [
+      "Robotics/Hardware Engineer",
+      "Simulation Engineer"
+    ],
+    "hiring_locations": [
+      "Сан-Франциско, Калифорния (в посте)"
+    ],
+    "hiring_employment": [
+      "полная занятость (Full-time), очно (ONSITE)"
+    ],
+    "salary_in_post": [
+      "$150k–200k + equity"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "частично",
+    "unverified_claims": 5,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/lumen-labs.md"
+  },
+  {
+    "id": "mastra",
+    "name": "Mastra",
+    "website": "https://mastra.ai",
+    "sector": [
+      "ИИ-агенты",
+      "инфраструктура для разработчиков"
+    ],
+    "organization_type": "не указано",
+    "founded": "не указано",
+    "headquarters": "не указано",
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "Next.js",
+      "MCP",
+      "OpenAI",
+      "Anthropic",
+      "Gemini"
+    ],
+    "open_source_license": "Apache-2.0 (ядро); enterprise-функции — source-available",
+    "open_source_repository": "https://github.com/mastra-ai/mastra",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50339514
+    ],
+    "hiring_roles": [
+      "Founding Sales (Founding AE)"
+    ],
+    "hiring_locations": [
+      "US Remote"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/mastra.md"
+  },
+  {
+    "id": "nirvana-robotics",
+    "name": "Nirvana Robotics",
+    "website": "https://www.nrvna.ai",
+    "sector": [
+      "робототехника: гуманоидные роботы (по сайту)",
+      "системы обучения роботов (по сайту)"
+    ],
+    "organization_type": "не указано (в собранных источниках не найдено)",
+    "founded": "не указано (на сайте и в посте год не назван)",
+    "headquarters": "не указано (на сайте — New York City; в посте — New York, NY)",
+    "technologies": [
+      "C++",
+      "Python",
+      "ROS 2",
+      "MoveIt",
+      "cuRobo",
+      "Altium",
+      "SolidWorks",
+      "EtherCAT",
+      "CAN"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50383984
+    ],
+    "hiring_roles": [
+      "Mechanical Engineer",
+      "Electrical Engineer",
+      "Robotic Controls Engineer"
+    ],
+    "hiring_locations": [
+      "New York, NY (очно)"
+    ],
+    "hiring_employment": [
+      "ONSITE, Full-time"
+    ],
+    "salary_in_post": [
+      "Mechanical Engineer ($230K-$260K); Electrical Engineer ($220K-$250K); Robotic Controls Engineer ($270K-$300K); в заголовке поста: $220K-$300K"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 5,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/nirvana-robotics.md"
+  },
+  {
+    "id": "odette-technologies",
+    "name": "Odette Technologies",
+    "website": "https://odettetechnologies.com",
+    "sector": [
+      "ИИ-платформа ситуационной осведомлённости для разведки и информационных операций (по сайту и посту)",
+      "оборона и разведка (по сайту)"
+    ],
+    "organization_type": "компания «Odette Technologies Inc.» (название в подвале сайта); организационно-правовая форма видна только по суффиксу «Inc.»; регистрационные данные не указаны",
+    "founded": "не указано (год основания не назван; на сайте 2026 год упомянут только при награде и членстве в консорциуме, в посте дат нет)",
+    "headquarters": "не указано (по подвалу сайта — «Southern Pines, NC»; статус штаб-квартиры не назван)",
+    "technologies": [
+      "Python (в требованиях к вакансиям)",
+      "большие языковые модели (в требованиях)",
+      "облачная инфраструктура; GovCloud или Azure GCC High (как плюс)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50385049
+    ],
+    "hiring_roles": [
+      "Senior Integration Engineer",
+      "Data/ML Engineer",
+      "Product Lead"
+    ],
+    "hiring_locations": [
+      "HYBRID (NC) / REMOTE (в посте); на сайте — базирование на Восточном побережье"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "гибрид"
+    ],
+    "verification": "частично",
+    "unverified_claims": 6,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/odette-technologies.md"
+  },
+  {
+    "id": "opsfleet",
+    "name": "Opsfleet",
+    "website": "https://www.opsfleet.com/",
+    "sector": [
+      "ИИ, данные и DevOps: агентство услуг для технологических и корпоративных компаний (по сайту)",
+      "облачные и ИИ-сервисы (по посту)"
+    ],
+    "organization_type": "сервисное агентство (по сайту: «AI, Data, and DevOps agency»); юридическая форма не указана",
+    "founded": "не указано на проверенных страницах сайта (в посте: 2015, не подтверждено)",
+    "headquarters": "адрес не указан на проверенных страницах сайта (по сайту: remote-first; в посте: REMOTE (EEA))",
+    "technologies": [
+      "Python",
+      "AWS Bedrock",
+      "GCP Vertex AI",
+      "Strands Agents",
+      "LangChain",
+      "Agno",
+      "Deep Agents",
+      "Google ADK",
+      "Airflow",
+      "Vector DBs",
+      "Kubernetes",
+      "Terraform",
+      "Grafana",
+      "Argo",
+      "Elasticsearch",
+      "MongoDB",
+      "Datadog",
+      "GitHub Actions"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50349129
+    ],
+    "hiring_roles": [
+      "AI Engineer (Agentic / GenAI)"
+    ],
+    "hiring_locations": [
+      "удалённо, ЕЭЗ (в посте: REMOTE (EEA))"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 7,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/opsfleet.md"
+  },
+  {
+    "id": "oscilar",
+    "name": "Oscilar",
+    "website": "https://oscilar.com/",
+    "sector": [
+      "финтех: управление рисками (онбординг, кредит, мошенничество, AML; по сайту и посту)",
+      "ИИ-агенты для риск-операций (по сайту)"
+    ],
+    "organization_type": "компания «Oscilar, Inc.» (название по подвалу сайта; форма собственности и страна регистрации не указаны)",
+    "founded": "не указано",
+    "headquarters": "не указано (на сайте: remote-first; в посте вакансии удалённо: США, Канада, Бразилия, Польша, Великобритания, Индия)",
+    "technologies": [
+      "Java",
+      "Web SDK",
+      "SDK для web и mobile",
+      "облачная архитектура",
+      "Oscilar MCP",
+      "машинное обучение",
+      "графовый анализ",
+      "табличная модель-основа"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50369581
+    ],
+    "hiring_roles": [
+      "Sr./Staff Analytics & Data Architecture Engineer (US/Canada)",
+      "Sr./Staff Java Backend Engineer (Brazil/Poland/India)",
+      "Staff Web SDK Engineer (US/Brazil/India/Canada/Poland/UK)",
+      "Data Scientist (US/Canada)",
+      "Forward Deployment Engineer (Brazil)",
+      "Product Manager AML (US/Canada)",
+      "Product Manager Device and Behavior (US/Canada)"
+    ],
+    "hiring_locations": [
+      "удалённо (US/Canada/Brazil/Poland/UK/India)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 5,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/oscilar.md"
+  },
+  {
+    "id": "paradromics",
+    "name": "Paradromics",
+    "website": "https://www.paradromics.com",
+    "sector": [
+      "медицинские нейроинтерфейсы (BCI)"
+    ],
+    "organization_type": "клиническая стадия (исследования на людях, разрешённые FDA, по сайту)",
+    "founded": "не указано",
+    "headquarters": "не указано; в вакансии: Остин (Техас) или Окленд (Калифорния)",
+    "technologies": [
+      "Embedded Linux",
+      "Rust",
+      "TypeScript",
+      "FPGA",
+      "ASIC",
+      "Yocto/BitBake",
+      "машинное обучение (декодирование речи)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50341026
+    ],
+    "hiring_roles": [
+      "Embedded Software Engineer"
+    ],
+    "hiring_locations": [
+      "Остин (Техас) или Окленд (Калифорния), ONSITE"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 1,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/paradromics.md",
+    "founders": [
+      "Matt Angle (CEO, по сайту)"
+    ]
+  },
+  {
+    "id": "piramidal",
+    "name": "Piramidal",
+    "website": "https://piramidal.ai/",
+    "sector": [
+      "ИИ-модели для данных ЭЭГ (по сайту)",
+      "медтех: мониторинг мозговой активности (по сайту и посту)"
+    ],
+    "organization_type": "компания, разрабатывающая продукты (по сайту: Marcy — подача на 510(k), в США не продаётся; Fabryc — запуск заявлен на 2027); «Piramidal, Inc.» — название на доске вакансий; юрлицо не проверено",
+    "founded": "не указано (в посте упомянута программа YC W24)",
+    "headquarters": "не указано (вакансия в Нью-Йорке по посту и доске вакансий; адрес офиса на сайте не указан)",
+    "technologies": [
+      "не указано (стек не назван ни на сайте, ни в посте)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50384764
+    ],
+    "hiring_roles": [
+      "Senior Backend Engineer"
+    ],
+    "hiring_locations": [
+      "Нью-Йорк, NY (по посту)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "$200K-$300K + equity"
+    ],
+    "work_format": [
+      "не указано"
+    ],
+    "verification": "сайт + пост + доска вакансий (Greenhouse)",
+    "unverified_claims": 6,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/piramidal.md"
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog",
+    "website": "https://posthog.com",
+    "sector": [
+      "продуктовая аналитика и связанные инструменты (Product Analytics, Session Replay, Error Tracking, Feature Flags, Experiments)"
+    ],
+    "organization_type": "не указано",
+    "founded": "2020 (по странице About: набор Y Combinator W20 и запуск MVP на Hacker News в 2020 году; по странице карьеры: два сооснователя)",
+    "headquarters": "не указано (в посте: полностью удалённая команда)",
+    "technologies": [],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50338907
+    ],
+    "hiring_roles": [
+      "AI Research Engineer",
+      "Technical Customer Success Manager (Americas и EMEA)",
+      "Finance Manager",
+      "Site Reliability Engineer",
+      "Product Manager"
+    ],
+    "hiring_locations": [
+      "полностью удалённо, часовые пояса от GMT-8 до GMT+2"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "есть публичный калькулятор компенсации; сумм в посте нет"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 0,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/posthog.md"
+  },
+  {
+    "id": "prior-labs",
+    "name": "Prior Labs",
+    "website": "https://priorlabs.ai",
+    "sector": [
+      "фундаментальные модели для табличных данных",
+      "ИИ-исследования"
+    ],
+    "organization_type": "не указано в собранных источниках; «внутри SAP» — только в посте",
+    "founded": "не указано",
+    "headquarters": "не указано в собранных источниках; в посте как места работы названы Берлин, Фрайбург, Нью-Йорк",
+    "technologies": [
+      "Python",
+      "scikit-learn",
+      "FastAPI",
+      "TypeScript",
+      "React",
+      "GCP",
+      "Slurm",
+      "MCP"
+    ],
+    "open_source_license": "не указано в собранных источниках",
+    "open_source_repository": "https://github.com/PriorLabs/TabPFN",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50398420
+    ],
+    "hiring_roles": [
+      "Infrastructure Engineer",
+      "ML Engineer (Backend)",
+      "Full Stack Developer",
+      "Research Scientist / Research Engineer (Foundation Model)",
+      "Applied Scientist (NYC)",
+      "PhD research intern",
+      "GTM и операционные роли"
+    ],
+    "hiring_locations": [
+      "Берлин, Фрайбург, Нью-Йорк (ONSITE)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/prior-labs.md"
+  },
+  {
+    "id": "proxima-fusion",
+    "name": "Proxima Fusion",
+    "website": "https://www.proximafusion.com",
+    "sector": [
+      "термоядерная энергетика",
+      "стеллараторы"
+    ],
+    "organization_type": "частная компания (Proxima Fusion GmbH)",
+    "founded": "не указано",
+    "headquarters": "Мюнхен (юридический адрес); команды в Мюнхене, Цюрихе и Оксфорде (в посте)",
+    "technologies": [
+      "Python",
+      "Linux",
+      "Kubernetes",
+      "Ray",
+      "Dask",
+      "HPC"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50349037
+    ],
+    "hiring_roles": [
+      "Senior Software Engineer (Dev Platform)"
+    ],
+    "hiring_locations": [
+      "Мюнхен (ONSITE)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/proxima-fusion.md",
+    "managing_directors": [
+      "Francesco Sciortino",
+      "Lucio Milanese"
+    ],
+    "registration": "HRB 283423, суд Мюнхена (по выходным данным сайта)"
+  },
+  {
+    "id": "radar-labs",
+    "name": "Radar Labs",
+    "website": "https://radar.com/",
+    "sector": [
+      "геолокация: инфраструктура и данные о местоположении (по сайту)",
+      "антифрод и проверка местоположения (по сайту)",
+      "инструмент для разработчиков (по посту)"
+    ],
+    "organization_type": "коммерческая компания (по сайту: Radar Labs, Inc.; платные тарифы; внешние инвесторы — со слов компании; реестр не проверен)",
+    "founded": "2016 (по сайту: дата в служебных данных страниц и «Since 2016» на странице карьеры; реестр не проверен)",
+    "headquarters": "Нью-Йорк, США (в посте: Union Square; на сайте: новая штаб-квартира во Flatiron)",
+    "technologies": [
+      "Rust",
+      "TypeScript",
+      "Python",
+      "Scala",
+      "Terraform"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано (в данных сайта есть ссылка на профиль GitHub: https://github.com/radarlabs; что там опубликовано, не проверено)",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50357486
+    ],
+    "hiring_roles": [
+      "Software Engineers (SRE, ML, backend, full-stack, mobile, security, QA)"
+    ],
+    "hiring_locations": [
+      "удалённо (США), Нью-Йорк (в посте: «Remote (US), NYC»)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 8,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/radar-labs.md"
+  },
+  {
+    "id": "reducto",
+    "name": "Reducto",
+    "website": "https://reducto.ai",
+    "sector": [
+      "обработка документов для ИИ-систем"
+    ],
+    "organization_type": "частная компания (на сайте: $108 млн всего, раунд B — $75 млн, лид — a16z)",
+    "founded": "не указано",
+    "headquarters": "не указано (в посте: очная работа в Сан-Франциско)",
+    "technologies": [
+      "REST API (OpenAPI 3.1)",
+      "SDK для Python, Node.js (TypeScript) и Go",
+      "MCP",
+      "собственные модели и модели сторонних провайдеров"
+    ],
+    "open_source_license": "не указано в собранных источниках",
+    "open_source_repository": "https://github.com/reductoai/reducto-go-sdk (Go SDK); Python и Node.js SDK — пакет reductoai на pip и npm",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50341662
+    ],
+    "hiring_roles": [
+      "Forward Deployed Engineer",
+      "Product Engineer",
+      "ML Engineer",
+      "Head of Product Engineering"
+    ],
+    "hiring_locations": [
+      "San Francisco (ONSITE)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "$200–325 тыс. + equity"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 1,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/reducto.md"
+  },
+  {
+    "id": "serpapi",
+    "name": "SerpApi",
+    "website": "https://serpapi.com/",
+    "sector": [
+      "данные: API для результатов поисковых систем (на сайте)"
+    ],
+    "organization_type": "частная компания: юридическое лицо «SerpApi, LLC» (на сайте); вывод по названию LLC",
+    "founded": "не указано (в футере сайта «© 2026» — год авторских прав, а не основания)",
+    "headquarters": "Остин, Техас, США (на сайте: в футере и в описании вакансии; в посте: «Based in Austin, TX»)",
+    "technologies": [
+      "Ruby",
+      "Rails",
+      "MongoDB",
+      "React.js (в посте)",
+      "JavaScript (на сайте)",
+      "AWS",
+      "AWS S3 (на сайте)",
+      "Linux (на сайте)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50342697
+    ],
+    "hiring_roles": [
+      "Junior to Senior Fullstack Engineer (несколько позиций)",
+      "Customer Success Engineer",
+      "Hiring Coordinator",
+      "Developer Advocate (Python, Ruby, PHP, Js, Rust, Kotlin, C#, Crystal, Nim, Elixir)"
+    ],
+    "hiring_locations": [
+      "Остин, Техас; структура remote-first (по посту)"
+    ],
+    "hiring_employment": [
+      "Full-time; ONSITE или полностью удалённо (по посту)"
+    ],
+    "salary_in_post": [
+      "$150K - 180K a year 1099 for US or local avg + 20% for outside the US"
+    ],
+    "work_format": [
+      "удалённо",
+      "офис"
+    ],
+    "verification": "частично",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/serpapi.md"
+  },
+  {
+    "id": "sortrace",
+    "name": "Sortrace",
+    "website": "https://sortrace.com/",
+    "sector": [
+      "ИИ-мониторинг сбора отходов на камерах (по сайту и посту)",
+      "cleantech; компьютерное зрение для контроля сортировки отходов (термины по посту)"
+    ],
+    "organization_type": "не указано в собранных источниках (в посте: «small cleantech AI company in Sweden»; юридическая форма не указана)",
+    "founded": "не указано (в подвале сайта «© Sortrace 2026» — год авторских прав, не основания)",
+    "headquarters": "не указано (в подвале сайта: «Stockholm, Sweden»; вакансии в посте — удалённо в Европе или гибрид в Norrköping или Стокгольме)",
+    "technologies": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "TypeScript",
+      "React",
+      "Tailwind",
+      "Radix/shadcn-style",
+      "Git"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50384008
+    ],
+    "hiring_roles": [
+      "Computer Vision Engineer",
+      "Junior Frontend Engineer"
+    ],
+    "hiring_locations": [
+      "удалённо (Европа) или гибрид: Norrköping или Стокгольм (в посте)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано (сумма не названа; в посте: «monthly salary by agreement; equity/options possible»)"
+    ],
+    "work_format": [
+      "удалённо",
+      "гибрид"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 6,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/sortrace.md"
+  },
+  {
+    "id": "special",
+    "name": "Special",
+    "website": "https://www.special.co/",
+    "sector": [
+      "холдинг: ИИ-операционная система для критически важных отраслей США (по сайту)",
+      "здравоохранение: уход за пожилыми, первая сфера (по сайту)"
+    ],
+    "organization_type": "холдинговая компания (по сайту: «holding company»); вид собственности и юридическое лицо не указаны",
+    "founded": "не указано (статья о запуске на сайте датирована 2 июня 2026 года)",
+    "headquarters": "не указано (вакансии в посте и на сайте преимущественно в Нью-Йорке)",
+    "technologies": [
+      "ИИ-операционная система «SpecialOS» (по сайту)",
+      "передовые модели ведущих ИИ-лабораторий с маршрутизацией задач (по сайту)",
+      "дообучение моделей на данных компаний (по сайту)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50353641
+    ],
+    "hiring_roles": [
+      "Forward Deployed Engineer"
+    ],
+    "hiring_locations": [
+      "Нью-Йорк (NYC)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "$200-300K + equity"
+    ],
+    "work_format": [
+      "не указано"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 4,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/special.md"
+  },
+  {
+    "id": "sumble",
+    "name": "Sumble",
+    "website": "https://sumble.com",
+    "sector": [
+      "B2B-данные для продаж (граф компаний)",
+      "GTM-аналитика"
+    ],
+    "organization_type": "компания; юридическое название Sumble, Inc. (по микроразметке JSON-LD в HTML сайта, в видимом тексте не указано); в посте: «newco от основателей Kaggle»",
+    "founded": "не указано",
+    "headquarters": "не указано",
+    "technologies": [
+      "API",
+      "MCP",
+      "интеграции с CRM и хранилищами данных"
+    ],
+    "open_source_license": "не указано на сайте",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50342433
+    ],
+    "hiring_roles": [
+      "Full-stack Engineer",
+      "AI/ML Engineer",
+      "Growth/Marketing",
+      "Sales",
+      "Design"
+    ],
+    "hiring_locations": [
+      "Remote (US)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 5,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/sumble.md"
+  },
+  {
+    "id": "sunsave",
+    "name": "Sunsave",
+    "website": "https://www.sunsave.energy/",
+    "sector": [
+      "энергетика: домашние солнечные панели и батареи (по сайту)",
+      "финансирование установки без первого взноса в пакетах «Plus» (по сайту)"
+    ],
+    "organization_type": "группа из трёх юридических лиц (по сайту): Sunsave Group Limited; Sunsave UK Limited — кредитный посредник; Sunsave Energy Limited — кредитор; оба регулируются FCA; регистрационные данные не сверены",
+    "founded": "2022 (в посте: «Founded in 2022»; на сайте первая веха истории — 2022 год)",
+    "headquarters": "Лондон: в посте офис указан в Holborn (гибрид); по сайту регистрация в Covent Garden, Лондон",
+    "technologies": [
+      "не указано (стек не назван на сайте; в посте TypeScript, NestJS, React / Next.js, PostgreSQL, AWS — желательные навыки)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50427924
+    ],
+    "hiring_roles": [
+      "Product Engineer (Mid-Level / Senior)"
+    ],
+    "hiring_locations": [
+      "London, United Kingdom (Holborn); ONSITE, гибрид: 3 дня в неделю в офисе"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "гибрид",
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 0,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/sunsave.md"
+  },
+  {
+    "id": "telli",
+    "name": "Telli",
+    "website": "https://www.telli.com/",
+    "sector": [
+      "ИИ-агенты для клиентских операций (по посту и сайту)",
+      "ИИ-агенты для B2C-компаний (по сайту)"
+    ],
+    "organization_type": "компания: юрлицо telli technologies GmbH (в подвале сайта); венчурный раунд (пресс-статья на сайте, со слов компании); реестр не проверялся",
+    "founded": "не указано (в подвале сайта 2026 — год авторских прав, не дата основания)",
+    "headquarters": "Берлин-Митте, Берлин (страница карьеры: «Our HQ is in Berlin-Mitte»)",
+    "technologies": [
+      "API и webhooks",
+      "MCP",
+      "SIP-транки",
+      "Salesforce",
+      "HubSpot"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50349443
+    ],
+    "hiring_roles": [
+      "Eng",
+      "GTM",
+      "Design"
+    ],
+    "hiring_locations": [
+      "Берлин"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "не указано"
+    ],
+    "verification": "частично",
+    "unverified_claims": 7,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/telli.md"
+  },
+  {
+    "id": "thankly",
+    "name": "Thankly",
+    "website": "https://thankly.ai/",
+    "sector": [
+      "ИИ-шоппинг для брендов (по сайту)",
+      "приложения внутри ИИ-ассистентов (по сайту и посту)"
+    ],
+    "organization_type": "не указано в собранных источниках (по сайту, клиенты — компании-бренды; юридическая форма не указана)",
+    "founded": "не указано (в подвале сайта только © 2026 Thankly)",
+    "headquarters": "не указано (роли удалённые, в США; адрес офиса на сайте не указан)",
+    "technologies": [
+      "React",
+      "Vite",
+      "Express",
+      "TypeScript",
+      "Supabase",
+      "Postgres"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50357360
+    ],
+    "hiring_roles": [
+      "Founding Engineer",
+      "Founding Engineer, RL Environments",
+      "Founding Product Designer"
+    ],
+    "hiring_locations": [
+      "удалённо (США)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/thankly.md"
+  },
+  {
+    "id": "threatmark",
+    "name": "ThreatMark",
+    "website": "https://www.threatmark.com/",
+    "sector": [
+      "кибербезопасность: защита банков от финансового мошенничества (по сайту)",
+      "машинное обучение (в посте: тег Machine Learning)"
+    ],
+    "organization_type": "коммерческая компания; основание — юридические названия ThreatMark s.r.o. и ThreatMark, Inc. на странице контактов и описание продукта для банков на сайте",
+    "founded": "2015 (по сайту)",
+    "headquarters": "не указано; офис в США на сайте помечен «USA HQ» (ThreatMark, Inc.); есть также офис ThreatMark s.r.o. в Брно и офис в Лондоне (Великобритания)",
+    "technologies": [
+      "Python",
+      "TypeScript",
+      "Rust",
+      "Redis",
+      "PostgreSQL",
+      "AWS",
+      "Terraform"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50353951
+    ],
+    "hiring_roles": [
+      "Backend Engineer [rust, python]",
+      "DevOps Engineer (IaaC in AWS)",
+      "DevSecOps Engineer",
+      "AI Tech Lead (loops & graphs guru, real ML background)",
+      "Security Researcher/Engineer",
+      "Product Manager [USA]",
+      "Fraud Detection Specialist",
+      "Partner Manager"
+    ],
+    "hiring_locations": [
+      "удалённо (весь мир) / Брно, Чехия (по посту)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 6,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/threatmark.md"
+  },
+  {
+    "id": "victoriametrics",
+    "name": "VictoriaMetrics",
+    "website": "https://victoriametrics.com",
+    "sector": [
+      "мониторинг и наблюдаемость (метрики, логи, трейсы)",
+      "база данных временных рядов"
+    ],
+    "organization_type": "компания (open source, Enterprise и Cloud; структура владения не указана)",
+    "founded": "не указано (в подвале сайта период авторских прав 2019–2026, это не дата основания)",
+    "headquarters": "не указано (вакансии в EMEA и Северной Америке)",
+    "technologies": [
+      "Prometheus-совместимость",
+      "OpenTelemetry",
+      "Grafana",
+      "Kubernetes",
+      "LogsQL",
+      "Jaeger"
+    ],
+    "open_source_license": "не указано в собранных источниках",
+    "open_source_repository": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50380208
+    ],
+    "hiring_roles": [
+      "Senior Solution Engineer",
+      "Marketing Manager",
+      "Product Marketing Manager (Cloud)",
+      "Enterprise Account Executive",
+      "Technical Expert Engineer"
+    ],
+    "hiring_locations": [
+      "удалённо (EMEA, Северная Америка)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/victoriametrics.md"
+  },
+  {
+    "id": "zed-industries",
+    "name": "Zed Industries",
+    "website": "https://zed.dev",
+    "sector": [
+      "инструменты разработки: редактор кода и совместная работа с ИИ-агентами"
+    ],
+    "organization_type": "не указано",
+    "founded": "не указано; продукт Zed на сайте помечен «Est 2021», Delta — «Est 2026»",
+    "headquarters": "не указано",
+    "technologies": [
+      "Rust",
+      "GPUI",
+      "LSP",
+      "DAP",
+      "ACP",
+      "MCP",
+      "Jupyter"
+    ],
+    "open_source_license": "не указано в собранных источниках",
+    "open_source_repository": "https://github.com/zed-industries/zed",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50341570
+    ],
+    "hiring_roles": [
+      "Backend Engineer (Cloud)",
+      "Product Designer"
+    ],
+    "hiring_locations": [
+      "Северная и Южная Америка, Европа (удалённо)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт",
+    "unverified_claims": 1,
+    "last_verified": "2026-11-10",
+    "card": "wiki/companies/zed-industries.md",
+    "founders": [
+      "Nathan Sobo",
+      "Antonio Scandurra",
+      "Max Brunsfeld"
+    ]
+  }
+]
