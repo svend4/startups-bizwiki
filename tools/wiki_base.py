@@ -308,12 +308,18 @@ def work_format_arg(text: str) -> str:
 
 
 def contains(values, needle: str) -> bool:
-    low = norm(needle)
-    return any(low in norm(value) for value in values if value is not None)
+    """Совпадение с начала слова: «ИИ» находит «ИИ-агенты», но не «положении»."""
+    pattern = re.compile(r"(?<!\w)" + re.escape(norm(needle)))
+    return any(pattern.search(norm(value)) for value in values if value is not None)
 
 
 def is_stated(value) -> bool:
-    return value is not None and str(value).strip() not in ("", NOT_STATED)
+    """Данные есть, если значение не пустое и не начинается с «не указано».
+    Пояснение после этих слов («не указано (сумма не названа…)») данных не добавляет."""
+    if value is None:
+        return False
+    text = norm(str(value)).strip()
+    return bool(text) and not text.startswith(norm(NOT_STATED))
 
 
 def matches(record: dict, f: argparse.Namespace) -> bool:

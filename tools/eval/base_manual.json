@@ -1,0 +1,823 @@
+{
+  "_about": "Ручной поиск: агент читал 30 карточек через Read, без скрипта, и применял 10 правил из tools/eval/base_queries.json буквально. Это чтение моделью, а не разметка экспертом. Дата: 2026-11-22.",
+  "q01": {
+    "ids": [
+      "chainsecurity"
+    ],
+    "evidence": [
+      {
+        "id": "chainsecurity",
+        "field": "technologies",
+        "quote": "[\"Solana\"]"
+      }
+    ],
+    "borderline": []
+  },
+  "q02": {
+    "ids": [
+      "curai-health",
+      "exponent",
+      "juro",
+      "lumen-labs",
+      "mastra",
+      "odette-technologies",
+      "opsfleet",
+      "oscilar",
+      "piramidal",
+      "prior-labs",
+      "reducto",
+      "sortrace",
+      "special",
+      "telli",
+      "thankly",
+      "zed-industries"
+    ],
+    "evidence": [
+      {
+        "id": "curai-health",
+        "field": "sector",
+        "quote": "ИИ-агенты для медицины (по посту)"
+      },
+      {
+        "id": "exponent",
+        "field": "sector",
+        "quote": "ИИ-бухгалтерия (по посту; пресс-релиз описывает интегрированную платформу капитала"
+      },
+      {
+        "id": "juro",
+        "field": "sector",
+        "quote": "ИИ-агенты: «Operator» (по сайту и посту)"
+      },
+      {
+        "id": "lumen-labs",
+        "field": "sector",
+        "quote": "ИИ для физического мира: модели, вдохновлённые природой (по сайту и посту)"
+      },
+      {
+        "id": "mastra",
+        "field": "sector",
+        "quote": "ИИ-агенты"
+      },
+      {
+        "id": "odette-technologies",
+        "field": "sector",
+        "quote": "ИИ-платформа ситуационной осведомлённости для разведки и информационных операций (по сайту и посту)"
+      },
+      {
+        "id": "opsfleet",
+        "field": "sector",
+        "quote": "ИИ, данные и DevOps: агентство услуг для технологических и корпоративных компаний (по сайту)"
+      },
+      {
+        "id": "oscilar",
+        "field": "sector",
+        "quote": "ИИ-агенты для риск-операций (по сайту)"
+      },
+      {
+        "id": "piramidal",
+        "field": "sector",
+        "quote": "ИИ-модели для данных ЭЭГ (по сайту)"
+      },
+      {
+        "id": "prior-labs",
+        "field": "sector",
+        "quote": "ИИ-исследования"
+      },
+      {
+        "id": "reducto",
+        "field": "sector",
+        "quote": "обработка документов для ИИ-систем"
+      },
+      {
+        "id": "sortrace",
+        "field": "sector",
+        "quote": "ИИ-мониторинг сбора отходов на камерах (по сайту и посту)"
+      },
+      {
+        "id": "special",
+        "field": "sector",
+        "quote": "холдинг: ИИ-операционная система для критически важных отраслей США (по сайту)"
+      },
+      {
+        "id": "telli",
+        "field": "sector",
+        "quote": "ИИ-агенты для клиентских операций (по посту и сайту)"
+      },
+      {
+        "id": "thankly",
+        "field": "sector",
+        "quote": "ИИ-шоппинг для брендов (по сайту)"
+      },
+      {
+        "id": "zed-industries",
+        "field": "sector",
+        "quote": "инструменты разработки: редактор кода и совместная работа с ИИ-агентами"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "antithesis",
+        "note": "в sector нет «ИИ»: «агентные процессы разработки» — агентность без ИИ-токена"
+      },
+      {
+        "id": "livekit",
+        "note": "в sector нет «ИИ»: «видеоагентов» не содержит «ИИ»"
+      },
+      {
+        "id": "threatmark",
+        "note": "в sector нет «ИИ»: «машинное обучение» — ML-термин, не «ИИ»"
+      }
+    ]
+  },
+  "q03": {
+    "ids": [
+      "antithesis",
+      "chainsecurity",
+      "curai-health",
+      "exponent",
+      "iceye",
+      "juro",
+      "lumen-labs",
+      "nirvana-robotics",
+      "odette-technologies",
+      "opsfleet",
+      "oscilar",
+      "paradromics",
+      "piramidal",
+      "posthog",
+      "prior-labs",
+      "proxima-fusion",
+      "radar-labs",
+      "reducto",
+      "serpapi",
+      "sortrace",
+      "special",
+      "sumble",
+      "sunsave",
+      "thankly",
+      "threatmark",
+      "victoriametrics",
+      "zed-industries"
+    ],
+    "evidence": [
+      {
+        "id": "antithesis",
+        "field": "hiring[].roles",
+        "quote": "Design Engineer"
+      },
+      {
+        "id": "chainsecurity",
+        "field": "hiring[].roles",
+        "quote": "Blockchain Security Engineer"
+      },
+      {
+        "id": "curai-health",
+        "field": "hiring[].roles",
+        "quote": "Sr Software Engineer, Full-Stack"
+      },
+      {
+        "id": "exponent",
+        "field": "hiring[].roles",
+        "quote": "Lead Engineer, AI Accounting"
+      },
+      {
+        "id": "iceye",
+        "field": "hiring[].roles",
+        "quote": "Staff/Senior Platform and DevOps Engineer"
+      },
+      {
+        "id": "juro",
+        "field": "hiring[].roles",
+        "quote": "AI Engineer (Agentic team)"
+      },
+      {
+        "id": "lumen-labs",
+        "field": "hiring[].roles",
+        "quote": "Robotics/Hardware Engineer"
+      },
+      {
+        "id": "nirvana-robotics",
+        "field": "hiring[].roles",
+        "quote": "Mechanical Engineer"
+      },
+      {
+        "id": "odette-technologies",
+        "field": "hiring[].roles",
+        "quote": "Senior Integration Engineer"
+      },
+      {
+        "id": "opsfleet",
+        "field": "hiring[].roles",
+        "quote": "AI Engineer (Agentic / GenAI)"
+      },
+      {
+        "id": "oscilar",
+        "field": "hiring[].roles",
+        "quote": "Staff Web SDK Engineer (US/Brazil/India/Canada/Poland/UK)"
+      },
+      {
+        "id": "paradromics",
+        "field": "hiring[].roles",
+        "quote": "Embedded Software Engineer"
+      },
+      {
+        "id": "piramidal",
+        "field": "hiring[].roles",
+        "quote": "Senior Backend Engineer"
+      },
+      {
+        "id": "posthog",
+        "field": "hiring[].roles",
+        "quote": "AI Research Engineer"
+      },
+      {
+        "id": "prior-labs",
+        "field": "hiring[].roles",
+        "quote": "Infrastructure Engineer"
+      },
+      {
+        "id": "proxima-fusion",
+        "field": "hiring[].roles",
+        "quote": "Senior Software Engineer (Dev Platform)"
+      },
+      {
+        "id": "radar-labs",
+        "field": "hiring[].roles",
+        "quote": "Software Engineers (SRE, ML, backend, full-stack, mobile, security, QA)"
+      },
+      {
+        "id": "reducto",
+        "field": "hiring[].roles",
+        "quote": "Forward Deployed Engineer"
+      },
+      {
+        "id": "serpapi",
+        "field": "hiring[].roles",
+        "quote": "Junior to Senior Fullstack Engineer (несколько позиций)"
+      },
+      {
+        "id": "sortrace",
+        "field": "hiring[].roles",
+        "quote": "Computer Vision Engineer"
+      },
+      {
+        "id": "special",
+        "field": "hiring[].roles",
+        "quote": "Forward Deployed Engineer"
+      },
+      {
+        "id": "sumble",
+        "field": "hiring[].roles",
+        "quote": "Full-stack Engineer"
+      },
+      {
+        "id": "sunsave",
+        "field": "hiring[].roles",
+        "quote": "Product Engineer (Mid-Level / Senior)"
+      },
+      {
+        "id": "thankly",
+        "field": "hiring[].roles",
+        "quote": "Founding Engineer"
+      },
+      {
+        "id": "threatmark",
+        "field": "hiring[].roles",
+        "quote": "Backend Engineer [rust, python]"
+      },
+      {
+        "id": "victoriametrics",
+        "field": "hiring[].roles",
+        "quote": "Senior Solution Engineer"
+      },
+      {
+        "id": "zed-industries",
+        "field": "hiring[].roles",
+        "quote": "Backend Engineer (Cloud)"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "livekit",
+        "note": "роли «Solutions Architect» (x2) и «Staff Product Manager, Telephony»; слова «engineer» нет"
+      },
+      {
+        "id": "telli",
+        "note": "роль «Eng» — сокращение, не содержит «engineer»"
+      }
+    ]
+  },
+  "q04": {
+    "ids": [
+      "antithesis",
+      "chainsecurity",
+      "curai-health",
+      "juro",
+      "livekit",
+      "mastra",
+      "odette-technologies",
+      "opsfleet",
+      "oscilar",
+      "posthog",
+      "radar-labs",
+      "serpapi",
+      "sortrace",
+      "sumble",
+      "thankly",
+      "threatmark",
+      "victoriametrics",
+      "zed-industries"
+    ],
+    "evidence": [
+      {
+        "id": "antithesis",
+        "field": "hiring[].location",
+        "quote": "Вашингтон (DC), Лондон; удалённо или в офисе (США, Великобритания)"
+      },
+      {
+        "id": "chainsecurity",
+        "field": "hiring[].location",
+        "quote": "Цюрих, Швейцария (гибрид или удалённо)"
+      },
+      {
+        "id": "curai-health",
+        "field": "hiring[].location",
+        "quote": "удалённо (США)"
+      },
+      {
+        "id": "juro",
+        "field": "hiring[].location",
+        "quote": "Лондон, Великобритания; удалённо (Великобритания)"
+      },
+      {
+        "id": "livekit",
+        "field": "hiring[].location",
+        "quote": "UK и Германия (удалённо); Северная Америка (удалённо) или Сан-Франциско (гибрид)"
+      },
+      {
+        "id": "mastra",
+        "field": "hiring[].location",
+        "quote": "US Remote"
+      },
+      {
+        "id": "odette-technologies",
+        "field": "hiring[].location",
+        "quote": "HYBRID (NC) / REMOTE (в посте); на сайте — базирование на Восточном побережье"
+      },
+      {
+        "id": "opsfleet",
+        "field": "hiring[].location",
+        "quote": "удалённо, ЕЭЗ (в посте: REMOTE (EEA))"
+      },
+      {
+        "id": "oscilar",
+        "field": "hiring[].location",
+        "quote": "удалённо (US/Canada/Brazil/Poland/UK/India)"
+      },
+      {
+        "id": "posthog",
+        "field": "hiring[].location",
+        "quote": "полностью удалённо, часовые пояса от GMT-8 до GMT+2"
+      },
+      {
+        "id": "radar-labs",
+        "field": "hiring[].location",
+        "quote": "удалённо (США), Нью-Йорк (в посте: «Remote (US), NYC»)"
+      },
+      {
+        "id": "serpapi",
+        "field": "hiring[].employment",
+        "quote": "Full-time; ONSITE или полностью удалённо (по посту)"
+      },
+      {
+        "id": "sortrace",
+        "field": "hiring[].location",
+        "quote": "удалённо (Европа) или гибрид: Norrköping или Стокгольм (в посте)"
+      },
+      {
+        "id": "sumble",
+        "field": "hiring[].location",
+        "quote": "Remote (US)"
+      },
+      {
+        "id": "thankly",
+        "field": "hiring[].location",
+        "quote": "удалённо (США)"
+      },
+      {
+        "id": "threatmark",
+        "field": "hiring[].location",
+        "quote": "удалённо (весь мир) / Брно, Чехия (по посту)"
+      },
+      {
+        "id": "victoriametrics",
+        "field": "hiring[].location",
+        "quote": "удалённо (EMEA, Северная Америка)"
+      },
+      {
+        "id": "zed-industries",
+        "field": "hiring[].location",
+        "quote": "Северная и Южная Америка, Европа (удалённо)"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "exponent",
+        "note": "формат «гибрид, 2+ дня в офисе»; слов «удал…» и «remote» нет"
+      },
+      {
+        "id": "sunsave",
+        "note": "формат «гибрид: 3 дня в неделю в офисе»; слов «удал…» и «remote» нет"
+      },
+      {
+        "id": "iceye",
+        "note": "формат «гибрид»; слов «удал…» и «remote» нет"
+      }
+    ]
+  },
+  "q05": {
+    "ids": [
+      "iceye",
+      "prior-labs",
+      "telli"
+    ],
+    "evidence": [
+      {
+        "id": "iceye",
+        "field": "hiring[].location",
+        "quote": "Эспоо, Финляндия / Берлин, Германия (гибрид)"
+      },
+      {
+        "id": "prior-labs",
+        "field": "headquarters",
+        "quote": "не указано в собранных источниках; в посте как места работы названы Берлин, Фрайбург, Нью-Йорк"
+      },
+      {
+        "id": "prior-labs",
+        "field": "hiring[].location",
+        "quote": "Берлин, Фрайбург, Нью-Йорк (ONSITE)"
+      },
+      {
+        "id": "telli",
+        "field": "headquarters",
+        "quote": "Берлин-Митте, Берлин (страница карьеры: «Our HQ is in Berlin-Mitte»)"
+      },
+      {
+        "id": "telli",
+        "field": "hiring[].location",
+        "quote": "Берлин"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "prior-labs",
+        "note": "в headquarters «Берлин» — перечень мест работы из поста, а не штаб-квартира; в ids основание — hiring[].location"
+      }
+    ]
+  },
+  "q06": {
+    "ids": [
+      "antithesis",
+      "chainsecurity",
+      "curai-health",
+      "nirvana-robotics",
+      "oscilar",
+      "paradromics",
+      "proxima-fusion",
+      "radar-labs",
+      "sortrace",
+      "special",
+      "sunsave",
+      "thankly"
+    ],
+    "evidence": [
+      {
+        "id": "antithesis",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "chainsecurity",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "curai-health",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "nirvana-robotics",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "oscilar",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "paradromics",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "proxima-fusion",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "radar-labs",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "sortrace",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "special",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "sunsave",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "thankly",
+        "field": "verification",
+        "quote": "сайт + пост"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "piramidal",
+        "note": "значение длиннее: «сайт + пост + доска вакансий (Greenhouse)» — точного совпадения нет"
+      }
+    ]
+  },
+  "q07": {
+    "ids": [
+      "mastra"
+    ],
+    "evidence": [
+      {
+        "id": "mastra",
+        "field": "open_source.license",
+        "quote": "Apache-2.0 (ядро); enterprise-функции — source-available"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "livekit",
+        "note": "строка «не указано в собранных источниках (фреймворк открытый)» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+      },
+      {
+        "id": "prior-labs",
+        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+      },
+      {
+        "id": "reducto",
+        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+      },
+      {
+        "id": "sumble",
+        "note": "строка «не указано на сайте» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+      },
+      {
+        "id": "victoriametrics",
+        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+      },
+      {
+        "id": "zed-industries",
+        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+      }
+    ]
+  },
+  "q08": {
+    "ids": [
+      "curai-health",
+      "exponent",
+      "juro",
+      "lumen-labs",
+      "nirvana-robotics",
+      "piramidal",
+      "reducto",
+      "serpapi",
+      "special"
+    ],
+    "evidence": [
+      {
+        "id": "curai-health",
+        "field": "hiring[].salary_in_post",
+        "quote": "$175–210 тыс. (Full-Stack и Agentic AI); $150–180 тыс. (Marketing Platform)"
+      },
+      {
+        "id": "exponent",
+        "field": "hiring[].salary_in_post",
+        "quote": "$160k–$200k + equity"
+      },
+      {
+        "id": "juro",
+        "field": "hiring[].salary_in_post",
+        "quote": "£115k + equity"
+      },
+      {
+        "id": "lumen-labs",
+        "field": "hiring[].salary_in_post",
+        "quote": "$150k–200k + equity"
+      },
+      {
+        "id": "nirvana-robotics",
+        "field": "hiring[].salary_in_post",
+        "quote": "Mechanical Engineer ($230K-$260K); Electrical Engineer ($220K-$250K)"
+      },
+      {
+        "id": "piramidal",
+        "field": "hiring[].salary_in_post",
+        "quote": "$200K-$300K + equity"
+      },
+      {
+        "id": "reducto",
+        "field": "hiring[].salary_in_post",
+        "quote": "$200–325 тыс. + equity"
+      },
+      {
+        "id": "serpapi",
+        "field": "hiring[].salary_in_post",
+        "quote": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US"
+      },
+      {
+        "id": "special",
+        "field": "hiring[].salary_in_post",
+        "quote": "$200-300K + equity"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "posthog",
+        "note": "строка не равна «не указано», но сообщает, что сумм в посте нет: условие «указана» не выполнено, в ids не включено"
+      },
+      {
+        "id": "sortrace",
+        "note": "начинается с «не указано» и сообщает, что сумма не названа: условие «указана» не выполнено, в ids не включено"
+      }
+    ]
+  },
+  "q09": {
+    "ids": [
+      "chainsecurity"
+    ],
+    "evidence": [
+      {
+        "id": "chainsecurity",
+        "field": "founded",
+        "quote": "работает с 2017 года (сайт: «Since 2017»); дата основания не указана"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "chainsecurity",
+        "note": "спорно: «2017» есть буквально, но карточка пишет «работает с 2017 года» и «дата основания не указана»; включено по правилу «содержит»"
+      }
+    ]
+  },
+  "q10": {
+    "ids": [
+      "curai-health",
+      "juro",
+      "mastra",
+      "odette-technologies",
+      "opsfleet",
+      "oscilar",
+      "sortrace",
+      "thankly",
+      "zed-industries"
+    ],
+    "evidence": [
+      {
+        "id": "curai-health",
+        "field": "sector",
+        "quote": "ИИ-агенты для медицины (по посту)"
+      },
+      {
+        "id": "curai-health",
+        "field": "hiring[].location",
+        "quote": "удалённо (США)"
+      },
+      {
+        "id": "juro",
+        "field": "sector",
+        "quote": "ИИ-агенты: «Operator» (по сайту и посту)"
+      },
+      {
+        "id": "juro",
+        "field": "hiring[].location",
+        "quote": "Лондон, Великобритания; удалённо (Великобритания)"
+      },
+      {
+        "id": "mastra",
+        "field": "sector",
+        "quote": "ИИ-агенты"
+      },
+      {
+        "id": "mastra",
+        "field": "hiring[].location",
+        "quote": "US Remote"
+      },
+      {
+        "id": "odette-technologies",
+        "field": "sector",
+        "quote": "ИИ-платформа ситуационной осведомлённости для разведки и информационных операций (по сайту и посту)"
+      },
+      {
+        "id": "odette-technologies",
+        "field": "hiring[].location",
+        "quote": "HYBRID (NC) / REMOTE (в посте); на сайте — базирование на Восточном побережье"
+      },
+      {
+        "id": "opsfleet",
+        "field": "sector",
+        "quote": "ИИ, данные и DevOps: агентство услуг для технологических и корпоративных компаний (по сайту)"
+      },
+      {
+        "id": "opsfleet",
+        "field": "hiring[].location",
+        "quote": "удалённо, ЕЭЗ (в посте: REMOTE (EEA))"
+      },
+      {
+        "id": "oscilar",
+        "field": "sector",
+        "quote": "ИИ-агенты для риск-операций (по сайту)"
+      },
+      {
+        "id": "oscilar",
+        "field": "hiring[].location",
+        "quote": "удалённо (US/Canada/Brazil/Poland/UK/India)"
+      },
+      {
+        "id": "sortrace",
+        "field": "sector",
+        "quote": "ИИ-мониторинг сбора отходов на камерах (по сайту и посту)"
+      },
+      {
+        "id": "sortrace",
+        "field": "hiring[].location",
+        "quote": "удалённо (Европа) или гибрид: Norrköping или Стокгольм (в посте)"
+      },
+      {
+        "id": "thankly",
+        "field": "sector",
+        "quote": "ИИ-шоппинг для брендов (по сайту)"
+      },
+      {
+        "id": "thankly",
+        "field": "hiring[].location",
+        "quote": "удалённо (США)"
+      },
+      {
+        "id": "zed-industries",
+        "field": "sector",
+        "quote": "инструменты разработки: редактор кода и совместная работа с ИИ-агентами"
+      },
+      {
+        "id": "zed-industries",
+        "field": "hiring[].location",
+        "quote": "Северная и Южная Америка, Европа (удалённо)"
+      }
+    ],
+    "borderline": [
+      {
+        "id": "reducto",
+        "note": "ИИ в sector есть, но формат ONSITE (San Francisco); удалённо и remote нет"
+      },
+      {
+        "id": "prior-labs",
+        "note": "ИИ в sector есть; локация «Берлин, Фрайбург, Нью-Йорк (ONSITE)» — без удалённо и remote"
+      },
+      {
+        "id": "piramidal",
+        "note": "ИИ в sector есть; локация Нью-Йорк, формат занятости «не указано» — удалённо и remote нет"
+      },
+      {
+        "id": "special",
+        "note": "ИИ в sector есть; локация «Нью-Йорк (NYC)», Full-time — удалённо и remote нет"
+      },
+      {
+        "id": "lumen-labs",
+        "note": "ИИ в sector есть; «очно (ONSITE)», Сан-Франциско — удалённо и remote нет"
+      },
+      {
+        "id": "exponent",
+        "note": "ИИ в sector есть; «гибрид, 2+ дня в офисе» — слов «удал…» и remote нет"
+      },
+      {
+        "id": "telli",
+        "note": "ИИ в sector есть; локация «Берлин», формат не указан — удалённо и remote нет"
+      }
+    ]
+  }
+}

@@ -16,7 +16,7 @@ hiring:
     roles: ["AI Research Engineer", "Technical Customer Success Manager (Americas и EMEA)", "Finance Manager", "Site Reliability Engineer", "Product Manager"]
     location: "полностью удалённо, часовые пояса от GMT-8 до GMT+2"
     employment: "Full-time"
-    salary_in_post: "есть публичный калькулятор компенсации; сумм в посте нет"
+    salary_in_post: "не указано (в посте упомянут публичный калькулятор компенсации; сумм нет)"
 sources:
   - {url: "https://posthog.com", kind: "сайт компании", accessed: "2026-11-10"}
   - {url: "https://posthog.com/about", kind: "страница «About»", accessed: "2026-11-10"}
