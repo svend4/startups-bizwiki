@@ -46,6 +46,152 @@
     "card": "wiki/companies/antithesis.md"
   },
   {
+    "id": "areo",
+    "name": "AREO",
+    "website": "https://goareo.com/",
+    "sector": [
+      "ритейл: «Physical AI for retail» (по сайту)",
+      "B2B SaaS для супермаркетов (по посту)",
+      "робототехника: розничный робот в разработке (по посту)"
+    ],
+    "organization_type": "молодой стартап (по посту); юридическая форма не указана",
+    "founded": "2023 (январь, по посту; на сайте не указано)",
+    "headquarters": "не указано (в посте: робототехническая лаборатория в Бремене, Германия)",
+    "technologies": [
+      "Ruby / Rails (8.x)",
+      "StimulusJS",
+      "Hotwire / Turbo",
+      "AlpineJS",
+      "Postgres",
+      "Docker",
+      "DigitalOcean",
+      "OpenAPI",
+      "LLMs"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50351266
+    ],
+    "hiring_roles": [
+      "Engineering Manager (Ruby on Rails)",
+      "Robotics Engineer"
+    ],
+    "hiring_locations": [
+      "Remote (EU) and On-Site in Bremen, Germany"
+    ],
+    "hiring_employment": [
+      "Full-Time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "офис"
+    ],
+    "verification": "частично",
+    "unverified_claims": 0,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/areo.md"
+  },
+  {
+    "id": "baserow",
+    "name": "Baserow",
+    "website": "https://baserow.io",
+    "sector": [
+      "no-code: базы данных и приложения (по сайту)",
+      "no-code платформа для агентов и автоматизации (по посту)"
+    ],
+    "organization_type": "компания с открытым исходным кодом и платными тарифами (по сайту: «Premium», «Advanced» и «Enterprise»); юридическая форма не указана",
+    "founded": "2020 (по сайту, страница «О компании»: «2020 founded»; проект начат как побочный в 2019 году)",
+    "headquarters": "прямо не названа; в разметке главной страницы (schema.org Organization, только в разметке страницы) указан адрес в Амстердаме, Нидерланды; по сайту компания полностью удалённая, команда в 12 странах",
+    "technologies": [
+      "Docker (вариант развёртывания, по сайту)",
+      "Helm (вариант развёртывания, по сайту)",
+      "Cloudron (вариант развёртывания, по сайту)",
+      "AWS (вариант развёртывания, по сайту)"
+    ],
+    "open_source_license": "MIT для большей части кода (по сайту: «Open source (MIT license)»; в FAQ на странице тарифов, только в разметке страницы: «Almost all of the Baserow code is MIT licensed»; по репозиторию не проверено)",
+    "open_source_repository": "https://github.com/baserow/baserow",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50345251
+    ],
+    "hiring_roles": [
+      "Product Specialist"
+    ],
+    "hiring_locations": [
+      "REMOTE (Europe)"
+    ],
+    "hiring_employment": [
+      "Full-time (в посте)"
+    ],
+    "salary_in_post": [
+      "не указано (в посте: «competitive salary», сумма не названа)"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 5,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/baserow.md"
+  },
+  {
+    "id": "better-stack",
+    "name": "Better Stack",
+    "website": "https://betterstack.com",
+    "sector": [
+      "наблюдаемость (observability): мониторинг, логи, трейсинг (по сайту)",
+      "управление инцидентами и статус-страницы (по сайту)",
+      "ИИ для расследования инцидентов: «AI SRE» (по сайту)"
+    ],
+    "organization_type": "коммерческий продукт по подписке (страница «Pricing»); юрлицо «Better Stack, Inc.» (подвал сайта)",
+    "founded": "2021 (страница карьеры, блок «Founded»; со слов компании)",
+    "headquarters": "офис в Праге (страница карьеры: «Cozy office», роли с пометкой «Prague»); удалённая работа допускается; штаб-квартира не указана",
+    "technologies": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Redis",
+      "ClickHouse",
+      "Redpanda",
+      "JavaScript",
+      "Vue.js",
+      "Vanilla.js",
+      "Turbo",
+      "Tailwind",
+      "Docker",
+      "Vector"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50339853
+    ],
+    "hiring_roles": [
+      "/^Full-?stack Engineer$/i"
+    ],
+    "hiring_locations": [
+      "Remote (North America & Europe)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 6,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/better-stack.md"
+  },
+  {
     "id": "chainsecurity",
     "name": "ChainSecurity",
     "website": "https://chainsecurity.com",
@@ -86,6 +232,100 @@
     "unverified_claims": 2,
     "last_verified": "2026-11-10",
     "card": "wiki/companies/chainsecurity.md"
+  },
+  {
+    "id": "charly",
+    "name": "Charly (Zaitgeist Innovation Group GmbH)",
+    "website": "https://hallocharly.de/",
+    "sector": [
+      "госуправление (GovTech): ИИ-ассистент для муниципалитетов и районов (по сайту)",
+      "голосовой ИИ-ассистент (по посту)"
+    ],
+    "organization_type": "коммерческая компания: GmbH по импрессуму; «GovTech-стартап» — самоописание на сайте (страница вакансии)",
+    "founded": "2025 (по сайту: «Gegründet 2025» на главной странице)",
+    "headquarters": "Берлин, Германия (по импрессуму; офис у Rosenthaler Platz — по карьерной странице)",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "PyTorch"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50340113
+    ],
+    "hiring_roles": [
+      "Sales / Account Executive GovTech"
+    ],
+    "hiring_locations": [
+      "ONSITE Berlin, Germany"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано (в посте: «Base+Variable», суммы нет)"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 4,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/charly.md"
+  },
+  {
+    "id": "coder",
+    "name": "Coder",
+    "website": "https://coder.com/",
+    "sector": [
+      "инструменты разработчика: среды разработки на собственной инфраструктуре (по сайту)",
+      "ИИ-агенты для разработки ПО (по посту и сайту)"
+    ],
+    "organization_type": "коммерческая компания по сайту: платные тарифы Premium и AI Premium; юридическая форма не указана",
+    "founded": "не указано (в подвале сайта только © 2026, это год авторских прав)",
+    "headquarters": "не указано (на карьерной странице сайта: офисы в Остине, Сан-Франциско и Лондоне)",
+    "technologies": [
+      "Terraform",
+      "MCP",
+      "Dev Containers",
+      "VS Code",
+      "JetBrains",
+      "Backstage"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "https://github.com/coder (ссылка из поста: организация, не отдельный репозиторий)",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50360244
+    ],
+    "hiring_roles": [
+      "Senior Customer Support Engineer",
+      "Senior Software Engineer (Multiple Teams, Europe)",
+      "Senior Software Engineer (Multiple Teams, North America)",
+      "Software Engineer (Enterprise Experience, Backend)",
+      "Software Engineering Manager (Agentic Engineering)",
+      "Software Engineering Manager (Agentic Engineering)",
+      "Staff Software Engineer (Agentic Engineering)",
+      "Staff Software Engineer (AI Governance) — Research & Development"
+    ],
+    "hiring_locations": [
+      "удалённо: Северная Америка, Великобритания, Ирландия, Польша, США, Канада, Европа (в посте)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 4,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/coder.md"
   },
   {
     "id": "curai-health",
@@ -139,6 +379,59 @@
     "card": "wiki/companies/curai-health.md"
   },
   {
+    "id": "estuary",
+    "name": "Estuary",
+    "website": "https://estuary.dev/",
+    "sector": [
+      "данные: CDC-репликация и потоковая передача (по сайту и посту)",
+      "ИИ-интеграция данных (по сайту)"
+    ],
+    "organization_type": "коммерческая компания с платными тарифами (по сайту); венчурное финансирование заявлено (со слов компании)",
+    "founded": "2019 (по сайту, страница About: «2019 Estuary is founded»; со слов компании, реестр не проверен)",
+    "headquarters": "не указано (по сайту: офисы в Нью-Йорке и Колумбусе, Огайо, и удалённая работа)",
+    "technologies": [
+      "Rust",
+      "Go",
+      "Python",
+      "SQL",
+      "TypeScript",
+      "gRPC",
+      "Raft",
+      "Gazette"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "https://github.com/estuary/flow/",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50356058
+    ],
+    "hiring_roles": [
+      "Head of Engineering",
+      "Senior Systems Engineer (Control & Data Plane)",
+      "Product Manager",
+      "Head of Product Marketing",
+      "Solutions Engineer",
+      "Customer Success Manager",
+      "Senior Compliance Engineer"
+    ],
+    "hiring_locations": [
+      "US-Based / Remote"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 1,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/estuary.md"
+  },
+  {
     "id": "exponent",
     "name": "Exponent",
     "website": "https://exponentfi.com/",
@@ -180,6 +473,57 @@
     "unverified_claims": 3,
     "last_verified": "2026-11-10",
     "card": "wiki/companies/exponent.md"
+  },
+  {
+    "id": "govstar",
+    "name": "GovStar",
+    "website": "https://www.govstar.us/",
+    "sector": [
+      "консалтинг для работы с правительством США: стратегия, дизайн, инженерия (по сайту)",
+      "данные, ИИ и безопасность для задач национальной безопасности США (по посту)"
+    ],
+    "organization_type": "консалтинговая компания по сайту; юридическая форма не указана",
+    "founded": "не указано (на сайте запуск GovStar отнесён к разделу «Today» без года)",
+    "headquarters": "не указано (вакансии — удалённо, в восточном или центральном часовом поясе США)",
+    "technologies": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "Docker",
+      "Snowflake",
+      "Databricks",
+      "Git",
+      "CI/CD"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50346358
+    ],
+    "hiring_roles": [
+      "Security Engineer",
+      "Data Engineer"
+    ],
+    "hiring_locations": [
+      "Remote (U.S. Eastern/Central Time)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано (в посте сказано, что вознаграждение зависит от опыта; сумма не названа)"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/govstar.md"
   },
   {
     "id": "iceye",
@@ -418,6 +762,242 @@
     "unverified_claims": 2,
     "last_verified": "2026-11-10",
     "card": "wiki/companies/mastra.md"
+  },
+  {
+    "id": "mechanize",
+    "name": "Mechanize",
+    "website": "https://www.mechanize.work/",
+    "sector": [
+      "ИИ-агенты: среды и оценки для кодирующих агентов (по сайту)",
+      "обучающие среды и задачи для ИИ-моделей (по сайту)"
+    ],
+    "organization_type": "компания (по сайту: «Mechanize, Inc.»); регистрационные данные не указаны",
+    "founded": "не указано (на сайте не названа дата основания; пресс-релиз «Announcing Mechanize, Inc.» датирован 17.04.2025)",
+    "headquarters": "не указано (на сайте не названа штаб-квартира; вакансии очные, Сан-Франциско)",
+    "technologies": [
+      "Python",
+      "контейнеры",
+      "LLM-грейдеры"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано (в разметке главной страницы указана организация GitHub mechanize-work; её репозитории не проверялись)",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50346820
+    ],
+    "hiring_roles": [
+      "Junior SWE",
+      "SWE",
+      "Research Engineer, Alignment"
+    ],
+    "hiring_locations": [
+      "San Francisco, CA (Onsite)"
+    ],
+    "hiring_employment": [
+      "не указано (в посте не сказано; по разметке страниц SWE и Research Engineer — FULL_TIME)"
+    ],
+    "salary_in_post": [
+      "Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus)"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/mechanize.md"
+  },
+  {
+    "id": "middesk",
+    "name": "Middesk",
+    "website": "https://www.middesk.com/",
+    "sector": [
+      "финтех: верификация бизнеса и KYB для банков и финтеха (по сайту)",
+      "данные: бизнес-идентичность из государственных источников (по сайту)"
+    ],
+    "organization_type": "коммерческая компания: продаёт платформу банкам, финтехам и платформам (по сайту); Series B — по посту и сайту",
+    "founded": "не указано (на сайте и в посте год основания не назван)",
+    "headquarters": "не указано; офисы в Сан-Франциско и Нью-Йорке (по сайту, страница карьеры)",
+    "technologies": [
+      "API",
+      "MCP",
+      "ML-модели (по сайту)",
+      "ИИ-агенты (по сайту)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50342990
+    ],
+    "hiring_roles": [
+      "Forward Deployed Engineer",
+      "(Senior) Software Engineer",
+      "Data Scientist",
+      "Lead Data Scientist",
+      "Software Engineer, Infrastructure"
+    ],
+    "hiring_locations": [
+      "NYC или SF, гибрид (2 дня в неделю в офисе); Software Engineer, Infrastructure: только SF, гибрид (2 дня в неделю в офисе)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "Forward Deployed Engineer ($148K – $255K); (Senior) Software Engineer ($148K – $250K); Data Scientist ($175K – $210K); Lead Data Scientist ($210K – $250K); Software Engineer, Infrastructure ($148K – $230K)"
+    ],
+    "work_format": [
+      "гибрид",
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/middesk.md"
+  },
+  {
+    "id": "modash",
+    "name": "Modash",
+    "website": "https://www.modash.io/",
+    "sector": [
+      "маркетинг: платформа для инфлюенс-маркетинга (по сайту)",
+      "платформа для поиска, управления и оплаты создателей контента (в посте)"
+    ],
+    "organization_type": "коммерческая компания: продаёт подписку на платформу (по сайту, тарифы от $199 в месяц); юридическое лицо Modash OÜ (по тексту условий)",
+    "founded": "2018 (на сайте, страница карьеры; реестр не проверен)",
+    "headquarters": "Таллин, Эстония (по сайту и посту); на сайте также назван офис в Торонто, Канада",
+    "technologies": [
+      "Shopify (интеграция)",
+      "Gmail и Outlook (синхронизация почты)",
+      "MCP-коннектор для ИИ-инструментов",
+      "Discovery API и Raw API"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50349251
+    ],
+    "hiring_roles": [
+      "Senior Product Engineer"
+    ],
+    "hiring_locations": [
+      "удалённо (Европа)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "€80k–110k"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/modash.md"
+  },
+  {
+    "id": "namespace",
+    "name": "Namespace",
+    "website": "https://namespace.so",
+    "sector": [
+      "инфраструктура для разработки: облачные Mac, Windows и Linux-среды для сборок и тестов (по сайту и посту)",
+      "ИИ-агенты: среды разработки для агентов (по сайту)"
+    ],
+    "organization_type": "Corporation (тип schema.org в структурированных данных главной страницы); юридическая форма не указана; в структурированных данных главной страницы legalName — «Namespace Labs»",
+    "founded": "2021 (по сайту: поле foundingDate в структурированных данных главной страницы; в видимом тексте года нет)",
+    "headquarters": "не подтверждена; в структурированных данных главной страницы указан почтовый адрес в Сан-Франциско (2261 Market Street #5037, CA 94114), назначение адреса не проверено (в посте и на странице вакансий: Сан-Франциско, Нью-Йорк, Цюрих, Швейцария, Германия, Великобритания)",
+    "technologies": [
+      "Bazel",
+      "Docker",
+      "GitHub Actions",
+      "Turborepo",
+      "Gradle",
+      "KVM",
+      "RDP",
+      "SDK на TypeScript и Go",
+      "AMD EPYC",
+      "AmpereOne",
+      "Apple M5 Max",
+      "Apple M4 Pro"
+    ],
+    "open_source_license": "Apache-2.0 (по структурированным данным главной страницы, SoftwareApplication «Namespace Developer Platform»; репозитории и файл лицензии не проверялись)",
+    "open_source_repository": "не указано (в структурированных данных главной страницы есть профиль организации на GitHub; репозитории не проверялись)",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50339735
+    ],
+    "hiring_roles": [
+      "Customer-Facing Software Engineer",
+      "Product Engineer",
+      "Infrastructure Software Engineer",
+      "Security Engineer",
+      "DevOps Engineer",
+      "Engineering Lead"
+    ],
+    "hiring_locations": [
+      "удалённо или гибрид: San Francisco, CA / New York, NY / Zurich, Switzerland / Remote (как в посте)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "гибрид"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 8,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/namespace.md"
+  },
+  {
+    "id": "netbird",
+    "name": "NetBird",
+    "website": "https://netbird.io/",
+    "sector": [
+      "сетевая безопасность: доступ по модели Zero Trust вместо VPN (по сайту)",
+      "доступ для ИИ-агентов (в посте)"
+    ],
+    "organization_type": "коммерческая компания: платные тарифы и раунд Series A (по сайту); юридическая форма не указана",
+    "founded": "2022 (по сайту, страница прессы; со слов компании)",
+    "headquarters": "Берлин, Германия (по сайту, страница прессы)",
+    "technologies": [
+      "WireGuard",
+      "Go"
+    ],
+    "open_source_license": "BSD-3 (по сайту, главная страница); на странице прессы «BSD-3 / AGPLv3» (расхождение)",
+    "open_source_repository": "https://github.com/netbirdio/netbird (ссылка «GitHub» на сайте; репозиторий не открывался)",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50392398
+    ],
+    "hiring_roles": [
+      "Senior/Staff Backend Engineer (Go!!)",
+      "Networking/Client Software Engineer (Go!!)",
+      "Technical Product Owner",
+      "Technical Support Engineer"
+    ],
+    "hiring_locations": [
+      "Берлин, Германия (или удалённо, перекрытие с CET)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 0,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/netbird.md"
   },
   {
     "id": "nirvana-robotics",
@@ -707,7 +1287,7 @@
     "work_format": [
       "не указано"
     ],
-    "verification": "сайт + пост + доска вакансий (Greenhouse)",
+    "verification": "сайт + пост + доска вакансий",
     "unverified_claims": 6,
     "last_verified": "2026-11-10",
     "card": "wiki/companies/piramidal.md"
@@ -947,6 +1527,116 @@
     "card": "wiki/companies/reducto.md"
   },
   {
+    "id": "rootly",
+    "name": "Rootly",
+    "website": "https://rootly.com/",
+    "sector": [
+      "управление инцидентами и дежурствами (по сайту и посту)",
+      "ИИ для SRE: расследование инцидентов (по сайту; в посте только название AI SRE)"
+    ],
+    "organization_type": "коммерческая компания: продукт продаётся за пользователя в месяц (по сайту); юридическая форма не указана",
+    "founded": "2021 (по сайту, страница About us)",
+    "headquarters": "не указано (на сайте упомянут «HQ» без адреса; в посте места вакансий: SF Bay, Toronto, APAC, Remote)",
+    "technologies": [
+      "Terraform",
+      "MCP",
+      "API",
+      "CLI",
+      "Slack",
+      "Google Chat",
+      "Microsoft Teams",
+      "Jira",
+      "Datadog",
+      "Sentry",
+      "Prometheus",
+      "SAML",
+      "SCIM"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50343048
+    ],
+    "hiring_roles": [
+      "engineering",
+      "GTM",
+      "product",
+      "sales"
+    ],
+    "hiring_locations": [
+      "SF Bay, Toronto, APAC, Remote"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 9,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/rootly.md"
+  },
+  {
+    "id": "sentilink",
+    "name": "SentiLink",
+    "website": "https://www.sentilink.com/",
+    "sector": [
+      "финтех: защита от мошенничества с личностью (по сайту и посту)",
+      "ИИ и машинное обучение для детекции мошенничества (по сайту и посту)"
+    ],
+    "organization_type": "коммерческая компания: продукты для банков и финтеха, запрос демо на сайте (по сайту); юридическая форма не указана",
+    "founded": "2017 (по сайту: «SentiLink was launched in 2017»)",
+    "headquarters": "офисы в США (по сайту): Остин, Чикаго, Лос-Анджелес, Нью-Йорк, Сан-Франциско, Сиэтл (Беллвью); в Индии: Бенгалуру и Гургаон (Дели); штаб-квартира не указана",
+    "technologies": [
+      "Python",
+      "Go",
+      "Rust",
+      "Scala",
+      "PostgreSQL",
+      "Snowflake",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "Kubernetes",
+      "XGBoost",
+      "PyTorch"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50370932
+    ],
+    "hiring_roles": [
+      "Engineering & Data Science",
+      "Engineering (Primarily Backend/Data Platform)",
+      "Data Science / ML roles"
+    ],
+    "hiring_locations": [
+      "REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY): удалённо, гибрид или офис, только США"
+    ],
+    "hiring_employment": [
+      "Full Time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо",
+      "гибрид",
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 0,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/sentilink.md"
+  },
+  {
     "id": "serpapi",
     "name": "SerpApi",
     "website": "https://serpapi.com/",
@@ -1088,6 +1778,146 @@
     "card": "wiki/companies/special.md"
   },
   {
+    "id": "sphinx-defense",
+    "name": "Sphinx Defense",
+    "website": "https://sphinxdefense.com",
+    "sector": [
+      "космические системы: ПО для наземных систем спутниковых операций (по сайту)",
+      "оборона и национальная безопасность (по посту)"
+    ],
+    "organization_type": "не указано в собранных источниках (юридическая форма не названа)",
+    "founded": "не указано (на сайте год основания не назван)",
+    "headquarters": "не указано (на сайте и в посте штаб-квартира не названа)",
+    "technologies": [
+      "не указано (стек не назван ни на сайте, ни в посте)"
+    ],
+    "open_source_license": "не указано (на сайте продукты названы проприетарными)",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50359595
+    ],
+    "hiring_roles": [
+      "Associate DevOps Engineer - Colorado Springs, CO",
+      "Backend Engineer - Colorado Springs, CO",
+      "Backend Engineer - Remote",
+      "DevOps Engineer - Colorado Springs, CO",
+      "DevOps Engineer - Remote",
+      "Full Stack Engineer - Remote",
+      "Senior Backend Engineer - Colorado Springs, CO",
+      "Senior Backend Engineer - Remote",
+      "Senior DevOps Engineer - Colorado Springs, CO",
+      "Senior Full Stack Engineer - Chantilly, VA",
+      "Senior Full Stack Engineer - Colorado Springs, CO",
+      "Senior Full Stack Engineer - Seal Beach/Los Angeles, CA",
+      "Senior Infrastructure Architect - Colorado Springs, CO",
+      "Senior Network Engineer - Colorado Springs, CO"
+    ],
+    "hiring_locations": [
+      "Remote (US Only) в шапке поста; по ролям: Colorado Springs, CO; Remote; Chantilly, VA; Seal Beach/Los Angeles, CA"
+    ],
+    "hiring_employment": [
+      "не указано (в шапке поста только категория: Software Engineering)"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "частично",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/sphinx-defense.md"
+  },
+  {
+    "id": "starbridge",
+    "name": "Starbridge",
+    "website": "https://starbridge.ai/",
+    "sector": [
+      "данные и ИИ-агенты для продаж в госсекторе и образовании (по сайту)",
+      "ИИ-платформа для продаж (по посту)"
+    ],
+    "organization_type": "коммерческая компания: на сайте кнопка «Book a demo» и партнёрская программа; раунды финансирования со слов компании",
+    "founded": "не указано (на сайте нет года основания; первая отметка хронологии — Q1 2025)",
+    "headquarters": "Нью-Йорк (по сайту: место работы — Chelsea Piers; в подвале адрес на Madison Ave)",
+    "technologies": [
+      "React (по посту)",
+      "TypeScript (по посту)",
+      "Salesforce (по сайту)",
+      "HubSpot (по сайту)",
+      "MCP (по сайту)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50339282
+    ],
+    "hiring_roles": [
+      "Senior Product Engineer"
+    ],
+    "hiring_locations": [
+      "NYC (очно)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост + доска вакансий",
+    "unverified_claims": 6,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/starbridge.md"
+  },
+  {
+    "id": "sudowrite",
+    "name": "Sudowrite",
+    "website": "https://sudowrite.com",
+    "sector": [
+      "ИИ-инструменты для писательства: художественная проза (по сайту)"
+    ],
+    "organization_type": "компания, которая продаёт подписку на ИИ-инструмент (по сайту); юридическая форма не указана",
+    "founded": "не указано (на сайте и в посте год не назван)",
+    "headquarters": "не указано (роли удалённые; для полной занятости — часовые пояса США, по сайту; для контракта — не указано)",
+    "technologies": [
+      "React",
+      "React Native / Expo",
+      "TipTap",
+      "Y.js",
+      "Swift"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50342430
+    ],
+    "hiring_roles": [
+      "Senior Mobile Developer"
+    ],
+    "hiring_locations": [
+      "REMOTE (US)"
+    ],
+    "hiring_employment": [
+      "Full-Time"
+    ],
+    "salary_in_post": [
+      "$160K–$180K"
+    ],
+    "work_format": [
+      "удалённо"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 0,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/sudowrite.md"
+  },
+  {
     "id": "sumble",
     "name": "Sumble",
     "website": "https://sumble.com",
@@ -1173,6 +2003,52 @@
     "unverified_claims": 0,
     "last_verified": "2026-11-10",
     "card": "wiki/companies/sunsave.md"
+  },
+  {
+    "id": "tandem-health",
+    "name": "Tandem Health",
+    "website": "https://tandemhealth.ai/",
+    "sector": [
+      "здравоохранение: ИИ-ассистент для клиницистов (по сайту и посту)",
+      "медтех: ИИ-документация и поддержка клинических решений (по сайту)"
+    ],
+    "organization_type": "коммерческая компания: платные тарифы и привлечённое финансирование (по сайту); полная юридическая форма в собранных данных не указана (в футере — «Tandem Health AB»)",
+    "founded": "2023, август (по сайту: «Founded: August 2023» на странице карьеры)",
+    "headquarters": "не указано (по сайту: офисы в Стокгольме, Лондоне, Париже, Мадриде, Мюнхене и других городах; в посте работа очная, в Стокгольме)",
+    "technologies": [
+      "AI Scribe (по сайту)",
+      "Coding Assistant (по сайту)",
+      "Clinical Decision Support (по сайту)",
+      "ICD-10 и SNOMED (по сайту)",
+      "стек разработки не указан (в посте и на сайте)"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50339383
+    ],
+    "hiring_roles": [
+      "Engineers",
+      "Designers",
+      "PMs"
+    ],
+    "hiring_locations": [
+      "On-site in Stockholm, Sweden"
+    ],
+    "hiring_employment": [
+      "Full time"
+    ],
+    "salary_in_post": [
+      "не указано"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "сайт + пост",
+    "unverified_claims": 3,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/tandem-health.md"
   },
   {
     "id": "telli",
@@ -1319,6 +2195,102 @@
     "unverified_claims": 6,
     "last_verified": "2026-11-10",
     "card": "wiki/companies/threatmark.md"
+  },
+  {
+    "id": "thunder-compute",
+    "name": "Thunder Compute",
+    "website": "https://www.thundercompute.com",
+    "sector": [
+      "облачная инфраструктура: GPU-инстансы для разработчиков (по сайту)",
+      "GPU-песочницы для агентов, RL-задач и оценок (по сайту)"
+    ],
+    "organization_type": "не указано в собранных источниках (сайт описывает продукты и цены; юридическая форма не названа)",
+    "founded": "не указано (точной даты на сайте нет)",
+    "headquarters": "офис в Сан-Франциско, Калифорния (по сайту, страница карьеры)",
+    "technologies": [
+      "C++ (в посте)",
+      "CUDA",
+      "Python SDK",
+      "REST API",
+      "MCP-сервер",
+      "CLI",
+      "расширение для VS Code",
+      "Ubuntu-микровиртуальные машины"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50340438
+    ],
+    "hiring_roles": [
+      "C++ Systems Engineer"
+    ],
+    "hiring_locations": [
+      "San Francisco (Onsite)"
+    ],
+    "hiring_employment": [
+      "Full-time"
+    ],
+    "salary_in_post": [
+      "$250–325K base, 0.1–0.3% equity, highly competitive profit-sharing bonus pool"
+    ],
+    "work_format": [
+      "офис"
+    ],
+    "verification": "частично",
+    "unverified_claims": 8,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/thunder-compute.md"
+  },
+  {
+    "id": "uncountable",
+    "name": "Uncountable",
+    "website": "https://www.uncountable.com",
+    "sector": [
+      "R&D для промышленных учёных в материалах, химии и науках о жизни (по посту)",
+      "ИИ-платформа для разработки продуктов: ELN, LIMS, QMS, PLM (по сайту)"
+    ],
+    "organization_type": "SaaS-поставщик для корпоративных R&D-команд (по посту и сайту); юридическая форма не указана",
+    "founded": "не указано (в собранных источниках год основания не назван)",
+    "headquarters": "Сан-Франциско, Калифорния, США (по сайту, в подвале страниц)",
+    "technologies": [
+      "AWS",
+      "AWS Bedrock",
+      "AWS CloudFront",
+      "REST API",
+      "webhooks",
+      "SAML v2",
+      "SCIM",
+      "Microsoft Purview",
+      "Splunk",
+      "Datadog"
+    ],
+    "open_source_license": "не указано",
+    "open_source_repository": "не указано",
+    "hiring_posts": 1,
+    "hiring_post_ids": [
+      50341284
+    ],
+    "hiring_roles": [
+      "Full-Stack Engineers"
+    ],
+    "hiring_locations": [
+      "NY, SF, London (UK) & Toronto (CA) (In-Person)"
+    ],
+    "hiring_employment": [
+      "не указано"
+    ],
+    "salary_in_post": [
+      "$130k - $220k (USD) + Equity"
+    ],
+    "work_format": [
+      "не указано"
+    ],
+    "verification": "частично",
+    "unverified_claims": 2,
+    "last_verified": "2026-11-22",
+    "card": "wiki/companies/uncountable.md"
   },
   {
     "id": "victoriametrics",
