@@ -3,7 +3,7 @@ id: namespace
 name: Namespace
 website: https://namespace.so
 sector: ["инфраструктура для разработки: облачные Mac, Windows и Linux-среды для сборок и тестов (по сайту и посту)", "ИИ-агенты: среды разработки для агентов (по сайту)"]
-organization_type: "Corporation (тип schema.org в структурированных данных главной страницы); юридическая форма не указана (на сайте, со слов компании, упомянут раунд Series B)"
+organization_type: "Corporation (тип schema.org в структурированных данных главной страницы); юридическая форма не указана; в структурированных данных главной страницы legalName — «Namespace Labs»"
 founded: "2021 (по сайту: поле foundingDate в структурированных данных главной страницы; в видимом тексте года нет)"
 headquarters: "не подтверждена; в структурированных данных главной страницы указан почтовый адрес в Сан-Франциско (2261 Market Street #5037, CA 94114), назначение адреса не проверено (в посте и на странице вакансий: Сан-Франциско, Нью-Йорк, Цюрих, Швейцария, Германия, Великобритания)"
 technologies: ["Bazel", "Docker", "GitHub Actions", "Turborepo", "Gradle", "KVM", "RDP", "SDK на TypeScript и Go", "AMD EPYC", "AmpereOne", "Apple M5 Max", "Apple M4 Pro"]

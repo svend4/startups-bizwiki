@@ -49,14 +49,26 @@
 | Карточка | Сфера | Где (по посту или сайту) | Проверка |
 |---|---|---|---|
 | [Antithesis](companies/antithesis.md) | тестирование и верификация ПО: детерминированная симуляция (по сайту) | Вашингтон (DC), Лондон; удалённо или в офисе (США, Велико… | сайт + пост |
+| [AREO](companies/areo.md) | ритейл: «Physical AI for retail» (по сайту) | Remote (EU) and On-Site in Bremen, Germany | частично |
+| [Baserow](companies/baserow.md) | no-code: базы данных и приложения (по сайту) | REMOTE (Europe) | сайт + пост |
+| [Better Stack](companies/better-stack.md) | наблюдаемость (observability): мониторинг, логи, трейсинг (по сайту) | Remote (North America & Europe) | сайт + пост |
 | [ChainSecurity](companies/chainsecurity.md) | безопасность блокчейнов | Цюрих, Швейцария (гибрид или удалённо) | сайт + пост |
+| [Charly (Zaitgeist Innovation Group GmbH)](companies/charly.md) | госуправление (GovTech): ИИ-ассистент для муниципалитетов и районов (… | ONSITE Berlin, Germany | сайт + пост |
+| [Coder](companies/coder.md) | инструменты разработчика: среды разработки на собственной инфраструкт… | удалённо: Северная Америка, Европа и др. (в посте) | частично |
 | [Curai Health](companies/curai-health.md) | здравоохранение: виртуальная медицинская помощь | удалённо (США) | сайт + пост |
+| [Estuary](companies/estuary.md) | данные: CDC-репликация и потоковая передача (по сайту и посту) | US-Based / Remote | сайт + пост |
 | [Exponent](companies/exponent.md) | финтех: финансирование, корпоративные карты и бухгалтерия для франч… | Нью-Йорк (Flatiron), гибрид, 2+ дня в офисе | частично |
+| [GovStar](companies/govstar.md) | консалтинг для работы с правительством США: стратегия, дизайн, инжене… | Remote (U.S. Eastern/Central Time) | частично |
 | [ICEYE](companies/iceye.md) | спутниковые SAR-данные: наблюдение Земли (по сайту) | Эспоо, Финляндия / Берлин, Германия (гибрид) | частично |
 | [Juro](companies/juro.md) | юридические технологии: автоматизация договоров (по сайту и посту) | Лондон, Великобритания; удалённо (Великобритания) | частично |
 | [LiveKit](companies/livekit.md) | инфраструктура для голосовых и видеоагентов (WebRTC) | UK и Германия (удалённо); Северная Америка (удалённо) или… | сайт |
 | [Lumen Labs](companies/lumen-labs.md) | ИИ для физического мира: модели, вдохновлённые природой (по сайту и… | Сан-Франциско, Калифорния (в посте) | частично |
 | [Mastra](companies/mastra.md) | ИИ-агенты | US Remote | сайт |
+| [Mechanize](companies/mechanize.md) | ИИ-агенты: среды и оценки для кодирующих агентов (по сайту) | San Francisco, CA (Onsite) | сайт + пост |
+| [Middesk](companies/middesk.md) | финтех: верификация бизнеса и KYB для банков и финтеха (по сайту) | NYC или SF, гибрид (2 дня в неделю в офисе) | сайт + пост |
+| [Modash](companies/modash.md) | маркетинг: платформа для инфлюенс-маркетинга (по сайту) | удалённо (Европа) | сайт + пост |
+| [Namespace](companies/namespace.md) | инфраструктура для разработки: облачные Mac, Windows и Linux-среды дл… | удалённо или гибрид: SF, NY, Цюрих (в посте) | сайт + пост |
+| [NetBird](companies/netbird.md) | сетевая безопасность: доступ по модели Zero Trust вместо VPN (по сайт… | Берлин, Германия (или удалённо, перекрытие с CET) | частично |
 | [Nirvana Robotics](companies/nirvana-robotics.md) | робототехника: гуманоидные роботы (по сайту) | New York, NY (очно) | сайт + пост |
 | [Odette Technologies](companies/odette-technologies.md) | ИИ-платформа ситуационной осведомлённости для разведки и информацио… | HYBRID (NC) / REMOTE (в посте); на сайте — базирование на… | частично |
 | [Opsfleet](companies/opsfleet.md) | ИИ, данные и DevOps: агентство услуг для технологических и корпорат… | удалённо, ЕЭЗ (в посте: REMOTE (EEA)) | частично |
@@ -68,14 +80,22 @@
 | [Proxima Fusion](companies/proxima-fusion.md) | термоядерная энергетика | Мюнхен (ONSITE) | сайт + пост |
 | [Radar Labs](companies/radar-labs.md) | геолокация: инфраструктура и данные о местоположении (по сайту) | удалённо (США), Нью-Йорк (в посте: «Remote (US), NYC») | сайт + пост |
 | [Reducto](companies/reducto.md) | обработка документов для ИИ-систем | San Francisco (ONSITE) | сайт |
+| [Rootly](companies/rootly.md) | управление инцидентами и дежурствами (по сайту и посту) | SF Bay, Toronto, APAC, Remote | частично |
+| [SentiLink](companies/sentilink.md) | финтех: защита от мошенничества с личностью (по сайту и посту) | удалённо, гибрид или офис, только США | сайт + пост |
 | [SerpApi](companies/serpapi.md) | данные: API для результатов поисковых систем (на сайте) | Остин, Техас; структура remote-first (по посту) | частично |
 | [Sortrace](companies/sortrace.md) | ИИ-мониторинг сбора отходов на камерах (по сайту и посту) | удалённо (Европа) или гибрид: Norrköping или Стокгольм (в… | сайт + пост |
 | [Special](companies/special.md) | холдинг: ИИ-операционная система для критически важных отраслей США… | Нью-Йорк (NYC) | сайт + пост |
+| [Sphinx Defense](companies/sphinx-defense.md) | космические системы: ПО для наземных систем спутниковых операций (по… | Remote (US only); по ролям: CO, VA, CA (в посте) | частично |
+| [Starbridge](companies/starbridge.md) | данные и ИИ-агенты для продаж в госсекторе и образовании (по сайту) | NYC (очно) | сайт + пост + доска вакансий |
+| [Sudowrite](companies/sudowrite.md) | ИИ-инструменты для писательства: художественная проза (по сайту) | REMOTE (US) | сайт + пост |
 | [Sumble](companies/sumble.md) | B2B-данные для продаж (граф компаний) | Remote (US) | сайт |
 | [Sunsave](companies/sunsave.md) | энергетика: домашние солнечные панели и батареи (по сайту) | London, United Kingdom (Holborn); ONSITE, гибрид: 3 дня в… | сайт + пост |
+| [Tandem Health](companies/tandem-health.md) | здравоохранение: ИИ-ассистент для клиницистов (по сайту и посту) | On-site in Stockholm, Sweden | сайт + пост |
 | [Telli](companies/telli.md) | ИИ-агенты для клиентских операций (по посту и сайту) | Берлин | частично |
 | [Thankly](companies/thankly.md) | ИИ-шоппинг для брендов (по сайту) | удалённо (США) | сайт + пост |
 | [ThreatMark](companies/threatmark.md) | кибербезопасность: защита банков от финансового мошенничества (по с… | удалённо (весь мир) / Брно, Чехия (по посту) | частично |
+| [Thunder Compute](companies/thunder-compute.md) | облачная инфраструктура: GPU-инстансы для разработчиков (по сайту) | San Francisco (Onsite) | частично |
+| [Uncountable](companies/uncountable.md) | R&D для промышленных учёных в материалах, химии и науках о жизни (по… | NY, SF, London (UK) & Toronto (CA) (In-Person) | частично |
 | [VictoriaMetrics](companies/victoriametrics.md) | мониторинг и наблюдаемость (метрики, логи, трейсы) | удалённо (EMEA, Северная Америка) | сайт |
 | [Zed Industries](companies/zed-industries.md) | инструменты разработки: редактор кода и совместная работа с ИИ-аген… | Северная и Южная Америка, Европа (удалённо) | сайт |
 ## Как добавить карточку
