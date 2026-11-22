@@ -24,6 +24,7 @@ sources:
   - {url: "https://hallocharly.de/impressum", kind: "сайт компании (импрессум)", accessed: "2026-11-22"}
   - {url: "https://hallocharly.de/de/karriere", kind: "сайт компании (карьера)", accessed: "2026-11-22"}
   - {url: "https://hallocharly.de/en/careers/account-executive-govtech", kind: "сайт компании (вакансия)", accessed: "2026-11-22"}
+  - {url: "https://hallocharly.de/robots.txt", kind: "сайт компании (robots.txt)", accessed: "2026-11-22"}
   - {url: "https://news.ycombinator.com/item?id=50340113", kind: "пост на HN (вакансия)", accessed: "2026-11-22"}
 verification: сайт + пост
 unverified_claims: ["команда 9 человек (6 в разработке), стадия Seed, запуск 13 месяцев назад (в посте)", "100+ муниципалитетов и 1,4 млн жителей в 9 землях (со слов компании: сайт и пост)", "1.500+ звонков в день, две трети обращений решает Charly, 175.000+ минут (со слов компании, сайт)", "ISO 27001 для серверов и соответствие DSGVO; опыт основателей в ООН (со слов компании, сайт)"]
@@ -50,9 +51,11 @@ last_verified: "2026-11-22"
 
 ## Кого ищут
 
-В посте (ноябрь 2026) одна роль: «Sales / Account Executive GovTech», ONSITE, Берлин, полная занятость. Ищут ещё до трёх человек с фокусом на DE, AT и CH; подходят как junior, так и senior кандидаты. В посте зарплаты нет, указано только «Base+Variable».
+В посте из треда «Ask HN: Who is hiring? (November 2026)» одна роль: «Sales / Account Executive GovTech», ONSITE, Берлин, полная занятость. Ищут ещё до трёх человек с фокусом на DE, AT и CH; подходят как junior, так и senior кандидаты. В посте зарплаты нет, указано только «Base+Variable».
 
 По сайту, ссылка из поста ведёт на вакансию «Account Executive Public Sector»; в ней нужно продавать Charly муниципалитетам и районам вместе с CEO. На странице указано «€60–110k OTE»; в посте этой суммы нет. По сайту, процесс найма включает звонок на 30 минут, разговор с основателями и оффер в течение недели.
+
+На карьерной странице сайта указано 12 открытых вакансий («Alle 12»). Среди инженерных — Senior AI Systems Engineer, Founding Fullstack Engineer, Machine Learning Engineer (Voice) и Frontend Engineer React / UX; есть также две позиции для стажёров или студентов (ML и фронтенд).
 
 ## Что заявлено, но не проверено
 
@@ -73,4 +76,5 @@ last_verified: "2026-11-22"
 4. https://hallocharly.de/impressum — проверено 22.11.2026.
 5. https://hallocharly.de/de/karriere — проверено 22.11.2026.
 6. https://hallocharly.de/en/careers/account-executive-govtech — проверено 22.11.2026.
-7. https://news.ycombinator.com/item?id=50340113 — пост на HN, проверено 22.11.2026.
+7. https://hallocharly.de/robots.txt — проверено 22.11.2026.
+8. https://news.ycombinator.com/item?id=50340113 — пост на HN, проверено 22.11.2026.

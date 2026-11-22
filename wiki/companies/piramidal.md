@@ -23,7 +23,7 @@ sources:
   - {url: "https://piramidal.ai/blog/the-state-of-neuro/", kind: "сайт компании, запись блога «The state of neuro» от 2026-10-02", accessed: "2026-11-10"}
   - {url: "https://job-boards.greenhouse.io/piramidalinc", kind: "доска вакансий компании (Greenhouse)", accessed: "2026-11-10"}
   - {url: "https://news.ycombinator.com/item?id=50384764", kind: "пост компании на HN", accessed: "2026-11-10"}
-verification: сайт + пост + доска вакансий (Greenhouse)
+verification: сайт + пост + доска вакансий
 unverified_claims: ["модель названа «first-of-its-kind» для данных мозговых волн и «SOTA» (в посте)", "аномалии у пациентов ICU в реальном времени (в посте)", "участие в программе YC W24 (в посте; на сайте и на доске не упомянуто)", "сравнение с коммерческим ПО: +71%, +26%, +85%, +31% (на сайте, со слов компании)", "пилот: пропускная способность втрое выше, соотношение технолог–пациент с 1:4 до 1:12 (на сайте, со слов компании)", "работа с Cleveland Clinic (на сайте указана публикация Consult QD, в заголовке которой Piramidal не назван; публикация не открывалась)"]
 last_verified: "2026-11-10"
 ---

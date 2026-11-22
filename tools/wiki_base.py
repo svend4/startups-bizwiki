@@ -41,7 +41,7 @@ SOURCE_FIELDS = ["url", "kind", "accessed"]
 VERIFICATION_VALUES = [
     "сайт",
     "сайт + пост",
-    "сайт + пост + доска вакансий (Greenhouse)",
+    "сайт + пост + доска вакансий",
     "частично",
 ]
 REQUIRED_HEADINGS = ["Кто они", "Кого ищут", "Пробелы", "Источники"]
