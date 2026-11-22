@@ -1,5 +1,17 @@
 {
-  "_about": "Ручной поиск: агент читал 30 карточек через Read, без скрипта, и применял 10 правил из tools/eval/base_queries.json буквально. Это чтение моделью, а не разметка экспертом. Дата: 2026-11-22.",
+  "_about": "Ручной поиск по 50 карточкам: пять агентов, по десять карточек каждый, читали шапки через Read и применяли 10 правил из _rules буквально, без скриптов. Результаты объединены по запросам. Это чтение моделью, а не разметка экспертом. Дата: 2026-11-22.",
+  "_rules": [
+    "q01: поле technologies содержит строку «Solana».",
+    "q02: в поле sector есть элемент, содержащий «ИИ».",
+    "q03: у какой-либо вакансии (hiring[].roles) есть роль, содержащая «engineer».",
+    "q04: у какой-либо вакансии в hiring[].location или hiring[].employment есть слово, которое начинается с «удал», или слово «remote».",
+    "q05: в поле headquarters или в hiring[].location есть «Берлин». Только кириллица: латинское «Berlin» не считается.",
+    "q06: поле verification равно точно строке «сайт + пост».",
+    "q07: open_source.license указана и не равна «не указано».",
+    "q08: у какой-либо вакансии salary_in_post указана и не равна «не указано».",
+    "q09: поле founded содержит «2017».",
+    "q10: одновременно выполняются правила q02 и q04."
+  ],
   "q01": {
     "ids": [
       "chainsecurity"
@@ -8,40 +20,85 @@
       {
         "id": "chainsecurity",
         "field": "technologies",
-        "quote": "[\"Solana\"]"
+        "quote": "technologies: [\"Solana\"]"
       }
     ],
     "borderline": []
   },
   "q02": {
     "ids": [
+      "baserow",
+      "better-stack",
+      "charly",
+      "coder",
       "curai-health",
+      "estuary",
       "exponent",
+      "govstar",
       "juro",
       "lumen-labs",
       "mastra",
+      "mechanize",
+      "namespace",
+      "netbird",
       "odette-technologies",
       "opsfleet",
       "oscilar",
       "piramidal",
       "prior-labs",
       "reducto",
+      "rootly",
+      "sentilink",
       "sortrace",
       "special",
+      "starbridge",
+      "sudowrite",
+      "tandem-health",
       "telli",
       "thankly",
+      "uncountable",
       "zed-industries"
     ],
     "evidence": [
+      {
+        "id": "baserow",
+        "field": "sector",
+        "quote": "no-code платформа для агентов и автоматизации (по посту)"
+      },
+      {
+        "id": "better-stack",
+        "field": "sector",
+        "quote": "ИИ для расследования инцидентов: «AI SRE» (по сайту)"
+      },
+      {
+        "id": "charly",
+        "field": "sector",
+        "quote": "госуправление (GovTech): ИИ-ассистент для муниципалитетов и районов (по сайту)"
+      },
+      {
+        "id": "coder",
+        "field": "sector",
+        "quote": "ИИ-агенты для разработки ПО (по посту и сайту)"
+      },
       {
         "id": "curai-health",
         "field": "sector",
         "quote": "ИИ-агенты для медицины (по посту)"
       },
       {
+        "id": "estuary",
+        "field": "sector",
+        "quote": "ИИ-интеграция данных (по сайту)"
+      },
+      {
         "id": "exponent",
         "field": "sector",
         "quote": "ИИ-бухгалтерия (по посту; пресс-релиз описывает интегрированную платформу капитала"
+      },
+      {
+        "id": "govstar",
+        "field": "sector",
+        "quote": "данные, ИИ и безопасность для задач национальной безопасности США (по посту)"
       },
       {
         "id": "juro",
@@ -59,6 +116,21 @@
         "quote": "ИИ-агенты"
       },
       {
+        "id": "mechanize",
+        "field": "sector",
+        "quote": "ИИ-агенты: среды и оценки для кодирующих агентов (по сайту)"
+      },
+      {
+        "id": "namespace",
+        "field": "sector",
+        "quote": "ИИ-агенты: среды разработки для агентов (по сайту)"
+      },
+      {
+        "id": "netbird",
+        "field": "sector",
+        "quote": "доступ для ИИ-агентов (в посте)"
+      },
+      {
         "id": "odette-technologies",
         "field": "sector",
         "quote": "ИИ-платформа ситуационной осведомлённости для разведки и информационных операций (по сайту и посту)"
@@ -66,7 +138,7 @@
       {
         "id": "opsfleet",
         "field": "sector",
-        "quote": "ИИ, данные и DevOps: агентство услуг для технологических и корпоративных компаний (по сайту)"
+        "quote": "облачные и ИИ-сервисы (по посту)"
       },
       {
         "id": "oscilar",
@@ -89,6 +161,16 @@
         "quote": "обработка документов для ИИ-систем"
       },
       {
+        "id": "rootly",
+        "field": "sector",
+        "quote": "ИИ для SRE: расследование инцидентов (по сайту; в посте только название AI SRE)"
+      },
+      {
+        "id": "sentilink",
+        "field": "sector",
+        "quote": "ИИ и машинное обучение для детекции мошенничества (по сайту и посту)"
+      },
+      {
         "id": "sortrace",
         "field": "sector",
         "quote": "ИИ-мониторинг сбора отходов на камерах (по сайту и посту)"
@@ -97,6 +179,21 @@
         "id": "special",
         "field": "sector",
         "quote": "холдинг: ИИ-операционная система для критически важных отраслей США (по сайту)"
+      },
+      {
+        "id": "starbridge",
+        "field": "sector",
+        "quote": "данные и ИИ-агенты для продаж в госсекторе и образовании (по сайту)"
+      },
+      {
+        "id": "sudowrite",
+        "field": "sector",
+        "quote": "ИИ-инструменты для писательства: художественная проза (по сайту)"
+      },
+      {
+        "id": "tandem-health",
+        "field": "sector",
+        "quote": "здравоохранение: ИИ-ассистент для клиницистов (по сайту и посту)"
       },
       {
         "id": "telli",
@@ -109,6 +206,11 @@
         "quote": "ИИ-шоппинг для брендов (по сайту)"
       },
       {
+        "id": "uncountable",
+        "field": "sector",
+        "quote": "ИИ-платформа для разработки продуктов: ELN, LIMS, QMS, PLM (по сайту)"
+      },
+      {
         "id": "zed-industries",
         "field": "sector",
         "quote": "инструменты разработки: редактор кода и совместная работа с ИИ-агентами"
@@ -116,28 +218,50 @@
     ],
     "borderline": [
       {
-        "id": "antithesis",
-        "note": "в sector нет «ИИ»: «агентные процессы разработки» — агентность без ИИ-токена"
+        "id": "baserow",
+        "note": "Спорно: совпадение только по подстроке «ии» внутри слова «автоматизации»; аббревиатуры ИИ в поле нет. По букве правила подходит (включён в ids), по смыслу спорно."
       },
       {
-        "id": "livekit",
-        "note": "в sector нет «ИИ»: «видеоагентов» не содержит «ИИ»"
+        "id": "areo",
+        "note": "Не подходит: «Physical AI for retail» содержит латинское AI, а правило требует кириллическое «ИИ»."
       },
       {
-        "id": "threatmark",
-        "note": "в sector нет «ИИ»: «машинное обучение» — ML-термин, не «ИИ»"
+        "id": "juro",
+        "note": "«технологии» в первом элементе sector содержит «ии» только как подстроку, не как аббревиатуру; id включён по элементу «ИИ-агенты»."
+      },
+      {
+        "id": "middesk",
+        "note": "«ИИ-агенты (по сайту)» есть только в technologies, в sector такого нет; не учитывается."
+      },
+      {
+        "id": "modash",
+        "note": "«ИИ-инструментов» есть только в technologies, в sector «ИИ» нет; не учитывается."
+      },
+      {
+        "id": "uncountable",
+        "note": "в первом элементе sector «химии» содержит подстроку «ии» внутри слова; по смыслу это не «ИИ». На результат не влияет: карточка подходит по «ИИ-платформа»."
       }
     ]
   },
   "q03": {
     "ids": [
       "antithesis",
+      "areo",
+      "better-stack",
       "chainsecurity",
+      "coder",
       "curai-health",
+      "estuary",
       "exponent",
+      "govstar",
       "iceye",
       "juro",
       "lumen-labs",
+      "mechanize",
+      "middesk",
+      "modash",
+      "namespace",
+      "netbird",
       "nirvana-robotics",
       "odette-technologies",
       "opsfleet",
@@ -149,13 +273,20 @@
       "proxima-fusion",
       "radar-labs",
       "reducto",
+      "rootly",
+      "sentilink",
       "serpapi",
       "sortrace",
       "special",
+      "sphinx-defense",
+      "starbridge",
       "sumble",
       "sunsave",
+      "tandem-health",
       "thankly",
       "threatmark",
+      "thunder-compute",
+      "uncountable",
       "victoriametrics",
       "zed-industries"
     ],
@@ -166,9 +297,24 @@
         "quote": "Design Engineer"
       },
       {
+        "id": "areo",
+        "field": "hiring[].roles",
+        "quote": "Robotics Engineer"
+      },
+      {
+        "id": "better-stack",
+        "field": "hiring[].roles",
+        "quote": "/^Full-?stack Engineer$/i"
+      },
+      {
         "id": "chainsecurity",
         "field": "hiring[].roles",
         "quote": "Blockchain Security Engineer"
+      },
+      {
+        "id": "coder",
+        "field": "hiring[].roles",
+        "quote": "Senior Customer Support Engineer"
       },
       {
         "id": "curai-health",
@@ -176,9 +322,19 @@
         "quote": "Sr Software Engineer, Full-Stack"
       },
       {
+        "id": "estuary",
+        "field": "hiring[].roles",
+        "quote": "Senior Systems Engineer (Control & Data Plane)"
+      },
+      {
         "id": "exponent",
         "field": "hiring[].roles",
         "quote": "Lead Engineer, AI Accounting"
+      },
+      {
+        "id": "govstar",
+        "field": "hiring[].roles",
+        "quote": "Security Engineer"
       },
       {
         "id": "iceye",
@@ -194,6 +350,31 @@
         "id": "lumen-labs",
         "field": "hiring[].roles",
         "quote": "Robotics/Hardware Engineer"
+      },
+      {
+        "id": "mechanize",
+        "field": "hiring[].roles",
+        "quote": "Research Engineer, Alignment"
+      },
+      {
+        "id": "middesk",
+        "field": "hiring[].roles",
+        "quote": "Forward Deployed Engineer"
+      },
+      {
+        "id": "modash",
+        "field": "hiring[].roles",
+        "quote": "Senior Product Engineer"
+      },
+      {
+        "id": "namespace",
+        "field": "hiring[].roles",
+        "quote": "Customer-Facing Software Engineer"
+      },
+      {
+        "id": "netbird",
+        "field": "hiring[].roles",
+        "quote": "Senior/Staff Backend Engineer (Go!!)"
       },
       {
         "id": "nirvana-robotics",
@@ -213,7 +394,7 @@
       {
         "id": "oscilar",
         "field": "hiring[].roles",
-        "quote": "Staff Web SDK Engineer (US/Brazil/India/Canada/Poland/UK)"
+        "quote": "Sr./Staff Analytics & Data Architecture Engineer (US/Canada)"
       },
       {
         "id": "paradromics",
@@ -251,6 +432,16 @@
         "quote": "Forward Deployed Engineer"
       },
       {
+        "id": "rootly",
+        "field": "hiring[].roles",
+        "quote": "engineering"
+      },
+      {
+        "id": "sentilink",
+        "field": "hiring[].roles",
+        "quote": "Engineering & Data Science"
+      },
+      {
         "id": "serpapi",
         "field": "hiring[].roles",
         "quote": "Junior to Senior Fullstack Engineer (несколько позиций)"
@@ -266,6 +457,16 @@
         "quote": "Forward Deployed Engineer"
       },
       {
+        "id": "sphinx-defense",
+        "field": "hiring[].roles",
+        "quote": "Backend Engineer - Remote"
+      },
+      {
+        "id": "starbridge",
+        "field": "hiring[].roles",
+        "quote": "Senior Product Engineer"
+      },
+      {
         "id": "sumble",
         "field": "hiring[].roles",
         "quote": "Full-stack Engineer"
@@ -276,6 +477,11 @@
         "quote": "Product Engineer (Mid-Level / Senior)"
       },
       {
+        "id": "tandem-health",
+        "field": "hiring[].roles",
+        "quote": "Engineers"
+      },
+      {
         "id": "thankly",
         "field": "hiring[].roles",
         "quote": "Founding Engineer"
@@ -284,6 +490,16 @@
         "id": "threatmark",
         "field": "hiring[].roles",
         "quote": "Backend Engineer [rust, python]"
+      },
+      {
+        "id": "thunder-compute",
+        "field": "hiring[].roles",
+        "quote": "C++ Systems Engineer"
+      },
+      {
+        "id": "uncountable",
+        "field": "hiring[].roles",
+        "quote": "Full-Stack Engineers"
       },
       {
         "id": "victoriametrics",
@@ -298,30 +514,71 @@
     ],
     "borderline": [
       {
+        "id": "better-stack",
+        "note": "Спорно: роль записана как регулярное выражение «/^Full-?stack Engineer$/i». Слово Engineer присутствует буквально, поэтому по букве подходит (включён в ids), но значение является артефактом записи."
+      },
+      {
+        "id": "charly",
+        "note": "Не подходит: в шапке hiring[].roles только «Sales / Account Executive GovTech». Engineer есть лишь в теле карточки (Senior AI Systems Engineer на карьерной странице), а тело по правилам не учитывается."
+      },
+      {
         "id": "livekit",
-        "note": "роли «Solutions Architect» (x2) и «Staff Product Manager, Telephony»; слова «engineer» нет"
+        "note": "Роли Solutions Architect (два раза) и Staff Product Manager, Telephony: слова «engineer» нет; не подходит."
+      },
+      {
+        "id": "mechanize",
+        "note": "«Junior SWE» и «SWE» — аббревиатура Software Engineer, слова «engineer» не содержат; id включён по «Research Engineer, Alignment»."
+      },
+      {
+        "id": "namespace",
+        "note": "«Engineering Lead» содержит «Engineer» как подстроку «Engineering»; по букве учитывается, id включён и по другим ролям."
+      },
+      {
+        "id": "rootly",
+        "note": "Совпадение только по подстроке: «engineering» содержит «engineer» внутри слова. По букве правила подходит, но спорно."
+      },
+      {
+        "id": "sentilink",
+        "note": "Совпадение только по подстроке в «Engineering & Data Science» и «Engineering (Primarily Backend/Data Platform)». По букве подходит, но спорно."
+      },
+      {
+        "id": "sudowrite",
+        "note": "Не подходит: единственная роль «Senior Mobile Developer», слова «engineer» нет."
       },
       {
         "id": "telli",
-        "note": "роль «Eng» — сокращение, не содержит «engineer»"
+        "note": "роль «Eng» — сокращение от Engineer, но подстроки «engineer» нет; по правилу не подходит."
       }
     ]
   },
   "q04": {
     "ids": [
       "antithesis",
+      "areo",
+      "baserow",
+      "better-stack",
       "chainsecurity",
+      "coder",
       "curai-health",
+      "estuary",
+      "govstar",
       "juro",
       "livekit",
       "mastra",
+      "modash",
+      "namespace",
+      "netbird",
       "odette-technologies",
       "opsfleet",
       "oscilar",
       "posthog",
       "radar-labs",
+      "rootly",
+      "sentilink",
       "serpapi",
       "sortrace",
+      "sphinx-defense",
+      "sudowrite",
       "sumble",
       "thankly",
       "threatmark",
@@ -332,7 +589,22 @@
       {
         "id": "antithesis",
         "field": "hiring[].location",
-        "quote": "Вашингтон (DC), Лондон; удалённо или в офисе (США, Великобритания)"
+        "quote": "удалённо или в офисе (США, Великобритания)"
+      },
+      {
+        "id": "areo",
+        "field": "hiring[].location",
+        "quote": "Remote (EU) and On-Site in Bremen, Germany"
+      },
+      {
+        "id": "baserow",
+        "field": "hiring[].location",
+        "quote": "REMOTE (Europe)"
+      },
+      {
+        "id": "better-stack",
+        "field": "hiring[].location",
+        "quote": "Remote (North America & Europe)"
       },
       {
         "id": "chainsecurity",
@@ -340,24 +612,54 @@
         "quote": "Цюрих, Швейцария (гибрид или удалённо)"
       },
       {
+        "id": "coder",
+        "field": "hiring[].location",
+        "quote": "удалённо: Северная Америка, Великобритания, Ирландия, Польша, США, Канада, Европа (в посте)"
+      },
+      {
         "id": "curai-health",
         "field": "hiring[].location",
         "quote": "удалённо (США)"
       },
       {
+        "id": "estuary",
+        "field": "hiring[].location",
+        "quote": "US-Based / Remote"
+      },
+      {
+        "id": "govstar",
+        "field": "hiring[].location",
+        "quote": "Remote (U.S. Eastern/Central Time)"
+      },
+      {
         "id": "juro",
         "field": "hiring[].location",
-        "quote": "Лондон, Великобритания; удалённо (Великобритания)"
+        "quote": "удалённо (Великобритания)"
       },
       {
         "id": "livekit",
         "field": "hiring[].location",
-        "quote": "UK и Германия (удалённо); Северная Америка (удалённо) или Сан-Франциско (гибрид)"
+        "quote": "UK и Германия (удалённо)"
       },
       {
         "id": "mastra",
         "field": "hiring[].location",
         "quote": "US Remote"
+      },
+      {
+        "id": "modash",
+        "field": "hiring[].location",
+        "quote": "удалённо (Европа)"
+      },
+      {
+        "id": "namespace",
+        "field": "hiring[].location",
+        "quote": "удалённо или гибрид"
+      },
+      {
+        "id": "netbird",
+        "field": "hiring[].location",
+        "quote": "Берлин, Германия (или удалённо, перекрытие с CET)"
       },
       {
         "id": "odette-technologies",
@@ -385,6 +687,16 @@
         "quote": "удалённо (США), Нью-Йорк (в посте: «Remote (US), NYC»)"
       },
       {
+        "id": "rootly",
+        "field": "hiring[].location",
+        "quote": "SF Bay, Toronto, APAC, Remote"
+      },
+      {
+        "id": "sentilink",
+        "field": "hiring[].location",
+        "quote": "REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY): удалённо, гибрид или офис, только США"
+      },
+      {
         "id": "serpapi",
         "field": "hiring[].employment",
         "quote": "Full-time; ONSITE или полностью удалённо (по посту)"
@@ -393,6 +705,16 @@
         "id": "sortrace",
         "field": "hiring[].location",
         "quote": "удалённо (Европа) или гибрид: Norrköping или Стокгольм (в посте)"
+      },
+      {
+        "id": "sphinx-defense",
+        "field": "hiring[].location",
+        "quote": "Remote (US Only) в шапке поста"
+      },
+      {
+        "id": "sudowrite",
+        "field": "hiring[].location",
+        "quote": "REMOTE (US)"
       },
       {
         "id": "sumble",
@@ -407,7 +729,7 @@
       {
         "id": "threatmark",
         "field": "hiring[].location",
-        "quote": "удалённо (весь мир) / Брно, Чехия (по посту)"
+        "quote": "удалённо (весь мир)"
       },
       {
         "id": "victoriametrics",
@@ -423,34 +745,49 @@
     "borderline": [
       {
         "id": "exponent",
-        "note": "формат «гибрид, 2+ дня в офисе»; слов «удал…» и «remote» нет"
-      },
-      {
-        "id": "sunsave",
-        "note": "формат «гибрид: 3 дня в неделю в офисе»; слов «удал…» и «remote» нет"
+        "note": "Не подходит: location «Нью-Йорк (Flatiron), гибрид, 2+ дня в офисе»; слов «удал…» и «remote» нет, гибрид по правилу не считается."
       },
       {
         "id": "iceye",
-        "note": "формат «гибрид»; слов «удал…» и «remote» нет"
+        "note": "employment «Full-time (relocation support)»: «relocation» не начинается с «удал» и не равно «remote»; не подходит."
+      },
+      {
+        "id": "lumen-labs",
+        "note": "«очно (ONSITE)» — работа в офисе, не удалённая; не подходит."
+      },
+      {
+        "id": "middesk",
+        "note": "«гибрид (2 дня в неделю в офисе)» — гибридный формат, не удалённая работа; не подходит."
+      },
+      {
+        "id": "serpapi",
+        "note": "В location «Остин, Техас; структура remote-first (по посту)» слово «remote» стоит в составе «remote-first»: спорно. Включён по employment «удалённо»."
       }
     ]
   },
   "q05": {
     "ids": [
+      "charly",
       "iceye",
+      "netbird",
       "prior-labs",
       "telli"
     ],
     "evidence": [
+      {
+        "id": "charly",
+        "field": "headquarters",
+        "quote": "Берлин, Германия (по импрессуму; офис у Rosenthaler Platz — по карьерной странице)"
+      },
       {
         "id": "iceye",
         "field": "hiring[].location",
         "quote": "Эспоо, Финляндия / Берлин, Германия (гибрид)"
       },
       {
-        "id": "prior-labs",
+        "id": "netbird",
         "field": "headquarters",
-        "quote": "не указано в собранных источниках; в посте как места работы названы Берлин, Фрайбург, Нью-Йорк"
+        "quote": "Берлин, Германия (по сайту, страница прессы)"
       },
       {
         "id": "prior-labs",
@@ -460,7 +797,7 @@
       {
         "id": "telli",
         "field": "headquarters",
-        "quote": "Берлин-Митте, Берлин (страница карьеры: «Our HQ is in Berlin-Mitte»)"
+        "quote": "Берлин-Митте, Берлин"
       },
       {
         "id": "telli",
@@ -470,24 +807,43 @@
     ],
     "borderline": [
       {
-        "id": "prior-labs",
-        "note": "в headquarters «Берлин» — перечень мест работы из поста, а не штаб-квартира; в ids основание — hiring[].location"
+        "id": "charly",
+        "note": "Совпадение есть по headquarters (кириллица). В hiring[].location «ONSITE Berlin, Germany» стоит латинское Berlin, по правилу оно не считается."
+      },
+      {
+        "id": "livekit",
+        "note": "location «UK и Германия (удалённо)»: упомянута Германия, слова «Берлин» нет; не подходит."
+      },
+      {
+        "id": "namespace",
+        "note": "В headquarters перечислена Германия в списке мест; «Берлин» не назван; не подходит."
       }
     ]
   },
   "q06": {
     "ids": [
       "antithesis",
+      "baserow",
+      "better-stack",
       "chainsecurity",
+      "charly",
       "curai-health",
+      "estuary",
+      "mechanize",
+      "middesk",
+      "modash",
+      "namespace",
       "nirvana-robotics",
       "oscilar",
       "paradromics",
       "proxima-fusion",
       "radar-labs",
+      "sentilink",
       "sortrace",
       "special",
+      "sudowrite",
       "sunsave",
+      "tandem-health",
       "thankly"
     ],
     "evidence": [
@@ -497,12 +853,52 @@
         "quote": "сайт + пост"
       },
       {
+        "id": "baserow",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "better-stack",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
         "id": "chainsecurity",
         "field": "verification",
         "quote": "сайт + пост"
       },
       {
+        "id": "charly",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
         "id": "curai-health",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "estuary",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "mechanize",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "middesk",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "modash",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "namespace",
         "field": "verification",
         "quote": "сайт + пост"
       },
@@ -532,6 +928,11 @@
         "quote": "сайт + пост"
       },
       {
+        "id": "sentilink",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
         "id": "sortrace",
         "field": "verification",
         "quote": "сайт + пост"
@@ -542,7 +943,17 @@
         "quote": "сайт + пост"
       },
       {
+        "id": "sudowrite",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
         "id": "sunsave",
+        "field": "verification",
+        "quote": "сайт + пост"
+      },
+      {
+        "id": "tandem-health",
         "field": "verification",
         "quote": "сайт + пост"
       },
@@ -554,62 +965,192 @@
     ],
     "borderline": [
       {
+        "id": "areo",
+        "note": "Не подходит: verification = «частично», хотя в sources есть сайт и пост HN. Поле не равно точно «сайт + пост»."
+      },
+      {
+        "id": "coder",
+        "note": "Не подходит: verification = «частично» (в sources есть сайт, пост HN и robots.txt)."
+      },
+      {
+        "id": "exponent",
+        "note": "Не подходит: verification = «частично» (в sources есть сайт и пост HN)."
+      },
+      {
+        "id": "livekit",
+        "note": "verification «сайт» — только сайт, без «+ пост»; не подходит."
+      },
+      {
+        "id": "mastra",
+        "note": "verification «сайт» — только сайт, без «+ пост»; не подходит."
+      },
+      {
+        "id": "middesk",
+        "note": "Включён: в шапке значение взято в YAML-кавычки, сама строка точно «сайт + пост»."
+      },
+      {
         "id": "piramidal",
-        "note": "значение длиннее: «сайт + пост + доска вакансий (Greenhouse)» — точного совпадения нет"
+        "note": "verification = «сайт + пост + доска вакансий»: содержит «сайт + пост», но не равно точно; не засчитано."
+      },
+      {
+        "id": "starbridge",
+        "note": "Не подходит: verification = «сайт + пост + доска вакансий», не равно точно «сайт + пост»."
+      },
+      {
+        "id": "reducto",
+        "note": "Не подходит: verification = «сайт», без «пост»."
+      },
+      {
+        "id": "sumble",
+        "note": "verification = «сайт»: не равно точно «сайт + пост»."
+      },
+      {
+        "id": "victoriametrics",
+        "note": "verification = «сайт»: не равно точно «сайт + пост»."
+      },
+      {
+        "id": "zed-industries",
+        "note": "verification = «сайт»: не равно точно «сайт + пост»."
       }
     ]
   },
   "q07": {
     "ids": [
-      "mastra"
+      "baserow",
+      "livekit",
+      "mastra",
+      "namespace",
+      "netbird",
+      "reducto",
+      "sphinx-defense",
+      "sumble",
+      "victoriametrics",
+      "zed-industries"
     ],
     "evidence": [
       {
+        "id": "baserow",
+        "field": "open_source.license",
+        "quote": "MIT для большей части кода (по сайту: «Open source (MIT license)»"
+      },
+      {
+        "id": "livekit",
+        "field": "open_source.license",
+        "quote": "не указано в собранных источниках (фреймворк открытый)"
+      },
+      {
         "id": "mastra",
         "field": "open_source.license",
-        "quote": "Apache-2.0 (ядро); enterprise-функции — source-available"
+        "quote": "Apache-2.0 (ядро)"
+      },
+      {
+        "id": "namespace",
+        "field": "open_source.license",
+        "quote": "Apache-2.0 (по структурированным данным главной страницы"
+      },
+      {
+        "id": "netbird",
+        "field": "open_source.license",
+        "quote": "BSD-3 (по сайту, главная страница); на странице прессы «BSD-3 / AGPLv3» (расхождение)"
+      },
+      {
+        "id": "reducto",
+        "field": "open_source.license",
+        "quote": "не указано в собранных источниках"
+      },
+      {
+        "id": "sphinx-defense",
+        "field": "open_source.license",
+        "quote": "не указано (на сайте продукты названы проприетарными)"
+      },
+      {
+        "id": "sumble",
+        "field": "open_source.license",
+        "quote": "не указано на сайте"
+      },
+      {
+        "id": "victoriametrics",
+        "field": "open_source.license",
+        "quote": "не указано в собранных источниках"
+      },
+      {
+        "id": "zed-industries",
+        "field": "open_source.license",
+        "quote": "не указано в собранных источниках"
       }
     ],
     "borderline": [
       {
+        "id": "coder",
+        "note": "Не подходит: repository заполнен (ссылка на GitHub-организацию), но license = «не указано». Правило смотрит только на license."
+      },
+      {
+        "id": "estuary",
+        "note": "Не подходит: repository = github.com/estuary/flow/, но license = «не указано»."
+      },
+      {
         "id": "livekit",
-        "note": "строка «не указано в собранных источниках (фреймворк открытый)» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+        "note": "Включён по букве правила: значение не равно «не указано»; но оно начинается с «не указано», и по смыслу лицензия в собранных источниках не названа. Если понимать «указана» по смыслу, id не подходит."
       },
       {
         "id": "prior-labs",
-        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+        "note": "license = «не указано в собранных источниках»: литерально не равно «не указано», но по смыслу лицензия не указана; не засчитано."
       },
       {
         "id": "reducto",
-        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+        "note": "Включён по букве: значение буквально не равно «не указано». По смыслу лицензия не названа; при смысловом прочтении исключить."
+      },
+      {
+        "id": "sphinx-defense",
+        "note": "Включён по букве: значение начинается с «не указано» и буквально не равно ему. По смыслу лицензия не названа (продукты проприетарные); при смысловом прочтении исключить."
       },
       {
         "id": "sumble",
-        "note": "строка «не указано на сайте» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+        "note": "license = «не указано на сайте»: буквально не равно «не указано», поэтому включено по правилу. По смыслу лицензия не названа, спорно."
       },
       {
         "id": "victoriametrics",
-        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+        "note": "license = «не указано в собранных источниках»: буквально не равно «не указано», поэтому включено по правилу. По смыслу лицензия не названа, спорно."
       },
       {
         "id": "zed-industries",
-        "note": "строка «не указано в собранных источниках» — смысл «лицензия не указана»; условие «указана» не выполнено, в ids не включено"
+        "note": "license = «не указано в собранных источниках»: буквально не равно «не указано», поэтому включено по правилу. По смыслу лицензия не названа, спорно."
       }
     ]
   },
   "q08": {
     "ids": [
+      "baserow",
+      "charly",
       "curai-health",
       "exponent",
+      "govstar",
       "juro",
       "lumen-labs",
+      "mechanize",
+      "middesk",
+      "modash",
       "nirvana-robotics",
       "piramidal",
       "reducto",
       "serpapi",
-      "special"
+      "sortrace",
+      "special",
+      "sudowrite",
+      "thunder-compute",
+      "uncountable"
     ],
     "evidence": [
+      {
+        "id": "baserow",
+        "field": "hiring[].salary_in_post",
+        "quote": "не указано (в посте: «competitive salary», сумма не названа)"
+      },
+      {
+        "id": "charly",
+        "field": "hiring[].salary_in_post",
+        "quote": "не указано (в посте: «Base+Variable», суммы нет)"
+      },
       {
         "id": "curai-health",
         "field": "hiring[].salary_in_post",
@@ -621,6 +1162,11 @@
         "quote": "$160k–$200k + equity"
       },
       {
+        "id": "govstar",
+        "field": "hiring[].salary_in_post",
+        "quote": "не указано (в посте сказано, что вознаграждение зависит от опыта; сумма не названа)"
+      },
+      {
         "id": "juro",
         "field": "hiring[].salary_in_post",
         "quote": "£115k + equity"
@@ -629,6 +1175,21 @@
         "id": "lumen-labs",
         "field": "hiring[].salary_in_post",
         "quote": "$150k–200k + equity"
+      },
+      {
+        "id": "mechanize",
+        "field": "hiring[].salary_in_post",
+        "quote": "Junior SWE ($300k + equity + bonus)"
+      },
+      {
+        "id": "middesk",
+        "field": "hiring[].salary_in_post",
+        "quote": "Forward Deployed Engineer ($148K – $255K)"
+      },
+      {
+        "id": "modash",
+        "field": "hiring[].salary_in_post",
+        "quote": "€80k–110k"
       },
       {
         "id": "nirvana-robotics",
@@ -651,53 +1212,143 @@
         "quote": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US"
       },
       {
+        "id": "sortrace",
+        "field": "hiring[].salary_in_post",
+        "quote": "не указано (сумма не названа; в посте: «monthly salary by agreement; equity/options possible»)"
+      },
+      {
         "id": "special",
         "field": "hiring[].salary_in_post",
         "quote": "$200-300K + equity"
+      },
+      {
+        "id": "sudowrite",
+        "field": "hiring[].salary_in_post",
+        "quote": "$160K–$180K"
+      },
+      {
+        "id": "thunder-compute",
+        "field": "hiring[].salary_in_post",
+        "quote": "$250–325K base, 0.1–0.3% equity, highly competitive profit-sharing bonus pool"
+      },
+      {
+        "id": "uncountable",
+        "field": "hiring[].salary_in_post",
+        "quote": "$130k - $220k (USD) + Equity"
       }
     ],
     "borderline": [
       {
+        "id": "baserow",
+        "note": "Спорно: значение «не указано (в посте: «competitive salary», сумма не названа)» буквально не равно «не указано», но по смыслу сумма не названа. Включён по букве правила."
+      },
+      {
+        "id": "charly",
+        "note": "Спорно: значение «не указано (в посте: «Base+Variable», суммы нет)» буквально не равно «не указано», но по смыслу суммы нет. Включён по букве правила."
+      },
+      {
+        "id": "govstar",
+        "note": "Включён по букве правила: значение не равно «не указано»; но в скобках сказано, что сумма не названа. Если понимать «указана» по смыслу, id не подходит."
+      },
+      {
         "id": "posthog",
-        "note": "строка не равна «не указано», но сообщает, что сумм в посте нет: условие «указана» не выполнено, в ids не включено"
+        "note": "salary_in_post = «не указано (в посте упомянут публичный калькулятор компенсации; сумм нет)»: литерально не равно «не указано», но сумм нет, зарплата не указана; не засчитано."
       },
       {
         "id": "sortrace",
-        "note": "начинается с «не указано» и сообщает, что сумма не названа: условие «указана» не выполнено, в ids не включено"
+        "note": "Включён по букве: значение буквально не равно «не указано». По смыслу сумма не названа («by agreement»); при смысловом прочтении исключить."
+      },
+      {
+        "id": "starbridge",
+        "note": "Не подходит: в шапке salary_in_post = «не указано». Сумма $200K – $300K есть только в теле карточки, правило его не учитывает."
       }
     ]
   },
   "q09": {
     "ids": [
-      "chainsecurity"
+      "chainsecurity",
+      "sentilink"
     ],
     "evidence": [
       {
         "id": "chainsecurity",
         "field": "founded",
         "quote": "работает с 2017 года (сайт: «Since 2017»); дата основания не указана"
+      },
+      {
+        "id": "sentilink",
+        "field": "founded",
+        "quote": "2017 (по сайту: «SentiLink was launched in 2017»)"
       }
     ],
     "borderline": [
       {
         "id": "chainsecurity",
-        "note": "спорно: «2017» есть буквально, но карточка пишет «работает с 2017 года» и «дата основания не указана»; включено по правилу «содержит»"
+        "note": "Спорно: «2017» встречается как «работает с 2017 года (сайт: «Since 2017»)», а дата основания прямо не указана. Включён по букве правила, поле содержит «2017»."
+      },
+      {
+        "id": "juro",
+        "note": "founded «2016 (по сайту)»: соседний год, не 2017; не подходит."
+      },
+      {
+        "id": "modash",
+        "note": "founded «2018 (на сайте, страница карьеры; реестр не проверен)»: соседний год, не 2017; не подходит."
       }
     ]
   },
   "q10": {
     "ids": [
+      "baserow",
+      "better-stack",
+      "coder",
       "curai-health",
+      "estuary",
+      "govstar",
       "juro",
       "mastra",
+      "namespace",
+      "netbird",
       "odette-technologies",
       "opsfleet",
       "oscilar",
+      "rootly",
+      "sentilink",
       "sortrace",
+      "sudowrite",
       "thankly",
       "zed-industries"
     ],
     "evidence": [
+      {
+        "id": "baserow",
+        "field": "sector",
+        "quote": "no-code платформа для агентов и автоматизации (по посту)"
+      },
+      {
+        "id": "baserow",
+        "field": "hiring[].location",
+        "quote": "REMOTE (Europe)"
+      },
+      {
+        "id": "better-stack",
+        "field": "sector",
+        "quote": "ИИ для расследования инцидентов: «AI SRE» (по сайту)"
+      },
+      {
+        "id": "better-stack",
+        "field": "hiring[].location",
+        "quote": "Remote (North America & Europe)"
+      },
+      {
+        "id": "coder",
+        "field": "sector",
+        "quote": "ИИ-агенты для разработки ПО (по посту и сайту)"
+      },
+      {
+        "id": "coder",
+        "field": "hiring[].location",
+        "quote": "удалённо: Северная Америка, Великобритания"
+      },
       {
         "id": "curai-health",
         "field": "sector",
@@ -709,6 +1360,26 @@
         "quote": "удалённо (США)"
       },
       {
+        "id": "estuary",
+        "field": "sector",
+        "quote": "ИИ-интеграция данных (по сайту)"
+      },
+      {
+        "id": "estuary",
+        "field": "hiring[].location",
+        "quote": "US-Based / Remote"
+      },
+      {
+        "id": "govstar",
+        "field": "sector",
+        "quote": "данные, ИИ и безопасность для задач национальной безопасности США (по посту)"
+      },
+      {
+        "id": "govstar",
+        "field": "hiring[].location",
+        "quote": "Remote (U.S. Eastern/Central Time)"
+      },
+      {
         "id": "juro",
         "field": "sector",
         "quote": "ИИ-агенты: «Operator» (по сайту и посту)"
@@ -716,7 +1387,7 @@
       {
         "id": "juro",
         "field": "hiring[].location",
-        "quote": "Лондон, Великобритания; удалённо (Великобритания)"
+        "quote": "удалённо (Великобритания)"
       },
       {
         "id": "mastra",
@@ -727,6 +1398,26 @@
         "id": "mastra",
         "field": "hiring[].location",
         "quote": "US Remote"
+      },
+      {
+        "id": "namespace",
+        "field": "sector",
+        "quote": "ИИ-агенты: среды разработки для агентов (по сайту)"
+      },
+      {
+        "id": "namespace",
+        "field": "hiring[].location",
+        "quote": "удалённо или гибрид"
+      },
+      {
+        "id": "netbird",
+        "field": "sector",
+        "quote": "доступ для ИИ-агентов (в посте)"
+      },
+      {
+        "id": "netbird",
+        "field": "hiring[].location",
+        "quote": "Берлин, Германия (или удалённо, перекрытие с CET)"
       },
       {
         "id": "odette-technologies",
@@ -741,7 +1432,7 @@
       {
         "id": "opsfleet",
         "field": "sector",
-        "quote": "ИИ, данные и DevOps: агентство услуг для технологических и корпоративных компаний (по сайту)"
+        "quote": "облачные и ИИ-сервисы (по посту)"
       },
       {
         "id": "opsfleet",
@@ -759,6 +1450,26 @@
         "quote": "удалённо (US/Canada/Brazil/Poland/UK/India)"
       },
       {
+        "id": "rootly",
+        "field": "sector",
+        "quote": "ИИ для SRE: расследование инцидентов (по сайту; в посте только название AI SRE)"
+      },
+      {
+        "id": "rootly",
+        "field": "hiring[].location",
+        "quote": "SF Bay, Toronto, APAC, Remote"
+      },
+      {
+        "id": "sentilink",
+        "field": "sector",
+        "quote": "ИИ и машинное обучение для детекции мошенничества (по сайту и посту)"
+      },
+      {
+        "id": "sentilink",
+        "field": "hiring[].location",
+        "quote": "REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY): удалённо, гибрид или офис, только США"
+      },
+      {
         "id": "sortrace",
         "field": "sector",
         "quote": "ИИ-мониторинг сбора отходов на камерах (по сайту и посту)"
@@ -767,6 +1478,16 @@
         "id": "sortrace",
         "field": "hiring[].location",
         "quote": "удалённо (Европа) или гибрид: Norrköping или Стокгольм (в посте)"
+      },
+      {
+        "id": "sudowrite",
+        "field": "sector",
+        "quote": "ИИ-инструменты для писательства: художественная проза (по сайту)"
+      },
+      {
+        "id": "sudowrite",
+        "field": "hiring[].location",
+        "quote": "REMOTE (US)"
       },
       {
         "id": "thankly",
@@ -791,32 +1512,72 @@
     ],
     "borderline": [
       {
-        "id": "reducto",
-        "note": "ИИ в sector есть, но формат ONSITE (San Francisco); удалённо и remote нет"
+        "id": "baserow",
+        "note": "Спорно: q02 выполнено только подстрокой «ии» в слове «автоматизации» (см. q02); q04 выполнено («REMOTE (Europe)»)."
       },
       {
-        "id": "prior-labs",
-        "note": "ИИ в sector есть; локация «Берлин, Фрайбург, Нью-Йорк (ONSITE)» — без удалённо и remote"
+        "id": "areo",
+        "note": "Не подходит: q04 выполнено («Remote (EU)»), но в sector только латинское «AI», поэтому q02 не выполнено."
       },
       {
-        "id": "piramidal",
-        "note": "ИИ в sector есть; локация Нью-Йорк, формат занятости «не указано» — удалённо и remote нет"
-      },
-      {
-        "id": "special",
-        "note": "ИИ в sector есть; локация «Нью-Йорк (NYC)», Full-time — удалённо и remote нет"
-      },
-      {
-        "id": "lumen-labs",
-        "note": "ИИ в sector есть; «очно (ONSITE)», Сан-Франциско — удалённо и remote нет"
+        "id": "charly",
+        "note": "Не подходит: q02 выполнено («ИИ-ассистент»), но q04 нет: location «ONSITE Berlin, Germany»."
       },
       {
         "id": "exponent",
-        "note": "ИИ в sector есть; «гибрид, 2+ дня в офисе» — слов «удал…» и remote нет"
+        "note": "Не подходит: q02 выполнено («ИИ-бухгалтерия»), но q04 нет: location «Нью-Йорк (Flatiron), гибрид, 2+ дня в офисе»."
       },
       {
-        "id": "telli",
-        "note": "ИИ в sector есть; локация «Берлин», формат не указан — удалённо и remote нет"
+        "id": "lumen-labs",
+        "note": "Проходит q02, но не q04: location «Сан-Франциско, Калифорния (в посте)», employment «очно (ONSITE)»."
+      },
+      {
+        "id": "mechanize",
+        "note": "Проходит q02, но не q04: location «San Francisco, CA (Onsite)»."
+      },
+      {
+        "id": "livekit",
+        "note": "Проходит q04 («удалённо»), но не q02: в sector нет «ИИ»."
+      },
+      {
+        "id": "modash",
+        "note": "Проходит q04 («удалённо (Европа)»), но не q02: «ИИ» только в technologies, в sector нет."
+      },
+      {
+        "id": "piramidal",
+        "note": "Выполнено только q02 («ИИ-модели для данных ЭЭГ»); q04 не выполняется: location «Нью-Йорк, NY (по посту)»."
+      },
+      {
+        "id": "prior-labs",
+        "note": "Выполнено только q02 («ИИ-исследования»); q04 не выполняется: location «Берлин, Фрайбург, Нью-Йорк (ONSITE)»."
+      },
+      {
+        "id": "posthog",
+        "note": "Выполнено только q04 (location «полностью удалённо…»); q02 не выполняется: в sector нет «ИИ»."
+      },
+      {
+        "id": "radar-labs",
+        "note": "Только q04: location «удалённо (США)» есть, в sector нет «ИИ»."
+      },
+      {
+        "id": "serpapi",
+        "note": "Только q04: employment «удалённо» есть, в sector «API», а не «ИИ»."
+      },
+      {
+        "id": "sphinx-defense",
+        "note": "Только q04: location «Remote (US Only)» есть, в sector нет «ИИ»."
+      },
+      {
+        "id": "reducto",
+        "note": "Только q02: «ИИ-систем» есть, location «San Francisco (ONSITE)» без удалённой работы."
+      },
+      {
+        "id": "special",
+        "note": "Только q02: «ИИ-операционная система» есть, location «Нью-Йорк (NYC)» без удалённой работы."
+      },
+      {
+        "id": "starbridge",
+        "note": "Только q02: «ИИ-агенты» есть, location «NYC (очно)» без удалённой работы."
       }
     ]
   }
